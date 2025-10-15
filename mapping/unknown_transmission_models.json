@@ -1,0 +1,4694 @@
+[
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "3 Series",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "Diesel",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Fabia",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "i30",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "X3",
+        "fuelType": "diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Yaris",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "1 Series",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "T-Roc",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "A-Class",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLC",
+        "fuelType": "Diesel",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 2.9857934392613865
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLA",
+        "fuelType": "Diesel",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "i800",
+        "fuelType": "Diesel",
+        "engineSize": 2.5
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": NaN,
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Opel",
+        "model": "Insignia",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Citigo",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Golf",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "Getz",
+        "fuelType": "Petrol",
+        "engineSize": 1.1
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Yaris",
+        "fuelType": "etrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Beetle",
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q3",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Opel",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Audi",
+        "model": "A1",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Mokka",
+        "fuelType": "diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Ford",
+        "model": "B-MAX",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Octavia",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Opel",
+        "model": "Corsa",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "A-Class",
+        "fuelType": "Diesel",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Up",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Kuga",
+        "fuelType": "iesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "C-MAX",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Kodiaq",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Tiguan",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "1 Series",
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Yaris",
+        "fuelType": "Hybrid",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "DIESEL",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "BMW",
+        "model": "1 Series",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "T-Roc",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "Petrol",
+        "engineSize": 2.3
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Passat",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q3",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "Tucson",
+        "fuelType": "Diesel",
+        "engineSize": 1.7
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "i30",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Golf",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Aygo",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "B-Class",
+        "fuelType": "Diesel",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Audi",
+        "model": "A6",
+        "fuelType": "Petrol",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Fabia",
+        "fuelType": "Diesel",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q5",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "RAV4",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Superb",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Yaris",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A4",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Mokka",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Opel",
+        "model": "GTC",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Opel",
+        "model": "Adam",
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Opel",
+        "model": "Mokka",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Toyota",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Ka",
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Karoq",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "A-Class",
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Scirocco",
+        "fuelType": "Diesel",
+        "engineSize": 2.9857934392613865
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Yaris",
+        "fuelType": "Petrol",
+        "engineSize": 1.3
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Golf",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "B-Class",
+        "fuelType": "Petrol",
+        "engineSize": 1.3
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "Hybrid",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "E-Class",
+        "fuelType": "DIESEL",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q3",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Scirocco",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "T-Roc",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": NaN,
+        "fuelType": "Petro",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": NaN,
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Citigo",
+        "fuelType": "etrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A1",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "Tucson",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "T-Roc",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Prius",
+        "fuelType": "Hybrid",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "Petro",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Aygo",
+        "fuelType": NaN,
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Superb",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q3",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q7",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLC",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "Kona",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Mondeo",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "RAV4",
+        "fuelType": "Hybrid",
+        "engineSize": 2.5
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Avensis",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "BMW",
+        "model": "2 Series",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Meriva",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q2",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "ix35",
+        "fuelType": "Diesel",
+        "engineSize": 1.7
+    },
+    {
+        "Brand": "Ford",
+        "model": "Mondeo",
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Tiguan",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Octavia",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Passat",
+        "fuelType": "Hybrid",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Ford",
+        "model": "Grand Tourneo Connect",
+        "fuelType": "Diese",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Grandland X",
+        "fuelType": NaN,
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Opel",
+        "model": "Mokka X",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Ford",
+        "model": "Kuga",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Golf",
+        "fuelType": NaN,
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Touran",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "BMW",
+        "model": "1 Series",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Opel",
+        "model": "Corsa",
+        "fuelType": "etrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Audi",
+        "model": "A5",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "E-Class",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "EcoSport",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Grandland X",
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLE",
+        "fuelType": "Diesel",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "B-Class",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "A-Class",
+        "fuelType": "Petrol",
+        "engineSize": 1.3
+    },
+    {
+        "Brand": "Audi",
+        "model": "A6",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Opel",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Opel",
+        "model": "Mokka X",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "i10",
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Opel",
+        "model": "Crossland X",
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "BMW",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "X3",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "5 Series",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "A-Class",
+        "fuelType": "iesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Mondeo",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "BMW",
+        "model": "X6",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "S-MAX",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "ix20",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Ford",
+        "model": "Ka+",
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": "DIESEL",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Audi",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Scala",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "Petro",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Crossland X",
+        "fuelType": "petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": NaN,
+        "fuelType": "Hybrid",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": NaN,
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Octavia",
+        "fuelType": "Diese",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Opel",
+        "model": "Mokka",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Audi",
+        "model": "A6",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "S-Class",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "1 Series",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A1",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLA",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Zafira",
+        "fuelType": "Petrol",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "Ioniq",
+        "fuelType": "hybrid",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": NaN,
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Grand Tourneo Connect",
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Opel",
+        "model": "Grandland X",
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "Kona",
+        "fuelType": "petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Avensis",
+        "fuelType": "Petrol",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Tiguan",
+        "fuelType": "DIESEL",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "TT",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "S-MAX",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Touran",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Opel",
+        "model": "Mokka X",
+        "fuelType": NaN,
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "etrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "3 Series",
+        "fuelType": "Diese",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "3 Series",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Golf",
+        "fuelType": "petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "S-Class",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Fabia",
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "Petrol",
+        "engineSize": 2.6312004729689873
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Tiguan",
+        "fuelType": "diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "ix35",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "EcoSport",
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Audi",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLE",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Mercedes",
+        "model": "GLC",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "5 Series",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "BMW",
+        "model": "X1",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Adam",
+        "fuelType": "PETROL",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "T-Cross",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Mondeo",
+        "fuelType": "iesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A5",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Yaris",
+        "fuelType": "Petro",
+        "engineSize": 1.3
+    },
+    {
+        "Brand": "BMW",
+        "model": NaN,
+        "fuelType": "Diese",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "C-MAX",
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Octavia",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "S-MAX",
+        "fuelType": "Petro",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "DIESEL",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "E-Class",
+        "fuelType": "Diesel",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Golf",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "1 Series",
+        "fuelType": "iesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLE",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "T-Roc",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Scala",
+        "fuelType": NaN,
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "T-Cross",
+        "fuelType": NaN,
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Golf",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Opel",
+        "model": "Corsa",
+        "fuelType": "Petro",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Golf",
+        "fuelType": "Other",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "Petrol",
+        "engineSize": -0.1034927966382504
+    },
+    {
+        "Brand": "Opel",
+        "model": "Corsa",
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Up",
+        "fuelType": "etrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A1",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q3",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Opel",
+        "model": "Corsa",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Opel",
+        "model": "Zafira",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q7",
+        "fuelType": "Diese",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Kuga",
+        "fuelType": "DIESEL",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Scala",
+        "fuelType": "etrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "Ioniq",
+        "fuelType": "Hybrid",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Ford",
+        "model": "Edge",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q2",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Tiguan",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "3 Series",
+        "fuelType": "hybrid",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Tiguan Allspace",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "EcoSport",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Yeti Outdoor",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Golf",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Ford",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "T-Roc",
+        "fuelType": NaN,
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": NaN,
+        "fuelType": "PETROL",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Galaxy",
+        "fuelType": "Diesel",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "Opel",
+        "model": "Zafira",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Auris",
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "BMW",
+        "model": "4 Series",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Meriva",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Aygo",
+        "fuelType": "petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "RAV4",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "Hybrid",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q2",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Audi",
+        "model": "A6",
+        "fuelType": NaN,
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "i20",
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": NaN,
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Beetle",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "Tucson",
+        "fuelType": "Diese",
+        "engineSize": 1.7
+    },
+    {
+        "Brand": "BMW",
+        "model": "6 Series",
+        "fuelType": "Petrol",
+        "engineSize": 4.4
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "etrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "4 Series",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "i20",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "BMW",
+        "model": "4 Series",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 2.2
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "Petrol",
+        "engineSize": 4.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q2",
+        "fuelType": NaN,
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Audi",
+        "model": "A8",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Skoda",
+        "model": "Fabia",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "X5",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A6",
+        "fuelType": NaN,
+        "engineSize": 3.7392354812099646
+    },
+    {
+        "Brand": "BMW",
+        "model": "2 Series",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "Petrol",
+        "engineSize": 1.1
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Scala",
+        "fuelType": "Petro",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "B-MAX",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "A-Class",
+        "fuelType": "DIESEL",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Yeti Outdoor",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Opel",
+        "model": "GTC",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Opel",
+        "model": "Corsa",
+        "fuelType": "etro",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.3
+    },
+    {
+        "Brand": "Opel",
+        "model": "Crossland X",
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Kuga",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "PETROL",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Yaris",
+        "fuelType": NaN,
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Hyundai",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 1.7
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "BMW",
+        "model": "2 Series",
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "BMW",
+        "model": "3 Series",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Kodiaq",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q5",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "A-Class",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q5",
+        "fuelType": "Petrol",
+        "engineSize": 0.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Auris",
+        "fuelType": NaN,
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "Opel",
+        "model": "Insignia",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Corsa",
+        "fuelType": "petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Toyota",
+        "model": NaN,
+        "fuelType": "HYBRID",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Auris",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "CLS",
+        "fuelType": "Diesel",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Passat",
+        "fuelType": "DIESEL",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "C-MAX",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Audi",
+        "model": "A1",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Opel",
+        "model": "Adam",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Fabia",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Touran",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "Diese",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "Petrol",
+        "engineSize": -0.1034927966382504
+    },
+    {
+        "Brand": "Opel",
+        "model": "Corsa",
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Hyundai",
+        "model": NaN,
+        "fuelType": "Hybrid",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Yaris",
+        "fuelType": "Petrol",
+        "engineSize": 0.1628659545028228
+    },
+    {
+        "Brand": "Opel",
+        "model": "Mokka X",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Opel",
+        "model": NaN,
+        "fuelType": "petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "i10",
+        "fuelType": "Petrol",
+        "engineSize": 0.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "E-Class",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "i10",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "Diese",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "Tucson",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Opel",
+        "model": "Corsa",
+        "fuelType": "Diesel",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "i30",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "Diesel",
+        "engineSize": 0.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "5 Series",
+        "fuelType": "Hybrid",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": "etrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q2",
+        "fuelType": NaN,
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "1 Series",
+        "fuelType": NaN,
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Aygo",
+        "fuelType": "PETROL",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Sharan",
+        "fuelType": NaN,
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Fabia",
+        "fuelType": "Petrol",
+        "engineSize": 2.61964142215505
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Ford",
+        "model": "C-MAX",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "B-Class",
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "Opel",
+        "model": "Insignia",
+        "fuelType": "iesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A4",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "Petro",
+        "engineSize": 1.1
+    },
+    {
+        "Brand": "Audi",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 4.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "Z4",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "BMW",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 2.2
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Octavia",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "6 Series",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": "Diesel",
+        "engineSize": 1.7
+    },
+    {
+        "Brand": "BMW",
+        "model": "X1",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Grand C-MAX",
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "BMW",
+        "model": "3 Series",
+        "fuelType": "Diesel",
+        "engineSize": 0.3134065828348564
+    },
+    {
+        "Brand": "Audi",
+        "model": "A1",
+        "fuelType": NaN,
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "X4",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": NaN,
+        "fuelType": "Hybrid",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLE",
+        "fuelType": "Diesel",
+        "engineSize": 3.723712168624483
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "Tucson",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "BMW",
+        "model": "M4",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Superb",
+        "fuelType": "diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "X4",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Kuga",
+        "fuelType": "diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Corsa",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLC",
+        "fuelType": "DIESEL",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Golf",
+        "fuelType": NaN,
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "2 Series",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Kuga",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Auris",
+        "fuelType": "Hybrid",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "PETROL",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "E-Class",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A4",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Opel",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Audi",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Skoda",
+        "model": "Kodiaq",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Superb",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Opel",
+        "model": "Mokka X",
+        "fuelType": "Petrol",
+        "engineSize": 2.0641186347051645
+    },
+    {
+        "Brand": "Ford",
+        "model": "C-MAX",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Ford",
+        "model": "Kuga",
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLA",
+        "fuelType": NaN,
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "BMW",
+        "model": "X5",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "S-MAX",
+        "fuelType": "PETROL",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Audi",
+        "model": "TT",
+        "fuelType": "Petro",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q3",
+        "fuelType": "petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Corolla",
+        "fuelType": "Hybrid",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Yeti Outdoor",
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "BMW",
+        "model": "X4",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Corolla",
+        "fuelType": "Hybrid",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Kamiq",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Audi",
+        "model": "A1",
+        "fuelType": "Petrol",
+        "engineSize": 3.7392354812099646
+    },
+    {
+        "Brand": "BMW",
+        "model": "8 Series",
+        "fuelType": "Petrol",
+        "engineSize": 4.4
+    },
+    {
+        "Brand": "BMW",
+        "model": "7 Series",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Kodiaq",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "V-Class",
+        "fuelType": "Diesel",
+        "engineSize": 2.2
+    },
+    {
+        "Brand": "BMW",
+        "model": "3 Series",
+        "fuelType": "petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "X6",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Octavia",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Sharan",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q7",
+        "fuelType": "DIESEL",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Mercedes",
+        "model": "C-Class",
+        "fuelType": "Diesel",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Golf SV",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Opel",
+        "model": "Vivaro",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Audi",
+        "model": "TT",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "SL",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLS",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "DIESEL",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Aygo",
+        "fuelType": "Petro",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Insignia",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Up",
+        "fuelType": "Other",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "A-Class",
+        "fuelType": "Diese",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": "Diese",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 0.1864248827577972
+    },
+    {
+        "Brand": "BMW",
+        "model": "5 Series",
+        "fuelType": "Petrol",
+        "engineSize": 2.5
+    },
+    {
+        "Brand": "BMW",
+        "model": "3 Series",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Ford",
+        "model": "C-MAX",
+        "fuelType": "Diesel",
+        "engineSize": -0.1034927966382504
+    },
+    {
+        "Brand": "Audi",
+        "model": "RS3",
+        "fuelType": "Petrol",
+        "engineSize": 2.5
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Opel",
+        "model": "Corsa",
+        "fuelType": "Petrol",
+        "engineSize": 2.0641186347051645
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "Kona",
+        "fuelType": "Hybrid",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "BMW",
+        "model": "X3",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Grandland X",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "CLA",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "4 Series",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "5 Series",
+        "fuelType": "Other",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Hyundai",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Opel",
+        "model": "Grandland X",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "S-Class",
+        "fuelType": "Petrol",
+        "engineSize": 4.7
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "SL",
+        "fuelType": "Petrol",
+        "engineSize": 3.2
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "i10",
+        "fuelType": "etrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "B-Class",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Ford",
+        "model": "B-MAX",
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": NaN,
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Toyota",
+        "model": NaN,
+        "fuelType": "Hybrid",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "iesel",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Verso",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Audi",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "A-Class",
+        "fuelType": "Petro",
+        "engineSize": 1.3
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "Other",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Mercedes",
+        "model": "C-Class",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "3 Series",
+        "fuelType": "diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "GTC",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Kodiaq",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "i30",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "X5",
+        "fuelType": "iesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Opel",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q2",
+        "fuelType": "Diesel",
+        "engineSize": 3.7392354812099646
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q2",
+        "fuelType": NaN,
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Golf",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Caravelle",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "4 Series",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q3",
+        "fuelType": "Petro",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q2",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Opel",
+        "model": "Zafira",
+        "fuelType": "Petro",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "DIESEL",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Meriva",
+        "fuelType": "PETROL",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": "petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A4",
+        "fuelType": "Diesel",
+        "engineSize": 2.5
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "DIESEL",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "BMW",
+        "model": "Z4",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes",
+        "model": "E-Class",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "E-Class",
+        "fuelType": "etrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "EcoSport",
+        "fuelType": "PETROL",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Skoda",
+        "model": "Superb",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": NaN,
+        "fuelType": NaN,
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "i800",
+        "fuelType": "iesel",
+        "engineSize": 0.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLE",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Toyota",
+        "model": NaN,
+        "fuelType": "HYBRI",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": "Petrol",
+        "engineSize": 3.7392354812099646
+    },
+    {
+        "Brand": "Opel",
+        "model": "Zafira Tourer",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "E-Class",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Amarok",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Opel",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "BMW",
+        "model": "1 Series",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "Diesel",
+        "engineSize": 0.3070739443691206
+    },
+    {
+        "Brand": "Opel",
+        "model": "Zafira",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Opel",
+        "model": "Meriva",
+        "fuelType": NaN,
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": NaN,
+        "fuelType": "Other",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "Toyota",
+        "model": "RAV4",
+        "fuelType": "Petrol",
+        "engineSize": 2.5
+    },
+    {
+        "Brand": "Opel",
+        "model": "Grandland X",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": "petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "BMW",
+        "model": "1 Series",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes",
+        "model": "GLC",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "T-Cross",
+        "fuelType": "Other",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Mokka X",
+        "fuelType": "etrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "BMW",
+        "model": "5 Series",
+        "fuelType": "diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "T-Roc",
+        "fuelType": "PETROL",
+        "engineSize": 0.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "ix20",
+        "fuelType": "Diese",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Audi",
+        "model": "TT",
+        "fuelType": "Petrol",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "Opel",
+        "model": "Insignia",
+        "fuelType": "petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Kuga",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Ford",
+        "model": "Grand C-MAX",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Touran",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "i10",
+        "fuelType": NaN,
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "SL",
+        "fuelType": "Petrol",
+        "engineSize": 6.2
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Golf",
+        "fuelType": "Petro",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "BMW",
+        "model": "1 Series",
+        "fuelType": "DIESEL",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Octavia",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "S-Class",
+        "fuelType": "Petrol",
+        "engineSize": 5.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "etrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "X1",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q2",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "B-Class",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Hyundai",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A5",
+        "fuelType": "Petrol",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "BMW",
+        "model": "Z3",
+        "fuelType": "Petrol",
+        "engineSize": 1.9
+    },
+    {
+        "Brand": "Ford",
+        "model": "Tourneo Custom",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "RS3",
+        "fuelType": "PETROL",
+        "engineSize": 2.5
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Kodiaq",
+        "fuelType": "DIESEL",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Corolla",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "iesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A1",
+        "fuelType": "Petrol",
+        "engineSize": 0.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Corolla",
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": NaN,
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Golf",
+        "fuelType": "Diesel",
+        "engineSize": 1.9
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Karoq",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Superb",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "i40",
+        "fuelType": "Diesel",
+        "engineSize": 1.7
+    },
+    {
+        "Brand": "BMW",
+        "model": "5 Series",
+        "fuelType": NaN,
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": NaN,
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "BMW",
+        "model": "X1",
+        "fuelType": "Diese",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Zafira",
+        "fuelType": NaN,
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "CLS",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Prius",
+        "fuelType": "Other",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "BMW",
+        "model": "1 Series",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Opel",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Skoda",
+        "model": "Octavia",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLA",
+        "fuelType": "iesel",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "BMW",
+        "model": "M2",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": "Diese",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "BMW",
+        "model": "4 Series",
+        "fuelType": "diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "GT86",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q7",
+        "fuelType": "Diesel",
+        "engineSize": 4.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Scala",
+        "fuelType": "iesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "BMW",
+        "model": "3 Series",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q5",
+        "fuelType": NaN,
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "8 Series",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Verso",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "i800",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Opel",
+        "model": "Zafira",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Prius",
+        "fuelType": "ybrid",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "BMW",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q2",
+        "fuelType": "Petro",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "1 Series",
+        "fuelType": NaN,
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "V-Class",
+        "fuelType": "Diesel",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Golf",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": "PETROL",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Octavia",
+        "fuelType": "petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "etrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A7",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Passat",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Opel",
+        "model": "Mokka X",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Ford",
+        "model": "Galaxy",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "Tucson",
+        "fuelType": "diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q7",
+        "fuelType": "Hybrid",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Camry",
+        "fuelType": "Hybrid",
+        "engineSize": 2.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "B-MAX",
+        "fuelType": NaN,
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Octavia",
+        "fuelType": "DIESEL",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Mokka X",
+        "fuelType": "PETROL",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "E-Class",
+        "fuelType": "iesel",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Citigo",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": NaN,
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Karoq",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": NaN,
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Scirocco",
+        "fuelType": NaN,
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "Hybrid",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "A-Class",
+        "fuelType": "Diesel",
+        "engineSize": 0.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Mokka X",
+        "fuelType": "Diese",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Opel",
+        "model": "Adam",
+        "fuelType": "Petro",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Opel",
+        "model": "Mokka X",
+        "fuelType": "Petro",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Tiguan",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "E-Class",
+        "fuelType": "Petro",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "CLS",
+        "fuelType": NaN,
+        "engineSize": 2.9
+    },
+    {
+        "Brand": "Opel",
+        "model": NaN,
+        "fuelType": "DIESEL",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLA",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Tiguan",
+        "fuelType": NaN,
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "BMW",
+        "model": "i3",
+        "fuelType": "Hybrid",
+        "engineSize": 0.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "X-Class",
+        "fuelType": "Diesel",
+        "engineSize": 2.3
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "Tucson",
+        "fuelType": "petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q5",
+        "fuelType": "iesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "3 Series",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "2 Series",
+        "fuelType": "ybrid",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": "Petrol",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "Opel",
+        "model": "Corsa",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "M3",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Up",
+        "fuelType": "Petrol",
+        "engineSize": 0.1864248827577972
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "Diese",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Audi",
+        "model": "RS4",
+        "fuelType": "Petrol",
+        "engineSize": 4.2
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "SL",
+        "fuelType": "Diesel",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "Ioniq",
+        "fuelType": "ybrid",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Mercedes",
+        "model": "C-Class",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Opel",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": NaN,
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLS",
+        "fuelType": "diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Passat",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "CLS",
+        "fuelType": "Diesel",
+        "engineSize": 2.9
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "V-Class",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Kamiq",
+        "fuelType": "OTHER",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Sharan",
+        "fuelType": "Diese",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "A-Class",
+        "fuelType": "Diese",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "A-Class",
+        "fuelType": "diesel",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "CLA",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Auris",
+        "fuelType": "iesel",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Ford",
+        "model": "Mondeo",
+        "fuelType": "diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "SL",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "BMW",
+        "model": "3 Series",
+        "fuelType": "etrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Ford",
+        "model": "Ka+",
+        "fuelType": "petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "BMW",
+        "model": "X2",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "BMW",
+        "model": NaN,
+        "fuelType": "Hybrid",
+        "engineSize": 0.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Insignia",
+        "fuelType": "Petrol",
+        "engineSize": 2.8
+    },
+    {
+        "Brand": "BMW",
+        "model": "X5",
+        "fuelType": "Hybrid",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "X3",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLC",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Scirocco",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Aygo",
+        "fuelType": "Other",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "C-MAX",
+        "fuelType": "Diese",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Audi",
+        "model": "A8",
+        "fuelType": "DIESEL",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "X3",
+        "fuelType": "iesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "Ioniq",
+        "fuelType": NaN,
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Ford",
+        "model": "S-MAX",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "ix35",
+        "fuelType": "diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "BMW",
+        "model": "3 Series",
+        "fuelType": "DIESEL",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q8",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "Petrol",
+        "engineSize": 0.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "petro",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q5",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "i3",
+        "fuelType": "Other",
+        "engineSize": 0.6
+    },
+    {
+        "Brand": "BMW",
+        "model": "X2",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "CLS",
+        "fuelType": "Diese",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Touran",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": NaN,
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "T-Cross",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Yaris",
+        "fuelType": NaN,
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Yeti Outdoor",
+        "fuelType": "Petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "A-Class",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "SLK",
+        "fuelType": "Petrol",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "Opel",
+        "model": "Corsa",
+        "fuelType": NaN,
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Opel",
+        "model": "Grandland X",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Kuga",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Ford",
+        "model": "EcoSport",
+        "fuelType": NaN,
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Kodiaq",
+        "fuelType": NaN,
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Grand C-MAX",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": NaN,
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Golf",
+        "fuelType": "Diesel",
+        "engineSize": 2.9857934392613865
+    },
+    {
+        "Brand": "BMW",
+        "model": "X7",
+        "fuelType": "Diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "BMW",
+        "model": "X5",
+        "fuelType": NaN,
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "M6",
+        "fuelType": "etrol",
+        "engineSize": 4.4
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": NaN,
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Hilux",
+        "fuelType": "Diesel",
+        "engineSize": 2.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "PETROL",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": "diesel",
+        "engineSize": 0.1864248827577972
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "T-Roc",
+        "fuelType": "etrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Kamiq",
+        "fuelType": "Petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Zafira Tourer",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Citigo",
+        "fuelType": "Petrol",
+        "engineSize": 0.1914624239266638
+    },
+    {
+        "Brand": "Audi",
+        "model": "A1",
+        "fuelType": NaN,
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Up",
+        "fuelType": "etrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "ix35",
+        "fuelType": "diesel",
+        "engineSize": 2.2
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q5",
+        "fuelType": "Diese",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Fabia",
+        "fuelType": "etrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Amarok",
+        "fuelType": "diesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Grand C-MAX",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Audi",
+        "model": "R8",
+        "fuelType": "Petrol",
+        "engineSize": 5.2
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "iesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "EcoSport",
+        "fuelType": NaN,
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": "etrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "RAV4",
+        "fuelType": NaN,
+        "engineSize": 2.5
+    },
+    {
+        "Brand": "Audi",
+        "model": "A1",
+        "fuelType": "petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Opel",
+        "model": "Crossland X",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "BMW",
+        "model": "2 Series",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Up",
+        "fuelType": "petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": "Petrol",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Yaris",
+        "fuelType": "PETROL",
+        "engineSize": 1.3
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "A-Class",
+        "fuelType": "Petrol",
+        "engineSize": 0.3070739443691206
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLC",
+        "fuelType": "petro",
+        "engineSize": 4.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q2",
+        "fuelType": "petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Yeti Outdoor",
+        "fuelType": "PETROL",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q3",
+        "fuelType": "Petrol",
+        "engineSize": 3.7392354812099646
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "Tucson",
+        "fuelType": "iesel",
+        "engineSize": 1.7
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Aygo",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Touran",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Ford",
+        "model": "B-MAX",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": NaN,
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "Getz",
+        "fuelType": "Petrol",
+        "engineSize": 1.3
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Avensis",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A1",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Golf",
+        "fuelType": "Petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "SL",
+        "fuelType": "DIESEL",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Octavia",
+        "fuelType": "iesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Ford",
+        "model": "Tourneo Connect",
+        "fuelType": "Diesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLA",
+        "fuelType": "Diesel",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "Audi",
+        "model": NaN,
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Opel",
+        "model": "Meriva",
+        "fuelType": "Petro",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": NaN,
+        "fuelType": "Diese",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Opel",
+        "model": "Adam",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "BMW",
+        "model": "2 Series",
+        "fuelType": "etrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "BMW",
+        "model": "5 Series",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": NaN,
+        "fuelType": "Hybrid",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Opel",
+        "model": "Corsa",
+        "fuelType": "Diesel",
+        "engineSize": 1.3
+    },
+    {
+        "Brand": "BMW",
+        "model": "2 Series",
+        "fuelType": "petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Kodiaq",
+        "fuelType": "PETROL",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "BMW",
+        "model": "5 Series",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Antara",
+        "fuelType": "Diese",
+        "engineSize": 2.2
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": "diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q3",
+        "fuelType": "diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": "DIESEL",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q2",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "BMW",
+        "model": "4 Series",
+        "fuelType": "PETROL",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Adam",
+        "fuelType": "petrol",
+        "engineSize": 1.2
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": "PETROL",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Yaris",
+        "fuelType": "petrol",
+        "engineSize": 1.3
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "ix35",
+        "fuelType": "Diesel",
+        "engineSize": 0.3711273748505637
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Up",
+        "fuelType": "Petrol",
+        "engineSize": NaN
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Yeti",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Zafira",
+        "fuelType": "etrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Ford",
+        "model": "Mondeo",
+        "fuelType": "Petrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "ix20",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "BMW",
+        "model": "2 Series",
+        "fuelType": "Diesel",
+        "engineSize": 0.3134065828348564
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Auris",
+        "fuelType": "hybrid",
+        "engineSize": 1.8
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Touran",
+        "fuelType": "petrol",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Touran",
+        "fuelType": "DIESEL",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "T-Roc",
+        "fuelType": "etrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Octavia",
+        "fuelType": "Diesel",
+        "engineSize": 0.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": "DIESEL",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLS",
+        "fuelType": "Petrol",
+        "engineSize": 5.5
+    },
+    {
+        "Brand": "Audi",
+        "model": "A3",
+        "fuelType": "PETROL",
+        "engineSize": 1.0
+    },
+    {
+        "Brand": "Toyota",
+        "model": "Yaris",
+        "fuelType": "Petro",
+        "engineSize": 0.1628659545028228
+    },
+    {
+        "Brand": "BMW",
+        "model": "X6",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "Diese",
+        "engineSize": 2.1
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "A-Class",
+        "fuelType": "petrol",
+        "engineSize": 1.3
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "Petrol",
+        "engineSize": 1.3
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q5",
+        "fuelType": "Petrol",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLC",
+        "fuelType": "Petrol",
+        "engineSize": 4.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Kuga",
+        "fuelType": "iesel",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "SL",
+        "fuelType": "Petrol",
+        "engineSize": 3.5
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "PETROL",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Focus",
+        "fuelType": NaN,
+        "engineSize": 2.3
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "CLA",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q2",
+        "fuelType": NaN,
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Mokka",
+        "fuelType": "Diesel",
+        "engineSize": 1.7
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "E-Class",
+        "fuelType": "Diesel",
+        "engineSize": 0.3070739443691206
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "T-Roc",
+        "fuelType": "diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "BMW",
+        "model": "1 Series",
+        "fuelType": "etrol",
+        "engineSize": 1.5
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": "Beetle",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Audi",
+        "model": "A5",
+        "fuelType": NaN,
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Kuga",
+        "fuelType": "Diese",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Volkswagen",
+        "model": NaN,
+        "fuelType": NaN,
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "fuelType": "Diese",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Mokka",
+        "fuelType": "etrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Audi",
+        "model": "Q5",
+        "fuelType": "iesel",
+        "engineSize": 3.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Mokka X",
+        "fuelType": "petrol",
+        "engineSize": 1.4
+    },
+    {
+        "Brand": "\u0160koda",
+        "model": "Scala",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "model": "GLC",
+        "fuelType": "Petrol",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Ford",
+        "model": "Fiesta",
+        "fuelType": "Petro",
+        "engineSize": 0.0
+    },
+    {
+        "Brand": "Opel",
+        "model": "Astra",
+        "fuelType": "Diesel",
+        "engineSize": 2.0
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "ix35",
+        "fuelType": "Petrol",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "Hyundai",
+        "model": "ix20",
+        "fuelType": "Diesel",
+        "engineSize": 1.6
+    },
+    {
+        "Brand": "BMW",
+        "model": "1 Series",
+        "fuelType": "etrol",
+        "engineSize": 3.0
+    }
+]
