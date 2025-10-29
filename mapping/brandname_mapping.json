@@ -19,6 +19,7 @@
   "for": "Ford",
   "ord": "Ford",
   "ford": "Ford",
+  "or": "Ford",
 
   "bmw": "BMW",
   "mw": "BMW",
@@ -35,11 +36,13 @@
   "ope": "Opel",
   "pel": "Opel",
   "opel": "Opel",
+  "pe": "Opel",
 
   "mercedes": "Mercedes-Benz",
   "mercede": "Mercedes-Benz",
   "ercedes": "Mercedes-Benz",
   "mercedes": "Mercedes-Benz",
+  "ercede"  : "Mercedes-Benz",
 
   "hyundai": "Hyundai",
   "hyunda": "Hyundai",
