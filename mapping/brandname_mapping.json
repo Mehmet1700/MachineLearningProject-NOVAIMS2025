@@ -27,7 +27,6 @@
   "mw": "BMW",
   "bm": "BMW",
   "bmw": "BMW",
-  "M": "BMW",
 
   
 
@@ -43,6 +42,7 @@
   "opel": "Opel",
   "pe": "Opel",
 
+  "m": "Mercedes-Benz",
   "mercedes": "Mercedes-Benz",
   "mercede": "Mercedes-Benz",
   "ercedes": "Mercedes-Benz",

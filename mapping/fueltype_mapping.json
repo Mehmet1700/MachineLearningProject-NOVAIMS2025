@@ -29,6 +29,9 @@
     "other" : "Other",
     "Othe" : "Other",
     "ther" : "Other",
-    "OTHER" : "Other"
+    "OTHER" : "Other",
     
+    "Electric" : "Electric",
+    "electric" : "Electric",
+    "ELECTRIC" : "Electric"
 }
