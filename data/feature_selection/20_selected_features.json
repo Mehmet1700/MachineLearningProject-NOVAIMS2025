@@ -1,0 +1,12 @@
+[
+  "model",
+  "engineSize",
+  "year",
+  "mileage",
+  "Brand",
+  "mpg",
+  "transmission_manual",
+  "transmission_semi-auto",
+  "tax",
+  "transmission_automatic"
+]

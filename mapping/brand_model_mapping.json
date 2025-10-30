@@ -22,6 +22,9 @@
   "RS4": "Audi",
   "RS5": "Audi",
   "RS6": "Audi",
+  "SQ5": "Audi",
+  "SQ7": "Audi",
+
 
   "1 Series": "BMW",
   "2 Series": "BMW",
@@ -82,6 +85,8 @@
   "Tourneo Custom": "Ford",
   "Tourneo Connect": "Ford",
   "Grand Tourneo Connect": "Ford",
+  "Fusion": "Ford",
+  "Ranger": "Ford",
 
   "Golf": "Volkswagen",
   "Golf SV": "Volkswagen",
@@ -103,6 +108,10 @@
   "Scirocco": "Volkswagen",
   "Jetta": "Volkswagen",
   "California": "Volkswagen",
+  "Polo": "Volkswagen",
+  "Arteon": "Volkswagen",
+  "Fox": "Volkswagen",
+
 
   "Corsa": "Opel",
   "Astra": "Opel",
@@ -120,6 +129,11 @@
   "Cascada": "Opel",
   "Agila": "Opel",
   "GTC": "Opel",
+  "Viva": "Opel",
+  "Ampera": "Opel",
+  "Vectra": "Opel",
+  "Tigra": "Opel",
+
 
   "Fabia": "Skoda",
   "Octavia": "Skoda",
@@ -131,6 +145,9 @@
   "Citigo": "Skoda",
   "Yeti": "Skoda",
   "Yeti Outdoor": "Skoda",
+  "Rapid": "Skoda",
+  "Roomster": "Skoda",
+
 
   "Yaris": "Toyota",
   "Aygo": "Toyota",
@@ -146,6 +163,10 @@
   "Hilux": "Toyota",
   "Camry": "Toyota",
   "Proace Verso": "Toyota",
+  "Urban Cruiser": "Toyota",
+  "iQ": "Toyota",
+
+
 
   "i10": "Hyundai",
   "i20": "Hyundai",
@@ -158,5 +179,13 @@
   "Kona": "Hyundai",
   "Tucson": "Hyundai",
   "Getz": "Hyundai",
-  "Veloster": "Hyundai"
+  "Veloster": "Hyundai",
+  "Santa Fe": "Hyundai",
+  "Accent": "Hyundai",
+
+
+
+  "Kadjar": "Renault"
+
+
 }

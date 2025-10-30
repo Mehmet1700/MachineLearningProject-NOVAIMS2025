@@ -1,1 +1,4 @@
 .venv
+DS_Store
+notebooks/.ipynb_checkpoints
+submission1_notebooks/.ipynb_checkpoints
