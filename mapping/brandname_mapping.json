@@ -35,6 +35,7 @@
   "koda": "Škoda",
   "kod": "Škoda",
   "skoda": "Škoda",
+  "škoda": "Škoda",
 
   "opel": "Opel",
   "ope": "Opel",
@@ -48,6 +49,8 @@
   "ercedes": "Mercedes-Benz",
   "mercedes": "Mercedes-Benz",
   "ercede"  : "Mercedes-Benz",
+  "mercedes benz ": "Mercedes-Benz",
+  
 
   "hyundai": "Hyundai",
   "hyunda": "Hyundai",

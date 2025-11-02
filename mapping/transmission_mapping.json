@@ -22,6 +22,11 @@
     "emi-Aut" : "Semi-Auto",
     "emi-auto" : "Semi-Auto",
     "semi-aut" : "Semi-Auto",
+    "emi-aut": "Semi-Auto",
+    "Semi-Automatic" : "Semi-Auto",
+
+
+    
 
     "AUTOMATIC" : "Automatic",
     "automatic" : "Automatic",
@@ -31,10 +36,15 @@
     "automati" : "Automatic",
     "AUTOMATI" : "Automatic",
     "utomati " : "Automatic",
+    "utomati": "Automatic",
+
 
     "unknown" : "Unknown",
     "unknow" : "Unknown",
     "UNKNOWN" : "Unknown",
     "nknown" : "Unknown",
-    "nknow" : "Unknown"    
+    "nknow" : "Unknown",
+
+    "other": "Other"
+
 }

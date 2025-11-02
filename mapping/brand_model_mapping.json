@@ -51,23 +51,23 @@
   "M5": "BMW",
   "M6": "BMW",
 
-  "A-Class": "Mercedes",
-  "B-Class": "Mercedes",
-  "C-Class": "Mercedes",
-  "E-Class": "Mercedes",
-  "S-Class": "Mercedes",
-  "V-Class": "Mercedes",
-  "GLA": "Mercedes",
-  "GLB": "Mercedes",
-  "GLC": "Mercedes",
-  "GLE": "Mercedes",
-  "GLS": "Mercedes",
-  "G-Class": "Mercedes",
-  "CLA": "Mercedes",
-  "CLS": "Mercedes",
-  "SL": "Mercedes",
-  "SLK": "Mercedes",
-  "X-Class": "Mercedes",
+  "A-Class": "Mercedes-Benz",
+  "B-Class": "Mercedes-Benz",
+  "C-Class": "Mercedes-Benz",
+  "E-Class": "Mercedes-Benz",
+  "S-Class": "Mercedes-Benz",
+  "V-Class": "Mercedes-Benz",
+  "GLA": "Mercedes-Benz",
+  "GLB": "Mercedes-Benz",
+  "GLC": "Mercedes-Benz",
+  "GLE": "Mercedes-Benz",
+  "GLS": "Mercedes-Benz",
+  "G-Class": "Mercedes-Benz",
+  "CLA": "Mercedes-Benz",
+  "CLS": "Mercedes-Benz",
+  "SL": "Mercedes-Benz",
+  "SLK": "Mercedes-Benz",
+  "X-Class": "Mercedes-Benz",
 
   "Focus": "Ford",
   "Fiesta": "Ford",
@@ -182,9 +182,6 @@
   "Veloster": "Hyundai",
   "Santa Fe": "Hyundai",
   "Accent": "Hyundai",
-
-
-
   "Kadjar": "Renault"
 
 
