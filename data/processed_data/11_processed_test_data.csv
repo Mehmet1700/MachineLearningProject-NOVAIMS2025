@@ -183,7 +183,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 93392,Mercedes-Benz,CLS-Class,2018.0,Semi-Auto,16019.0,Diesel,145.0,48.7,2.9,83.0,0.0,0.0
 93995,Mercedes-Benz,C-Class,2017.0,Semi-Auto,12586.0,Diesel,145.0,58.9,2.1,82.0,3.0,0.0
 94261,Mercedes-Benz,C-Class,2019.0,Automatic,2001.0,Diesel,145.0,64.2,2.0,85.0,4.0,0.0
-89117,Ford,Kuga,2017.0,Manual,,Diesel,145.0,60.1,2.0,90.0,,0.0
+89117,Ford,Kuga,2017.0,Manual,,Diesel,145.0,60.1,2.0,90.0,6.258230522496533,0.0
 86506,Ford,Focus,2008.0,Manual,98500.0,Petrol,,,1.6,91.0,0.0,0.0
 88456,Ford,Ka,2016.0,Manual,17081.0,Petrol,30.0,57.7,1.2,75.0,1.0,0.0
 84134,Ford,Fiesta,2016.0,Manual,26000.0,Petrol,145.0,47.9,1.6,34.0,1.0,0.0
@@ -315,7 +315,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 81898,BMW,X7,2019.0,Semi-Auto,6506.0,Diesel,150.0,31.4,3.0,62.0,0.0,0.0
 83435,Ford,Fiesta,2017.0,Semi-Auto,35377.0,Petrol,0.0,57.7,1.0,44.0,2.0,0.0
 80448,BMW,3 Series,2017.0,Automatic,52716.0,Diesel,145.0,70.6,2.0,83.0,1.0,0.0
-79241,BMW,4 Series,2019.0,Automatic,500.0,Petrol,145.0,41.5,3.0,51.0,,0.0
+79241,BMW,4 Series,2019.0,Automatic,500.0,Petrol,145.0,41.5,3.0,51.0,6.230179577896532,0.0
 76056,Audi,A3,2018.0,Manual,10697.0,Petrol,145.0,54.3,1.5,79.0,0.0,0.0
 76342,Audi,A4,2017.0,Manual,21180.0,Diesel,145.0,74.3,2.0,66.0,3.0,0.0
 98238,Toyota,Aygo,2019.0,Manual,4146.0,Petrol,145.0,56.5,1.0,74.0,3.0,0.0
@@ -348,7 +348,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 83525,Ford,Fiesta,2017.0,Manual,3500.0,Petrol,145.0,64.2,1.1,55.0,3.0,0.0
 102595,Opel,Mokka X,2017.0,,38886.0,Petrol,150.0,42.2,1.6,74.0,1.0,0.0
 94255,Mercedes-Benz,A-Class,2014.0,Manual,54004.0,Diesel,30.0,62.8,2.1,81.0,3.0,0.0
-91259,Mercedes-Benz,X-Class,2019.0,Automatic,10996.0,Diesel,260.0,35.8,2.3,84.0,,0.0
+91259,Mercedes-Benz,X-Class,2019.0,Automatic,10996.0,Diesel,260.0,35.8,2.3,84.0,6.258370664185211,0.0
 99539,Toyota,Yaris,2015.0,Manual,33430.0,Petrol,0.0,66.0,1.0,98.0,2.0,0.0
 97379,Škoda,Karoq,2020.0,Automatic,3587.0,Petrol,150.0,41.5,1.5,98.0,4.0,0.0
 104452,Volkswagen,Tiguan,2019.0,Manual,7337.0,Diesel,145.0,47.9,2.0,92.0,,0.0
@@ -357,7 +357,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 94732,Mercedes-Benz,S-Class,2015.0,Automatic,23156.0,Petrol,555.0,28.0,5.5,54.0,2.0,0.0
 89025,Ford,Fiesta,2017.0,Manual,21245.0,Petrol,20.0,62.8,1.0,62.0,1.0,0.0
 89497,Hyundai,Santa Fe,2020.0,Semi-Auto,9.0,Diesel,145.0,39.2,2.2,99.0,0.0,0.0
-92405,Mercedes-Benz,E-Class,2015.0,Automatic,71235.0,Diesel,145.0,53.3,3.0,68.0,,0.0
+92405,Mercedes-Benz,E-Class,2015.0,Automatic,71235.0,Diesel,145.0,53.3,3.0,68.0,6.258370664185211,0.0
 95346,Mercedes-Benz,C-Class,2016.0,Automatic,53613.0,Diesel,,,2.1,38.0,4.0,0.0
 91337,Mercedes-Benz,GL-Class,2015.0,Automatic,24963.0,Diesel,125.0,55.4,2.1,89.0,1.0,0.0
 97739,Škoda,,2016.0,Manual,22996.0,Diesel,30.0,64.2,2.0,65.0,3.0,0.0
@@ -452,13 +452,13 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 102304,Opel,Mokka X,2019.0,Manual,13428.0,Petrol,145.0,39.2,1.4,75.0,,0.0
 79288,BMW,X4,2019.0,Semi-Auto,7815.0,Petrol,145.0,26.9,3.0,51.0,0.0,0.0
 77400,Audi,A3,2014.0,Manual,35093.0,Petrol,30.0,54.3,1.4,89.0,4.0,0.0
-98597,Toyota,Yaris,2014.0,Manual,48402.0,Petrol,125.0,52.3,1.3,78.0,,0.0
+98597,Toyota,Yaris,2014.0,Manual,48402.0,Petrol,125.0,52.3,1.3,78.0,6.2177244345589395,0.0
 103156,Opel,Mokka,2015.0,Automatic,49276.0,Diesel,150.0,53.3,1.7,88.0,4.0,0.0
 95446,Mercedes-Benz,GLC-Class,,Semi-Auto,21659.0,Diesel,145.0,56.5,2.1,75.0,3.0,0.0
 97036,Škoda,Fabia,2019.0,Manual,12986.0,Petrol,145.0,57.7,1.0,32.0,3.0,0.0
 101401,Opel,Corsa,2018.0,Manual,7905.0,Petrol,150.0,55.4,1.4,59.0,2.0,0.0
 80817,BMW,5 Series,2013.0,Automatic,88000.0,Diesel,145.0,55.4,2.0,34.0,4.0,0.0
-84078,Ford,Fiesta,2015.0,Manual,37110.0,Petrol,125.0,54.3,1.2,65.0,,0.0
+84078,Ford,Fiesta,2015.0,Manual,37110.0,Petrol,125.0,54.3,1.2,65.0,6.258230522496533,0.0
 95390,Mercedes-Benz,C-Class,2019.0,Semi-Auto,2622.0,Petrol,,,1.6,35.0,4.0,0.0
 79883,BMW,5 Series,2017.0,Semi-Auto,8500.0,Diesel,145.0,60.1,2.0,30.0,3.0,0.0
 104059,Volkswagen,Polo,2019.0,Manual,7885.0,Petrol,145.0,48.7,1.0,33.0,0.0,0.0
@@ -811,7 +811,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 92297,Mercedes-Benz,,2018.0,Semi-Auto,18234.0,Petrol,150.0,21.4,4.0,78.0,3.0,0.0
 100221,Opel,Mokka X,,Manual,18931.0,Petrol,150.0,47.1,1.4,98.0,1.0,0.0
 78829,Audi,A6,2014.0,Semi-Auto,84000.0,Diesel,205.0,44.8,3.0,88.0,4.0,0.0
-93418,Mercedes-Benz,C-Class,2017.0,Semi-Auto,22994.0,Petrol,145.0,48.7,2.0,61.0,,0.0
+93418,Mercedes-Benz,C-Class,2017.0,Semi-Auto,22994.0,Petrol,145.0,48.7,2.0,61.0,6.258370664185211,0.0
 83424,Ford,Focus,2017.0,Manual,19512.0,Petrol,150.0,60.1,1.0,79.0,4.0,0.0
 101749,Opel,Viva,2017.0,Manual,11500.0,Petrol,145.0,61.4,1.0,35.0,2.0,0.0
 103456,Opel,Corsa,2018.0,Manual,9526.0,Petrol,145.0,43.5,1.4,78.0,3.0,0.0
@@ -1348,7 +1348,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 78174,Audi,A1,2016.0,Manual,19356.0,Diesel,0.0,,1.6,78.0,4.0,0.0
 76239,Audi,Q7,2016.0,Semi-Auto,52793.0,Diesel,200.0,47.9,3.0,70.0,2.0,0.0
 99098,Toyota,Corolla,2019.0,Automatic,10420.0,Hybrid,140.0,85.6,1.8,30.0,0.0,0.0
-78068,Audi,A1,2019.0,Manual,6000.0,Petrol,145.0,47.9,1.0,66.0,,0.0
+78068,Audi,A1,2019.0,Manual,6000.0,Petrol,145.0,47.9,1.0,66.0,6.248251195613699,0.0
 80129,BMW,5 Series,2016.0,Automatic,33740.0,Diesel,30.0,65.7,2.0,91.0,1.0,0.0
 92276,Mercedes-Benz,E-Class,2019.0,Semi-Auto,14620.0,Diesel,145.0,72.4,2.0,97.0,4.0,0.0
 84297,Ford,Puma,2020.0,Manual,270.0,Petrol,145.0,50.4,,43.0,3.0,0.0
@@ -1455,7 +1455,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 85424,Ford,Focus,2019.0,Automatic,4166.0,Diesel,145.0,64.2,2.0,34.0,0.0,0.0
 77271,Audi,A1,2019.0,Manual,6000.0,Petrol,145.0,47.9,1.0,67.0,0.0,0.0
 104786,Volkswagen,Arteon,2019.0,Automatic,5043.0,Petrol,145.0,47.1,2.0,38.0,1.0,0.0
-103727,Opel,Astra,2016.0,Manual,15804.0,Petrol,125.0,51.4,1.4,80.0,,0.0
+103727,Opel,Astra,2016.0,Manual,15804.0,Petrol,125.0,51.4,1.4,80.0,6.233082169469183,0.0
 91819,Mercedes-Benz,C-Class,2019.0,Automatic,4693.0,Petrol,145.0,44.1,1.5,36.0,,0.0
 107028,Volkswagen,Tiguan,2019.0,Manual,12229.0,Petrol,145.0,40.9,1.5,38.0,0.0,0.0
 94966,Mercedes-Benz,A-Class,2019.0,Semi-Auto,10859.0,Diesel,145.0,65.7,1.5,46.0,1.0,0.0
@@ -1646,7 +1646,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 95745,Mercedes-Benz,C-Class,2019.0,Automatic,12585.0,Diesel,,64.2,2.0,96.0,3.0,0.0
 107011,Volkswagen,CC,2014.0,Manual,,Diesel,30.0,60.1,2.0,99.0,1.0,0.0
 78953,Audi,A3,2018.0,Semi-Auto,12171.0,Petrol,145.0,56.5,1.5,46.0,3.0,0.0
-85187,Ford,C-MAX,2015.0,,24757.0,Diesel,20.0,64.2,1.5,61.0,,0.0
+85187,Ford,C-MAX,2015.0,,24757.0,Diesel,20.0,64.2,1.5,61.0,6.258230522496533,0.0
 87941,Ford,Focus,2017.0,Manual,21378.0,Petrol,,,1.0,61.0,2.0,0.0
 77483,Audi,A4,2017.0,Semi-Auto,45100.0,Petrol,160.0,45.6,2.0,60.0,3.0,0.0
 101372,Opel,Corsa,2018.0,Manual,22937.0,Petrol,145.0,43.5,1.4,59.0,2.0,0.0
@@ -1848,7 +1848,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 87176,Ford,Focus,2017.0,Manual,8938.0,Petrol,145.0,41.5,2.0,56.0,4.0,0.0
 94012,Mercedes-Benz,CL-Class,2019.0,Semi-Auto,2492.0,Petrol,145.0,39.8,2.0,66.0,4.0,0.0
 106937,Volkswagen,Golf,2018.0,Manual,21317.0,Diesel,145.0,60.1,2.0,31.0,3.0,0.0
-106573,Volkswagen,Touareg,2019.0,Semi-Auto,100.0,Diesel,150.0,34.9,3.0,54.0,,0.0
+106573,Volkswagen,Touareg,2019.0,Semi-Auto,100.0,Diesel,150.0,34.9,3.0,54.0,6.2458349512166365,0.0
 96877,Škoda,Rapid,2018.0,Manual,15258.0,Petrol,145.0,61.4,1.0,82.0,0.0,0.0
 102568,Opel,Astra,2016.0,Manual,46933.0,Petrol,125.0,51.4,1.4,99.0,1.0,0.0
 93510,Mercedes-Benz,C-Class,2017.0,Semi-Auto,10745.0,Diesel,30.0,64.2,2.1,91.0,0.0,0.0
@@ -1857,7 +1857,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 106884,Volkswagen,Polo,2015.0,Manual,52539.0,Petrol,20.0,60.1,1.0,34.0,0.0,0.0
 81041,BMW,1 Series,2016.0,Manual,33043.0,Diesel,30.0,62.8,2.0,,0.0,0.0
 93827,Mercedes-Benz,E-Class,2017.0,Semi-Auto,39469.0,Diesel,20.0,67.3,2.0,61.0,0.0,0.0
-100321,Opel,Zafira,2015.0,Manual,47682.0,Diesel,145.0,53.3,2.0,94.0,,0.0
+100321,Opel,Zafira,2015.0,Manual,47682.0,Diesel,145.0,53.3,2.0,94.0,6.233082169469183,0.0
 81450,BMW,1 Series,2013.0,Automatic,52799.0,Diesel,30.0,64.2,2.0,74.0,4.0,0.0
 95107,Mercedes-Benz,C-Class,2015.0,Automatic,38444.0,Petrol,,,2.0,3.2074178424107345,4.0,0.0
 93670,Mercedes-Benz,C-Class,2018.0,Semi-Auto,2684.0,Petrol,145.0,44.1,1.5,63.0,0.0,0.0
@@ -1946,7 +1946,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 84228,Ford,S-MAX,2011.0,Automatic,108343.0,Diesel,205.0,47.1,2.0,61.0,2.0,0.0
 100131,Opel,Crossland X,2019.0,Manual,16137.0,Petrol,145.0,47.1,1.2,63.0,3.0,0.0
 92807,Mercedes-Benz,C-Class,2018.0,Semi-Auto,16347.0,Diesel,145.0,57.7,2.0,45.0,2.0,0.0
-95025,Mercedes-Benz,C-Class,2019.0,Automatic,3498.0,Diesel,145.0,64.2,2.0,46.0,,0.0
+95025,Mercedes-Benz,C-Class,2019.0,Automatic,3498.0,Diesel,145.0,64.2,2.0,46.0,6.258370664185211,0.0
 79779,,,2015.0,Manual,65412.0,Diesel,20.0,68.9,2.0,93.0,1.0,0.0
 77216,Audi,A6,2019.0,Semi-Auto,21343.0,Diesel,150.0,50.4,2.0,85.0,1.0,0.0
 83476,Ford,Fiesta,2019.0,Manual,17115.0,Petrol,145.0,58.9,1.0,47.0,3.0,0.0
@@ -2274,7 +2274,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 79255,BMW,X1,2016.0,Manual,21876.0,Diesel,125.0,60.1,2.0,86.0,1.0,0.0
 85072,Ford,Focus,2015.0,Manual,46342.0,Diesel,0.0,74.3,1.5,52.0,4.0,0.0
 99421,Toyota,Auris,2017.0,Manual,4897.0,Petrol,145.0,52.3,1.2,87.0,2.0,0.0
-95187,Mercedes-Benz,C-Class,2013.0,Automatic,57062.0,Diesel,145.0,54.3,2.1,39.0,,0.0
+95187,Mercedes-Benz,C-Class,2013.0,Automatic,57062.0,Diesel,145.0,54.3,2.1,39.0,6.258370664185211,0.0
 103262,Opel,Astra,2019.0,Manual,9956.0,Petrol,150.0,47.9,1.4,53.0,3.0,0.0
 94589,Mercedes-Benz,C-Class,2016.0,Semi-Auto,27416.0,Petrol,305.0,34.5,4.0,97.0,4.0,0.0
 77608,Audi,RS4,2019.0,Automatic,6000.0,Petrol,145.0,29.1,2.9,87.0,3.0,0.0
@@ -2503,7 +2503,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 89566,Hyundai,Tucson,2017.0,Manual,23546.0,Diesel,,61.7,1.7,52.0,3.0,0.0
 94682,Mercedes-Benz,C-Class,2019.0,Semi-Auto,11267.0,Petrol,,,3.0,59.0,0.0,0.0
 87373,Ford,Focus,2019.0,Manual,3758.0,Petrol,,,1.0,89.0,1.0,0.0
-83481,Ford,Focus,2017.0,Manual,16878.0,Petrol,150.0,60.1,1.0,61.0,,0.0
+83481,Ford,Focus,2017.0,Manual,16878.0,Petrol,150.0,60.1,1.0,61.0,6.258230522496533,0.0
 84348,Ford,Focus,2017.0,Manual,17797.0,Petrol,,,1.0,38.0,0.0,0.0
 88809,Ford,Fiesta,2017.0,Manual,20785.0,Petrol,0.0,,1.0,42.0,2.0,0.0
 107886,Volkswagen,Golf,2015.0,Manual,72125.0,Diesel,20.0,67.3,2.0,34.0,1.0,0.0
@@ -2625,7 +2625,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 81744,BMW,3 Series,2018.0,Semi-Auto,37052.0,Diesel,145.0,51.4,3.0,70.0,4.0,0.0
 89208,Ford,Mondeo,2010.0,Manual,76249.0,Diesel,205.0,50.4,1.8,33.0,0.0,0.0
 93035,Mercedes-Benz,C-Class,2018.0,Automatic,10913.0,Diesel,,,2.1,91.0,1.0,0.0
-94656,Mercedes-Benz,C-Class,2019.0,Semi-Auto,8317.0,Diesel,145.0,61.4,2.0,94.0,,0.0
+94656,Mercedes-Benz,C-Class,2019.0,Semi-Auto,8317.0,Diesel,145.0,61.4,2.0,94.0,6.258370664185211,0.0
 105571,Volkswagen,Touran,2016.0,Manual,68266.0,Diesel,30.0,64.2,2.0,,2.0,0.0
 86332,Ford,Fiesta,2018.0,Manual,11579.0,Petrol,145.0,65.7,1.0,43.0,0.0,0.0
 76711,Audi,A6,2017.0,Automatic,29095.0,Diesel,145.0,55.4,2.0,35.0,0.0,0.0
@@ -2803,7 +2803,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 107652,Volkswagen,Up,2017.0,Manual,19288.0,Petrol,145.0,64.2,1.0,75.0,0.0,0.0
 89835,Hyundai,Tucson,2018.0,Semi-Auto,12037.0,Petrol,145.0,16.35015250273762,1.6,80.0,0.0,0.0
 77430,Audi,A5,2019.0,Manual,4000.0,Petrol,145.0,40.4,2.0,94.0,2.0,0.0
-97568,Škoda,Yeti Outdoor,2017.0,Semi-Auto,6045.0,Petrol,125.0,51.4,1.2,79.0,,0.0
+97568,Škoda,Yeti Outdoor,2017.0,Semi-Auto,6045.0,Petrol,125.0,51.4,1.2,79.0,6.2417786290739095,0.0
 78947,Audi,A4,2020.0,Automatic,3200.0,Diesel,145.0,39.2,3.0,84.0,1.0,0.0
 106692,Volkswagen,Polo,2016.0,Manual,26404.0,Petrol,20.0,60.1,,65.0,2.0,0.0
 97127,Škoda,Fabia,2011.0,Manual,52262.0,Petrol,125.0,54.3,1.2,59.0,2.0,0.0
@@ -3248,7 +3248,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 91138,Mercedes-Benz,A-Class,2016.0,Semi-Auto,10730.0,Diesel,20.0,70.6,2.1,65.0,4.0,0.0
 100134,Opel,Corsa,,Manual,18753.0,Petrol,125.0,54.3,1.4,75.0,3.0,0.0
 83718,Ford,Focus,2018.0,Manual,12564.0,Petrol,,,1.0,60.0,1.0,0.0
-86977,Ford,EcoSport,2017.0,Automatic,11809.0,Petrol,160.0,44.8,1.5,51.0,,0.0
+86977,Ford,EcoSport,2017.0,Automatic,11809.0,Petrol,160.0,44.8,1.5,51.0,6.258230522496533,0.0
 102165,Opel,Astra,,Manual,20797.0,Petrol,145.0,51.4,1.4,30.0,4.0,0.0
 91372,Mercedes-Benz,C-Class,2016.0,Semi-Auto,24247.0,Diesel,20.0,65.7,2.1,64.0,4.0,0.0
 95812,Mercedes-Benz,A-Class,2019.0,Semi-Auto,4459.0,Petrol,150.0,53.3,1.3,63.0,1.0,0.0
@@ -3270,7 +3270,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 79359,BMW,,2016.0,Semi-Auto,30158.0,Diesel,125.0,60.1,2.0,53.0,4.0,0.0
 94435,Mercedes-Benz,SL-Class,2017.0,Automatic,18061.0,Diesel,30.0,70.6,2.1,40.0,2.0,0.0
 86980,Ford,Focus,2016.0,Manual,47577.0,Diesel,0.0,74.3,1.5,69.0,0.0,0.0
-92661,Mercedes-Benz,GLE-Class,2016.0,Semi-Auto,17525.0,Diesel,300.0,39.2,3.0,70.0,,0.0
+92661,Mercedes-Benz,GLE-Class,2016.0,Semi-Auto,17525.0,Diesel,300.0,39.2,3.0,70.0,6.258370664185211,0.0
 84734,Ford,Focus,2019.0,Manual,13545.0,Petrol,,,1.0,43.0,1.0,0.0
 92829,Mercedes-Benz,E-Class,2016.0,Semi-Auto,19198.0,Diesel,20.0,72.4,2.0,75.0,1.0,0.0
 78925,Audi,A5,2019.0,Manual,6000.0,Petrol,145.0,37.2,2.0,3.11529529741442,0.0,0.0
@@ -3441,7 +3441,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 105582,Volkswagen,Golf,2017.0,Semi-Auto,30708.0,Diesel,125.0,58.9,2.0,49.0,0.0,0.0
 84382,Ford,Fiesta,2017.0,Manual,26234.0,Petrol,0.0,65.7,1.0,58.0,3.0,0.0
 99666,Toyota,,2017.0,Manual,6725.0,Petrol,145.0,,2.0,39.0,3.0,0.0
-84818,Ford,Focus,2019.0,Manual,6000.0,Diesel,145.0,74.3,1.5,69.0,,0.0
+84818,Ford,Focus,2019.0,Manual,6000.0,Diesel,145.0,74.3,1.5,69.0,6.258230522496533,0.0
 78498,Audi,Q7,2019.0,Semi-Auto,28.0,Diesel,145.0,33.6,3.0,45.0,1.0,0.0
 78378,Audi,A8,2019.0,Automatic,178.0,Diesel,145.0,39.2,3.0,73.0,1.0,0.0
 82799,Ford,Focus,2012.0,Manual,60100.0,Petrol,20.0,58.9,,82.0,2.0,0.0
@@ -3547,7 +3547,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 107612,Volkswagen,Tiguan,2016.0,Manual,29541.0,Diesel,125.0,58.9,2.0,74.0,0.0,0.0
 76647,Audi,A3,2015.0,Manual,84000.0,Diesel,20.0,68.9,2.0,48.0,0.0,0.0
 100922,Opel,Corsa,2015.0,Manual,23947.0,Petrol,125.0,54.3,1.4,50.0,0.0,0.0
-88583,Ford,Focus,2016.0,Manual,14549.0,Diesel,,,1.6,37.0,,0.0
+88583,Ford,Focus,2016.0,Manual,14549.0,Diesel,,,1.6,37.0,6.258230522496533,0.0
 90425,Hyundai,Kona,2019.0,Manual,10.0,Petrol,145.0,44.1,1.0,34.0,0.0,0.0
 86258,Ford,Fiesta,2016.0,Manual,19884.0,Petrol,0.0,65.7,1.0,52.0,,0.0
 81973,BMW,1 Series,2017.0,Semi-Auto,14684.0,Petrol,145.0,,1.5,53.0,2.0,0.0
@@ -3691,7 +3691,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 76006,Audi,A6,,Semi-Auto,19118.0,Diesel,145.0,47.9,2.0,75.0,2.0,0.0
 86953,Ford,Mondeo,2017.0,Manual,74351.0,Diesel,20.0,68.9,2.0,85.0,2.0,0.0
 107767,Volkswagen,Golf,2017.0,Semi-Auto,21859.0,Diesel,30.0,62.8,2.0,88.0,0.0,0.0
-87949,Ford,Fiesta,2018.0,Manual,5053.0,Petrol,150.0,58.9,1.0,70.0,,0.0
+87949,Ford,Fiesta,2018.0,Manual,5053.0,Petrol,150.0,58.9,1.0,70.0,6.258230522496533,0.0
 95782,Mercedes-Benz,E-Class,2019.0,Semi-Auto,14105.0,Diesel,145.0,67.3,2.0,90.0,4.0,0.0
 94414,Mercedes-Benz,C-Class,2020.0,Semi-Auto,16388.0,Diesel,,,2.0,88.0,1.0,0.0
 98483,Toyota,Corolla,2019.0,Automatic,9300.0,Hybrid,135.0,58.9,1.8,93.0,0.0,0.0
@@ -3764,7 +3764,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 82188,BMW,3 Series,2018.0,Semi-Auto,9684.0,Petrol,145.0,48.7,2.0,48.0,0.0,0.0
 81054,BMW,1 Series,2017.0,Semi-Auto,23400.0,Petrol,145.0,54.3,1.5,53.0,4.0,0.0
 92709,Mercedes-Benz,GLA-Class,2017.0,Semi-Auto,14577.0,Diesel,125.0,56.5,2.1,45.0,4.0,0.0
-98260,Toyota,Yaris,2017.0,Manual,27220.0,Petrol,145.0,56.5,1.5,65.0,,0.0
+98260,Toyota,Yaris,2017.0,Manual,27220.0,Petrol,145.0,56.5,1.5,65.0,6.2177244345589395,0.0
 78996,Audi,A4,2018.0,Automatic,33632.0,Petrol,145.0,50.4,1.4,50.0,,0.0
 103868,Opel,Meriva,2016.0,Manual,34761.0,Petrol,145.0,47.1,1.4,42.0,1.0,0.0
 81809,BMW,X5,2016.0,Automatic,33541.0,Diesel,200.0,47.1,3.0,70.0,2.0,0.0
@@ -3932,7 +3932,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 94465,Mercedes-Benz,A-Class,2017.0,Semi-Auto,15478.0,Petrol,145.0,53.3,1.6,,1.0,0.0
 81856,BMW,1 Series,2015.0,Automatic,29867.0,Diesel,30.0,65.7,2.0,97.0,3.0,0.0
 102715,Opel,Zafira,2017.0,Manual,16746.0,Petrol,200.0,41.5,1.4,92.0,1.0,0.0
-106448,Volkswagen,Tiguan,2017.0,Manual,22850.0,Diesel,125.0,58.9,2.0,39.0,,0.0
+106448,Volkswagen,Tiguan,2017.0,Manual,22850.0,Diesel,125.0,58.9,2.0,39.0,6.2458349512166365,0.0
 103923,Opel,Corsa,2014.0,Manual,65000.0,Petrol,125.0,51.4,1.2,38.0,4.0,0.0
 79482,BMW,5 Series,2019.0,Semi-Auto,1499.0,Petrol,145.0,47.9,2.0,83.0,3.0,0.0
 86062,Ford,Fiesta,2017.0,Manual,16137.0,Petrol,20.0,,1.0,32.0,3.0,0.0
@@ -4378,7 +4378,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 92392,Mercedes-Benz,E-Class,2017.0,,29200.0,Diesel,145.0,65.7,2.0,32.0,4.0,0.0
 106885,Volkswagen,Polo,2016.0,Manual,37889.0,Diesel,0.0,,1.4,94.0,3.0,0.0
 94239,Mercedes-Benz,E-Class,2018.0,Semi-Auto,10267.0,Diesel,150.0,58.9,2.0,73.0,0.0,0.0
-98355,Toyota,Aygo,,Manual,40599.0,Petrol,,69.0,1.0,63.0,,0.0
+98355,Toyota,Aygo,,Manual,40599.0,Petrol,,69.0,1.0,63.0,6.2177244345589395,0.0
 81111,BMW,X3,2017.0,Semi-Auto,33316.0,Diesel,150.0,54.3,2.0,68.0,2.0,0.0
 101464,Opel,Mokka X,2017.0,Automatic,30944.0,Petrol,160.0,43.5,1.4,75.0,0.0,
 92070,Mercedes-Benz,C-Class,2018.0,Automatic,8796.0,Petrol,,,1.5,36.0,1.0,0.0
@@ -4530,7 +4530,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 96502,Škoda,Rapid,2016.0,Manual,59465.0,Diesel,0.0,67.3,1.6,89.0,4.0,0.0
 93149,Mercedes-Benz,SL-Class,2019.0,Semi-Auto,3362.0,Petrol,145.0,47.1,2.0,69.0,1.0,0.0
 105761,Volkswagen,Golf,2019.0,Manual,5368.0,Diesel,145.0,57.7,1.6,30.0,3.0,0.0
-81327,BMW,1 Series,2016.0,Manual,55987.0,Diesel,20.0,70.6,1.5,94.0,,0.0
+81327,BMW,1 Series,2016.0,Manual,55987.0,Diesel,20.0,70.6,1.5,94.0,6.230179577896532,0.0
 76688,Audi,A3,2017.0,Semi-Auto,57000.0,Diesel,145.0,72.4,1.6,75.0,3.0,0.0
 99302,Toyota,Aygo,2017.0,Manual,14130.0,Petrol,150.0,68.9,1.0,95.0,,0.0
 89052,Ford,Mustang,2019.0,Automatic,12.0,Petrol,145.0,30.7,2.3,78.0,1.0,0.0
@@ -4645,10 +4645,10 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 87805,Ford,Puma,2019.0,Manual,2029.0,Petrol,145.0,,1.0,68.0,1.0,0.0
 92810,Mercedes-Benz,C-Class,2019.0,Automatic,2225.0,Petrol,,,4.0,60.0,4.0,0.0
 92387,Mercedes-Benz,E-Class,2018.0,Semi-Auto,9037.0,Diesel,150.0,51.4,3.0,77.0,3.0,0.0
-76117,Audi,A5,2014.0,Automatic,62675.0,Diesel,125.0,57.6,3.0,99.0,,0.0
+76117,Audi,A5,2014.0,Automatic,62675.0,Diesel,125.0,57.6,3.0,99.0,6.248251195613699,0.0
 103862,Opel,Mokka X,2018.0,Manual,12896.0,Petrol,145.0,47.1,1.4,76.0,0.0,0.0
 86962,Ford,Focus,2019.0,Manual,,Petrol,,,1.0,44.0,1.0,0.0
-77023,Audi,Q7,2018.0,Automatic,26612.0,Diesel,145.0,39.2,4.0,74.0,,0.0
+77023,Audi,Q7,2018.0,Automatic,26612.0,Diesel,145.0,39.2,4.0,74.0,6.248251195613699,0.0
 102863,Opel,Mokka X,2018.0,Manual,32370.0,Petrol,145.0,39.2,1.4,35.0,2.0,0.0
 85375,Ford,Ka,2018.0,Manual,11900.0,Petrol,145.0,47.9,1.2,99.0,3.0,0.0
 84363,Ford,EcoSport,2019.0,Manual,5899.0,Petrol,145.0,51.4,1.0,30.0,2.0,0.0
@@ -4658,7 +4658,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 79037,Audi,Q3,2016.0,Manual,51708.0,Diesel,160.0,49.6,2.0,46.0,3.0,0.0
 92228,Mercedes-Benz,X-Class,2020.0,Automatic,303.0,Diesel,265.0,35.8,2.3,79.0,2.0,0.0
 84144,Ford,Fiesta,2019.0,Manual,6553.0,Petrol,145.0,55.4,1.0,76.0,4.0,0.0
-96577,Škoda,Yeti,2013.0,Manual,33000.0,Diesel,205.0,47.1,2.0,91.0,,0.0
+96577,Škoda,Yeti,2013.0,Manual,33000.0,Diesel,205.0,47.1,2.0,91.0,6.2417786290739095,0.0
 81837,BMW,1 Series,2017.0,Manual,,Petrol,125.0,53.3,,38.0,0.0,0.0
 77791,Audi,A3,2019.0,Manual,10000.0,Diesel,150.0,,1.6,79.0,3.0,0.0
 80717,BMW,Z4,2015.0,Semi-Auto,39887.0,Petrol,200.0,41.5,2.0,32.0,3.0,0.0
@@ -4733,7 +4733,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 85355,Ford,Fiesta,2018.0,Manual,18332.0,Petrol,145.0,64.2,1.1,47.0,3.0,0.0
 84273,Ford,Fiesta,2018.0,Manual,11805.0,Petrol,145.0,62.8,,30.0,3.0,0.0
 100061,Opel,Astra,2017.0,Manual,18286.0,Petrol,145.0,51.4,1.4,46.0,0.0,0.0
-78109,Audi,RS3,2016.0,Semi-Auto,29920.0,Petrol,300.0,34.9,2.5,40.0,,0.0
+78109,Audi,RS3,2016.0,Semi-Auto,29920.0,Petrol,300.0,34.9,2.5,40.0,6.248251195613699,0.0
 86119,Ford,Kuga,2018.0,Manual,11500.0,Diesel,145.0,54.3,1.5,98.0,1.0,0.0
 100274,Opel,Corsa,2018.0,Manual,14331.0,Petrol,145.0,,1.4,35.0,2.0,0.0
 90390,Hyundai,Kona,2019.0,Manual,2160.0,Petrol,145.0,44.1,1.0,39.0,4.0,0.0
@@ -4806,7 +4806,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 92148,Mercedes-Benz,E-Class,2019.0,Automatic,101.0,Diesel,145.0,47.1,3.0,65.0,3.0,0.0
 93317,Mercedes-Benz,C-Class,2019.0,Semi-Auto,6459.0,Petrol,,,1.5,79.0,0.0,0.0
 77824,Audi,A6,2016.0,Semi-Auto,47750.0,Diesel,165.0,52.3,3.0,61.0,,0.0
-81043,BMW,1 Series,2019.0,Manual,5997.0,Petrol,145.0,53.3,1.5,69.0,,0.0
+81043,BMW,1 Series,2019.0,Manual,5997.0,Petrol,145.0,53.3,1.5,69.0,6.230179577896532,0.0
 77339,Audi,A1,2017.0,Manual,15361.0,Petrol,30.0,55.4,1.4,45.0,2.0,0.0
 95942,Mercedes-Benz,GLA-Class,2018.0,Automatic,9659.0,Diesel,,58.9,2.1,69.0,4.0,0.0
 106865,Volkswagen,Golf,2019.0,Manual,6158.0,Petrol,145.0,47.1,1.5,96.0,1.0,0.0
@@ -4972,7 +4972,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 83447,Ford,Focus,2017.0,Manual,14176.0,Petrol,145.0,41.5,2.0,58.0,1.0,0.0
 80732,BMW,X4,2016.0,Automatic,24881.0,Diesel,145.0,54.3,2.0,93.0,1.0,0.0
 81168,BMW,3 Series,2014.0,Semi-Auto,33287.0,Diesel,145.0,55.4,2.0,55.0,1.0,0.0
-101789,Opel,Corsa,2014.0,Manual,53470.0,Diesel,30.0,67.3,1.3,60.0,,0.0
+101789,Opel,Corsa,2014.0,Manual,53470.0,Diesel,30.0,67.3,1.3,60.0,6.233082169469183,0.0
 96183,Škoda,Octavia,2019.0,Semi-Auto,13646.0,Diesel,145.0,70.6,1.6,80.0,4.0,0.0
 104888,Volkswagen,T-Roc,2019.0,,2000.0,Diesel,145.0,50.4,1.6,94.0,4.0,0.0
 79944,BMW,M5,2018.0,Automatic,13500.0,Petrol,150.0,24.1,4.4,50.0,1.0,0.0
@@ -5288,7 +5288,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 85709,Ford,Kuga,2017.0,Manual,13378.0,Diesel,145.0,64.2,1.5,58.0,1.0,0.0
 78061,Audi,A8,2019.0,Semi-Auto,10090.0,Petrol,145.0,37.7,3.0,47.0,4.0,0.0
 98092,Toyota,Aygo,2018.0,Manual,5431.0,Petrol,145.0,56.5,1.0,85.0,0.0,0.0
-77846,Audi,TT,2017.0,Manual,39929.0,Petrol,145.0,47.1,1.8,71.0,,0.0
+77846,Audi,TT,2017.0,Manual,39929.0,Petrol,145.0,47.1,1.8,71.0,6.248251195613699,0.0
 91751,Mercedes-Benz,E-Class,2017.0,Semi-Auto,23472.0,Diesel,145.0,72.4,2.0,91.0,2.0,0.0
 89344,Ford,Kuga,2017.0,Semi-Auto,14325.0,Diesel,145.0,54.3,2.0,98.0,1.0,0.0
 78458,Audi,RS5,2015.0,Automatic,66000.0,Petrol,555.0,26.9,4.2,48.0,0.0,0.0
@@ -5395,7 +5395,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 102872,Opel,Zafira,2016.0,Manual,19622.0,Petrol,200.0,42.2,1.4,88.0,1.0,0.0
 95063,Mercedes-Benz,S-Class,2015.0,Semi-Auto,30355.0,Diesel,,51.4,3.0,,4.0,0.0
 86474,Ford,Focus,2019.0,Manual,3011.0,Petrol,,,2.3,56.0,0.0,0.0
-80950,BMW,7 Series,2019.0,Semi-Auto,5364.0,Diesel,145.0,44.1,3.0,71.0,,0.0
+80950,BMW,7 Series,2019.0,Semi-Auto,5364.0,Diesel,145.0,44.1,3.0,71.0,6.230179577896532,0.0
 84432,Ford,Focus,2016.0,Manual,51976.0,Petrol,20.0,61.4,1.0,,4.0,0.0
 78964,Audi,A3,2013.0,Manual,40646.0,Diesel,0.0,74.3,1.6,54.0,3.0,0.0
 86914,Ford,Mondeo,2016.0,Automatic,10969.0,Petrol,235.0,38.2,2.0,35.0,1.0,0.0
@@ -5548,7 +5548,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 90431,Hyundai,i800,2018.0,,37324.0,Diesel,145.0,28.0,2.5,33.0,3.0,0.0
 80553,BMW,1 Series,2016.0,Manual,59137.0,Diesel,20.0,68.9,2.0,48.0,3.0,0.0
 90257,Hyundai,i20,2016.0,Manual,31163.0,Petrol,30.0,55.4,1.2,38.0,1.0,0.0
-91607,Mercedes-Benz,C-Class,2019.0,Automatic,11487.0,Diesel,145.0,57.7,2.0,66.0,,0.0
+91607,Mercedes-Benz,C-Class,2019.0,Automatic,11487.0,Diesel,145.0,57.7,2.0,66.0,6.258370664185211,0.0
 82794,Ford,Fiesta,2019.0,Manual,9209.0,,150.0,62.8,1.0,34.0,4.0,0.0
 79243,BMW,1 Series,2020.0,Semi-Auto,3150.0,Petrol,150.0,34.5,2.0,58.0,3.0,0.0
 93687,Mercedes-Benz,C-Class,2017.0,Automatic,34408.0,Petrol,,47.1,2.0,87.0,0.0,0.0
@@ -5775,7 +5775,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 105533,Volkswagen,Tiguan,2019.0,Automatic,10000.0,Diesel,145.0,39.2,2.0,99.0,3.0,0.0
 97693,Škoda,Superb,2017.0,Manual,27997.0,Diesel,20.0,67.3,2.0,2.72515271650839,0.0,0.0
 106423,Volkswagen,Passat,2013.0,Manual,60158.0,,30.0,61.4,2.0,31.0,4.0,0.0
-88858,Ford,Focus,2018.0,Manual,15180.0,Petrol,299.473503908807,60.1,1.0,93.0,,0.0
+88858,Ford,Focus,2018.0,Manual,15180.0,Petrol,299.473503908807,60.1,1.0,93.0,6.258230522496533,0.0
 79568,BMW,2 Series,2016.0,Automatic,22901.0,Petrol,260.0,37.2,3.0,32.0,4.0,0.0
 78667,Audi,A7,2020.0,Semi-Auto,2410.0,Diesel,145.0,38.7,3.0,57.0,3.0,0.0
 106744,Volkswagen,Golf SV,2019.0,Semi-Auto,3996.0,Petrol,145.0,45.6,1.5,84.0,0.0,0.0
@@ -5882,7 +5882,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 107214,Volkswagen,Touran,,Automatic,15918.0,Diesel,145.0,65.7,1.6,50.0,2.0,0.0
 101622,Opel,Astra,2016.0,Manual,13057.0,Petrol,125.0,51.4,,31.0,4.0,0.0
 91446,Mercedes-Benz,C-Class,2016.0,Automatic,42402.0,Hybrid,0.0,,2.0,51.0,3.0,0.0
-102009,Opel,Zafira,2015.0,Automatic,43823.0,Diesel,200.0,46.3,2.0,44.0,,0.0
+102009,Opel,Zafira,2015.0,Automatic,43823.0,Diesel,200.0,46.3,2.0,44.0,6.233082169469183,0.0
 87852,Ford,Focus,2016.0,Manual,51324.0,Diesel,,,1.5,33.0,1.0,0.0
 93868,Mercedes-Benz,CLS-Class,2016.0,Automatic,53555.0,Diesel,160.0,51.4,3.0,,2.0,0.0
 106100,Volkswagen,Golf,2019.0,Semi-Auto,50.0,Petrol,145.0,44.8,1.5,62.0,4.0,0.0
@@ -5979,7 +5979,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 100683,Opel,Astra,2017.0,Semi-Auto,30240.0,Petrol,125.0,50.4,1.4,41.0,0.0,0.0
 76236,Audi,A4,,Semi-Auto,17302.0,Petrol,145.0,37.7,3.0,93.0,3.0,0.0
 99113,Toyota,Yaris,2018.0,Automatic,15432.0,Hybrid,135.0,76.3,1.5,63.0,4.0,0.0
-100305,Opel,Astra,,Manual,4412.0,Petrol,20.0,64.2,1.0,68.0,,0.0
+100305,Opel,Astra,,Manual,4412.0,Petrol,20.0,64.2,1.0,68.0,6.233082169469183,0.0
 86570,Ford,Fiesta,2015.0,Manual,16083.0,Petrol,299.473503908807,65.7,1.0,78.0,0.0,0.0
 93251,Mercedes-Benz,A-Class,2016.0,Manual,26386.0,Diesel,20.0,72.4,1.5,90.0,0.0,0.0
 95890,Mercedes-Benz,M-Class,2014.0,Automatic,27000.0,Diesel,205.0,44.8,2.1,64.0,4.0,0.0
@@ -6314,7 +6314,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 80575,BMW,X1,2016.0,Automatic,50296.0,Diesel,145.0,55.4,2.0,40.0,3.0,0.0
 94709,Mercedes-Benz,C-Class,2018.0,Semi-Auto,15900.0,Petrol,,,2.0,78.0,4.0,0.0
 103647,Opel,Mokka X,2016.0,Manual,32586.0,Petrol,200.0,42.2,1.6,44.0,1.0,0.0
-87784,Ford,Fiesta,2017.0,Manual,23644.0,Petrol,145.0,65.7,1.0,92.0,,0.0
+87784,Ford,Fiesta,2017.0,Manual,23644.0,Petrol,145.0,65.7,1.0,92.0,6.258230522496533,0.0
 77344,Audi,A6,2019.0,Semi-Auto,3278.0,Diesel,145.0,47.9,2.0,62.0,2.0,0.0
 104068,Volkswagen,Golf,2017.0,Manual,15570.0,Petrol,30.0,53.3,1.4,59.0,2.0,0.0
 94747,Mercedes-Benz,A-Class,2019.0,Semi-Auto,3000.0,Petrol,145.0,53.3,1.3,45.0,3.0,0.0
@@ -6397,7 +6397,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 84797,Ford,Kuga,2017.0,Manual,19170.0,Diesel,145.0,60.1,2.0,42.0,1.0,0.0
 80101,BMW,X1,2017.0,Semi-Auto,19340.0,Diesel,145.0,57.6,2.0,40.0,3.0,0.0
 83224,Ford,Fiesta,2019.0,,11982.0,Petrol,145.0,48.7,1.0,36.0,2.0,0.0
-93736,Mercedes-Benz,E-Class,,Semi-Auto,69124.0,Diesel,125.0,58.9,2.1,43.0,,0.0
+93736,Mercedes-Benz,E-Class,,Semi-Auto,69124.0,Diesel,125.0,58.9,2.1,43.0,6.258370664185211,0.0
 78612,Audi,A3,2016.0,Automatic,34222.0,Petrol,30.0,56.5,1.4,53.0,,0.0
 80009,BMW,4 Series,2016.0,Automatic,89849.0,Diesel,20.0,70.6,2.0,,1.0,0.0
 90246,Hyundai,Tucson,2017.0,Manual,22714.0,Diesel,145.0,61.7,1.7,52.0,1.0,0.0
@@ -6530,7 +6530,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 99173,Toyota,Yaris,,Manual,5775.0,Petrol,145.0,55.0,1.3,44.0,0.0,0.0
 85760,Ford,Fiesta,2016.0,Manual,12107.0,Petrol,20.0,62.8,1.0,98.0,0.0,0.0
 89013,Ford,Mondeo,2020.0,Automatic,2213.0,Hybrid,135.0,47.9,2.0,91.0,0.0,0.0
-85726,Ford,Fiesta,2018.0,Semi-Auto,13378.0,Petrol,145.0,54.3,,80.0,,0.0
+85726,Ford,Fiesta,2018.0,Semi-Auto,13378.0,Petrol,145.0,54.3,,80.0,6.258230522496533,0.0
 98647,Toyota,Aygo,2017.0,Automatic,6751.0,Petrol,0.0,67.0,1.0,66.0,3.0,0.0
 76300,Audi,Q7,2018.0,Automatic,12219.0,Diesel,145.0,47.9,3.0,74.0,2.0,0.0
 76204,Audi,A3,2017.0,Manual,42235.0,Petrol,145.0,60.1,1.4,86.0,1.0,0.0
@@ -6586,7 +6586,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 87255,Ford,EcoSport,2017.0,Manual,10778.0,Diesel,30.0,64.2,1.5,41.0,2.0,0.0
 85507,Ford,Focus,2019.0,Manual,3205.0,Petrol,,,1.0,45.0,2.0,0.0
 76232,Audi,A1,2016.0,Manual,24952.0,Petrol,30.0,55.4,1.4,56.0,2.0,0.0
-106308,Volkswagen,Golf,2017.0,Manual,46498.0,Diesel,20.0,67.3,2.0,61.0,,0.0
+106308,Volkswagen,Golf,2017.0,Manual,46498.0,Diesel,20.0,67.3,2.0,61.0,6.2458349512166365,0.0
 92289,Mercedes-Benz,A-Class,2018.0,Automatic,12168.0,Diesel,145.0,68.9,2.1,63.0,2.0,0.0
 104499,Volkswagen,Arteon,2019.0,Automatic,4824.0,Diesel,145.0,37.7,2.0,86.0,2.0,0.0
 81788,BMW,3 Series,2012.0,Automatic,84000.0,Diesel,30.0,62.8,2.0,44.0,2.0,0.0
@@ -6717,7 +6717,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 87230,Ford,Focus,2019.0,Manual,3608.0,Petrol,,,1.0,32.0,1.0,0.0
 101698,Opel,Corsa,2018.0,Manual,5400.0,Petrol,145.0,43.5,1.4,86.0,3.0,0.0
 81187,BMW,4 Series,2020.0,Automatic,2500.0,Petrol,145.0,48.7,2.0,79.0,2.0,0.0
-91728,Mercedes-Benz,E-Class,2018.0,Automatic,15074.0,Diesel,145.0,57.7,2.0,33.0,,0.0
+91728,Mercedes-Benz,E-Class,2018.0,Automatic,15074.0,Diesel,145.0,57.7,2.0,33.0,6.258370664185211,0.0
 90136,Hyundai,i800,2019.0,Manual,4266.0,Diesel,145.0,31.7,2.5,53.0,0.0,0.0
 96483,Škoda,,2017.0,Manual,12141.0,Petrol,150.0,60.1,1.2,50.0,4.0,0.0
 103424,Opel,Mokka X,2018.0,Semi-Auto,1851.0,Petrol,145.0,37.2,1.4,90.0,2.0,0.0
@@ -7356,7 +7356,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 80344,BMW,5 Series,2020.0,Semi-Auto,9.0,Petrol,150.0,50.4,2.0,67.0,2.0,0.0
 83694,Ford,Kuga,2019.0,Automatic,5354.0,Petrol,150.0,31.0,1.5,,4.0,0.0
 96247,Škoda,Superb,2019.0,Automatic,500.0,Petrol,145.0,36.7,1.5,44.0,4.0,
-86395,Ford,Focus,2019.0,Manual,10836.0,Diesel,,,2.0,85.0,,0.0
+86395,Ford,Focus,2019.0,Manual,10836.0,Diesel,,,2.0,85.0,6.258230522496533,0.0
 103276,Opel,Astra,2016.0,Manual,33460.0,Diesel,20.0,72.4,,98.0,3.0,0.0
 80262,BMW,5 Series,2014.0,Automatic,35677.0,Diesel,30.0,62.8,2.0,62.0,4.0,0.0
 88698,Ford,Fiesta,2012.0,Manual,83009.0,Diesel,20.0,68.9,1.4,62.0,3.0,0.0
@@ -7676,7 +7676,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 79301,BMW,Z4,2013.0,Automatic,35554.0,Petrol,205.0,41.5,2.0,49.0,0.0,0.0
 89679,Hyundai,Kona,,Manual,19.0,Petrol,145.0,44.1,1.0,52.0,0.0,0.0
 90677,Hyundai,Kona,2020.0,Automatic,1500.0,Hybrid,135.0,52.3,1.6,32.0,3.0,0.0
-100348,Opel,Crossland X,2020.0,Manual,10.0,Petrol,150.0,47.1,,,,0.0
+100348,Opel,Crossland X,2020.0,Manual,10.0,Petrol,150.0,47.1,,,6.233082169469183,0.0
 82373,BMW,1 Series,2019.0,Semi-Auto,5916.0,Petrol,145.0,40.4,1.5,61.0,1.0,0.0
 104030,Volkswagen,Tiguan,2017.0,Manual,67222.0,Diesel,125.0,58.9,2.0,75.0,0.0,0.0
 91200,Mercedes-Benz,C-Class,2019.0,Automatic,3196.0,Diesel,,,1.6,97.0,3.0,0.0
@@ -7694,7 +7694,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 84291,Ford,,2018.0,Manual,9674.0,Petrol,145.0,65.7,1.0,83.0,1.0,0.0
 96682,Škoda,Karoq,2019.0,Manual,10.0,Diesel,145.0,42.8,2.0,43.0,1.0,0.0
 76451,Audi,TT,2019.0,Semi-Auto,2964.0,Petrol,145.0,35.3,2.0,53.0,0.0,0.0
-91004,Mercedes-Benz,C-Class,,Semi-Auto,14005.0,Petrol,145.0,46.3,1.5,58.0,,0.0
+91004,Mercedes-Benz,C-Class,,Semi-Auto,14005.0,Petrol,145.0,46.3,1.5,58.0,6.258370664185211,0.0
 87541,Ford,Fiesta,2018.0,Automatic,16300.0,Petrol,145.0,,1.0,41.0,4.0,0.0
 84735,Ford,Ka+,2018.0,Manual,4101.0,Petrol,145.0,57.7,1.2,71.0,3.0,0.0
 86029,Ford,Focus,2018.0,Manual,16165.0,Petrol,145.0,57.7,1.0,57.0,1.0,0.0
@@ -7952,7 +7952,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 76669,Audi,A4,2019.0,Automatic,3250.0,Petrol,145.0,38.7,2.0,74.0,,0.0
 89281,Ford,Focus,2019.0,Automatic,5589.0,Diesel,145.0,64.2,2.0,79.0,1.0,0.0
 105621,Volkswagen,Tiguan,2019.0,Manual,2131.0,Petrol,145.0,38.2,1.5,37.0,3.0,0.0
-84020,Ford,Kuga,2015.0,Manual,43700.0,Diesel,125.0,60.1,2.0,42.0,,0.0
+84020,Ford,Kuga,2015.0,Manual,43700.0,Diesel,125.0,60.1,2.0,42.0,6.258230522496533,0.0
 90142,Hyundai,Ioniq,2019.0,Automatic,5167.0,Hybrid,135.0,78.5,1.6,30.0,4.0,0.0
 79677,BMW,5 Series,2018.0,Semi-Auto,23652.0,Diesel,145.0,48.7,2.0,55.0,1.0,0.0
 101025,Opel,Insignia,2018.0,Manual,22400.0,Diesel,150.0,65.7,1.6,85.0,4.0,0.0
@@ -8468,7 +8468,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 88622,Ford,C-MAX,2015.0,Manual,46973.0,Diesel,20.0,68.9,1.5,43.0,4.0,0.0
 94559,Mercedes-Benz,GLE-Class,2019.0,Semi-Auto,7704.0,Petrol,145.0,29.5,,73.0,3.0,0.0
 76143,Audi,A4,2018.0,Manual,24282.0,Diesel,145.0,70.6,2.0,34.0,0.0,0.0
-94903,Mercedes-Benz,,2018.0,Semi-Auto,11150.0,Diesel,145.0,67.3,2.1,35.0,,0.0
+94903,Mercedes-Benz,,2018.0,Semi-Auto,11150.0,Diesel,145.0,67.3,2.1,35.0,6.258370664185211,0.0
 104486,Volkswagen,Tiguan,,Manual,2371.0,Diesel,150.0,47.9,,85.0,4.0,0.0
 87551,Ford,Fiesta,2014.0,Manual,69000.0,Petrol,150.0,47.9,1.6,96.0,3.0,0.0
 78063,Audi,Q7,2019.0,Automatic,10.0,Diesel,145.0,33.2,3.0,39.0,3.0,0.0
@@ -8492,7 +8492,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 83450,Ford,Fiesta,2014.0,Semi-Auto,21871.0,Petrol,145.0,,1.6,85.0,1.0,0.0
 75976,Audi,A3,2020.0,Semi-Auto,3925.0,Petrol,145.0,44.1,1.5,52.0,2.0,0.0
 102965,Opel,Corsa,2019.0,Manual,6000.0,Petrol,150.0,43.5,1.4,72.0,1.0,0.0
-90287,Hyundai,Ioniq,2020.0,Automatic,3358.0,Hybrid,135.0,62.8,1.6,74.0,,0.0
+90287,Hyundai,Ioniq,2020.0,Automatic,3358.0,Hybrid,135.0,62.8,1.6,74.0,6.227897962331817,0.0
 77605,Audi,Q7,2019.0,Automatic,12998.0,Diesel,150.0,32.8,3.0,62.0,4.0,0.0
 91214,Mercedes-Benz,GLC-Class,2018.0,Automatic,15000.0,Diesel,150.0,56.5,2.1,57.0,0.0,0.0
 108303,Volkswagen,Polo,2019.0,Manual,5980.0,Petrol,150.0,49.6,1.0,66.0,3.0,0.0
@@ -8634,7 +8634,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 93190,Mercedes-Benz,E-Class,2019.0,Automatic,3646.0,Diesel,150.0,57.7,2.0,3.2074178424107345,1.0,0.0
 92014,Mercedes-Benz,A-Class,2016.0,Manual,16349.0,Diesel,20.0,72.4,1.5,89.0,1.0,0.0
 104501,Volkswagen,Caddy Maxi Life,2020.0,Semi-Auto,5000.0,Diesel,145.0,46.3,2.0,72.0,2.0,0.0
-79523,BMW,5 Series,2017.0,Semi-Auto,23291.0,Diesel,145.0,65.7,2.0,35.0,,0.0
+79523,BMW,5 Series,2017.0,Semi-Auto,23291.0,Diesel,145.0,65.7,2.0,35.0,6.230179577896532,0.0
 81096,BMW,5 Series,2017.0,Semi-Auto,34296.0,Diesel,145.0,65.7,2.0,99.0,3.0,
 78193,Audi,Q7,2016.0,Automatic,18578.0,Diesel,200.0,47.9,3.0,79.0,1.0,0.0
 94720,Mercedes-Benz,GLC-Class,2019.0,Automatic,6250.0,Diesel,145.0,40.9,2.0,80.0,1.0,0.0
@@ -8727,12 +8727,12 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 79325,BMW,X3,2019.0,Semi-Auto,105.0,Diesel,145.0,54.3,2.0,91.0,3.0,0.0
 89545,Hyundai,Tucson,2017.0,Manual,24713.0,Diesel,30.0,61.7,1.7,56.0,1.0,0.0
 103967,Opel,Astra,2017.0,Manual,49106.0,Diesel,0.0,,1.6,70.0,4.0,0.0
-77530,Audi,Q5,2019.0,Automatic,6000.0,Diesel,145.0,38.2,2.0,42.0,,0.0
+77530,Audi,Q5,2019.0,Automatic,6000.0,Diesel,145.0,38.2,2.0,42.0,6.248251195613699,0.0
 95330,Mercedes-Benz,,2017.0,Semi-Auto,10439.0,Petrol,145.0,35.3,3.0,,0.0,0.0
 78671,Audi,A3,2003.0,Automatic,101000.0,Diesel,240.0,44.5,1.9,42.0,2.0,0.0
 102103,Opel,Mokka,2015.0,Automatic,34076.0,Petrol,200.0,40.4,1.4,85.0,,0.0
 80024,BMW,3 Series,2014.0,Manual,11545.0,Petrol,165.0,44.8,2.0,89.0,1.0,0.0
-89481,Hyundai,i10,2019.0,Manual,8875.0,Petrol,145.0,57.6,1.2,79.0,,0.0
+89481,Hyundai,i10,2019.0,Manual,8875.0,Petrol,145.0,57.6,1.2,79.0,6.227897962331817,0.0
 89138,Ford,Focus,2017.0,Manual,31070.0,Diesel,,,1.5,99.0,0.0,0.0
 98762,Toyota,Aygo,2017.0,Manual,22744.0,Petrol,0.0,69.0,1.0,69.0,,0.0
 86166,Ford,Kuga,2019.0,Manual,11859.0,Diesel,145.0,54.3,1.5,52.0,1.0,0.0
@@ -9000,7 +9000,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 107586,Volkswagen,Golf,2020.0,Manual,287.0,Petrol,150.0,47.1,1.5,58.0,1.0,0.0
 83757,Ford,Focus,2016.0,Manual,42792.0,,,,2.0,89.0,2.0,0.0
 92765,Mercedes-Benz,C-Class,2018.0,Semi-Auto,17933.0,Diesel,150.0,61.4,2.1,99.0,0.0,0.0
-84890,Ford,EcoSport,2017.0,Manual,34000.0,Petrol,125.0,52.3,1.0,97.0,,0.0
+84890,Ford,EcoSport,2017.0,Manual,34000.0,Petrol,125.0,52.3,1.0,97.0,6.258230522496533,0.0
 108290,Volkswagen,Polo,2016.0,Semi-Auto,29592.0,Petrol,125.0,50.4,1.8,87.0,3.0,0.0
 82893,Ford,Focus,2020.0,Manual,350.0,Petrol,150.0,34.5,2.3,52.0,4.0,0.0
 89660,Hyundai,i20,2016.0,Manual,10618.0,Petrol,30.0,55.4,1.2,,1.0,0.0
@@ -9141,7 +9141,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 93484,Mercedes-Benz,C-Class,2019.0,Semi-Auto,3229.0,Diesel,,,2.0,65.0,4.0,
 81393,BMW,1 Series,2017.0,Manual,54883.0,Diesel,150.0,65.7,2.0,87.0,1.0,0.0
 94369,Mercedes-Benz,SLK-Class,2014.0,Automatic,16500.0,Diesel,145.0,56.5,2.1,61.0,1.0,0.0
-93507,Mercedes-Benz,E-Class,2019.0,Semi-Auto,3917.0,Diesel,145.0,53.3,2.0,74.0,,0.0
+93507,Mercedes-Benz,E-Class,2019.0,Semi-Auto,3917.0,Diesel,145.0,53.3,2.0,74.0,6.258370664185211,0.0
 100752,Opel,Corsa,2017.0,Manual,23462.0,Petrol,145.0,55.4,1.4,33.0,,0.0
 95565,Mercedes-Benz,E-Class,2018.0,Semi-Auto,11052.0,Diesel,145.0,65.7,2.0,33.0,4.0,0.0
 98749,Toyota,Auris,2016.0,Automatic,11898.0,Hybrid,0.0,78.5,1.8,76.0,1.0,0.0
@@ -9213,7 +9213,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 82937,Ford,Focus,2018.0,Manual,17478.0,Diesel,145.0,74.3,1.5,34.0,3.0,0.0
 106774,Volkswagen,T-Cross,2019.0,Manual,5000.0,Petrol,145.0,47.9,1.0,58.0,3.0,0.0
 85107,Ford,Fiesta,2017.0,Manual,22060.0,Petrol,150.0,65.7,1.0,40.0,2.0,0.0
-77329,Audi,A4,2018.0,Automatic,5352.0,Petrol,150.0,42.8,2.0,85.0,,0.0
+77329,Audi,A4,2018.0,Automatic,5352.0,Petrol,150.0,42.8,2.0,85.0,6.248251195613699,0.0
 106498,Volkswagen,Golf SV,2017.0,Semi-Auto,21519.0,Petrol,145.0,54.3,1.4,45.0,4.0,0.0
 80946,BMW,4 Series,2016.0,Semi-Auto,17117.0,Diesel,160.0,52.3,3.0,76.0,2.0,0.0
 89630,Hyundai,Santa Fe,2018.0,Semi-Auto,33911.0,Diesel,145.0,42.8,2.2,61.0,1.0,0.0
@@ -9227,7 +9227,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 87491,Ford,Tourneo Custom,2018.0,Automatic,22037.0,Diesel,145.0,31.7,2.0,76.0,0.0,0.0
 93185,Mercedes-Benz,GLA-Class,2018.0,Automatic,31604.0,Diesel,150.0,56.5,2.1,36.0,1.0,0.0
 90910,Mercedes-Benz,C-Class,2016.0,Automatic,26401.0,Hybrid,0.0,76.4,2.1,62.0,3.0,0.0
-102510,Opel,Insignia,2014.0,Manual,63096.0,Petrol,200.0,40.4,1.8,97.0,,0.0
+102510,Opel,Insignia,2014.0,Manual,63096.0,Petrol,200.0,40.4,1.8,97.0,6.233082169469183,0.0
 99707,Toyota,RAV4,2015.0,Manual,45757.0,Diesel,125.0,57.6,2.0,37.0,4.0,0.0
 106468,Volkswagen,Up,2019.0,Manual,,Petrol,150.0,54.3,1.0,35.0,2.0,0.0
 97505,Škoda,Octavia,2019.0,Semi-Auto,10429.0,Petrol,150.0,57.7,1.0,93.0,4.0,0.0
@@ -9305,7 +9305,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 87576,Ford,Focus,2018.0,Manual,21167.0,Diesel,145.0,67.3,2.0,37.0,3.0,0.0
 93395,Mercedes-Benz,A-Class,2017.0,Semi-Auto,10839.0,Petrol,145.0,55.4,1.6,94.0,2.0,0.0
 95537,Mercedes-Benz,C-Class,2018.0,Automatic,28059.0,Diesel,326.028233171514,,2.1,90.0,2.0,0.0
-89598,Hyundai,i10,2017.0,Manual,20945.0,Petrol,145.0,60.1,1.0,56.0,,0.0
+89598,Hyundai,i10,2017.0,Manual,20945.0,Petrol,145.0,60.1,1.0,56.0,6.227897962331817,0.0
 78074,Audi,Q5,2019.0,Semi-Auto,5204.0,Diesel,150.0,55.4,2.0,98.0,1.0,0.0
 102980,Opel,Corsa,2019.0,Manual,10131.0,Petrol,145.0,43.5,1.4,88.0,1.0,0.0
 104929,Volkswagen,Tiguan,2016.0,,27207.0,Diesel,125.0,56.5,2.0,85.0,4.0,0.0
@@ -9687,7 +9687,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 93025,Mercedes-Benz,C-Class,2020.0,Automatic,1000.0,Petrol,,,3.0,70.0,4.0,0.0
 105224,Volkswagen,Polo,2015.0,Manual,35352.0,Petrol,20.0,60.1,1.2,92.0,1.0,0.0
 102854,Opel,Mokka X,2017.0,Manual,6294.0,Petrol,205.0,42.2,1.6,77.0,0.0,0.0
-76237,Audi,A3,2019.0,Automatic,6000.0,Diesel,145.0,52.3,1.6,94.0,,0.0
+76237,Audi,A3,2019.0,Automatic,6000.0,Diesel,145.0,52.3,1.6,94.0,6.248251195613699,0.0
 105595,Volkswagen,Golf SV,2019.0,Automatic,3000.0,Petrol,145.0,43.5,1.5,65.0,0.0,0.0
 80155,BMW,5 Series,2019.0,Semi-Auto,8027.0,Diesel,145.0,51.4,3.0,69.0,0.0,0.0
 92056,Mercedes-Benz,C-Class,2019.0,Semi-Auto,4456.0,Petrol,145.0,47.1,1.5,35.0,4.0,0.0
@@ -9944,12 +9944,12 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 85733,Ford,Focus,2015.0,Manual,28971.0,Petrol,20.0,60.1,1.0,54.0,1.0,0.0
 103986,Opel,Astra,2019.0,Manual,9215.0,Petrol,145.0,62.8,,65.0,0.0,0.0
 103236,Opel,Astra,2020.0,Manual,100.0,Petrol,145.0,54.3,1.2,65.0,1.0,0.0
-94181,Mercedes-Benz,A-Class,2020.0,Manual,1000.0,Petrol,145.0,28.5,1.3,62.0,,0.0
+94181,Mercedes-Benz,A-Class,2020.0,Manual,1000.0,Petrol,145.0,28.5,1.3,62.0,6.258370664185211,0.0
 78518,Audi,Q5,2015.0,Semi-Auto,27390.0,Petrol,240.0,37.7,2.0,68.0,4.0,0.0
 88239,Ford,Fiesta,2017.0,Manual,13684.0,Petrol,125.0,54.3,1.2,65.0,3.0,0.0
 94503,Mercedes-Benz,GLE-Class,2019.0,Semi-Auto,2850.0,Diesel,145.0,36.7,2.0,55.0,0.0,0.0
 76074,Audi,A3,2017.0,Manual,47041.0,Diesel,20.0,65.7,2.0,38.0,1.0,0.0
-94424,Mercedes-Benz,CL-Class,2018.0,Semi-Auto,20297.0,Petrol,145.0,53.3,1.6,38.0,,0.0
+94424,Mercedes-Benz,CL-Class,2018.0,Semi-Auto,20297.0,Petrol,145.0,53.3,1.6,38.0,6.258370664185211,0.0
 97663,Škoda,Scala,2019.0,Semi-Auto,3030.0,Petrol,150.0,44.8,1.5,81.0,1.0,0.0
 82357,BMW,4 Series,2018.0,Semi-Auto,18243.0,Petrol,,48.7,2.0,80.0,4.0,0.0
 92631,Mercedes-Benz,C-Class,2019.0,Automatic,3817.0,Diesel,145.0,60.1,1.6,85.0,2.0,0.0
@@ -10007,7 +10007,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 106825,Volkswagen,Tiguan,2015.0,Semi-Auto,21430.0,Diesel,165.0,49.6,2.0,86.0,2.0,0.0
 98851,Toyota,Prius,2016.0,Automatic,28578.0,Hybrid,0.0,85.6,1.8,79.0,2.0,0.0
 80547,BMW,X1,2019.0,Semi-Auto,4475.0,Diesel,145.0,53.3,2.0,38.0,0.0,0.0
-100440,Opel,Astra,2017.0,Manual,9838.0,Petrol,125.0,51.4,1.4,78.0,,0.0
+100440,Opel,Astra,2017.0,Manual,9838.0,Petrol,125.0,51.4,1.4,78.0,6.233082169469183,0.0
 103194,Opel,Astra,,Manual,11252.0,Petrol,145.0,45.6,1.6,77.0,1.0,0.0
 90394,Hyundai,Santa Fe,2019.0,Semi-Auto,9970.0,Diesel,145.0,39.2,2.2,63.0,1.0,0.0
 86111,Ford,Fiesta,2015.0,Manual,41896.0,Petrol,,54.3,1.2,87.0,4.0,0.0
@@ -10227,7 +10227,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 83807,Ford,Focus,2019.0,Automatic,20850.0,Petrol,,,1.0,61.0,2.0,0.0
 77338,Audi,Q3,2019.0,Semi-Auto,6573.0,Diesel,145.0,47.1,2.0,48.0,3.0,0.0
 96060,Škoda,Fabia,2016.0,Manual,50701.0,Petrol,20.0,60.1,1.2,57.0,4.0,0.0
-103133,Opel,Corsa,2019.0,Manual,1141.0,Petrol,145.0,43.5,1.4,97.0,,0.0
+103133,Opel,Corsa,2019.0,Manual,1141.0,Petrol,145.0,43.5,1.4,97.0,6.233082169469183,0.0
 76548,Audi,A3,2016.0,Automatic,33808.0,Diesel,125.0,57.6,2.0,92.0,2.0,0.0
 79177,BMW,2 Series,2019.0,Automatic,5054.0,Petrol,145.0,,1.5,67.0,0.0,
 88937,Ford,Kuga,2017.0,Automatic,46210.0,Diesel,145.0,54.3,2.6312004729689873,89.0,4.0,0.0
@@ -10782,7 +10782,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 106731,Volkswagen,Golf,2019.0,Semi-Auto,4500.0,Diesel,145.0,52.3,2.0,82.0,4.0,0.0
 97653,Škoda,Fabia,2019.0,Manual,1536.0,Petrol,145.0,49.6,1.0,55.0,0.0,0.0
 86484,Ford,B-MAX,,Manual,14909.0,Petrol,145.0,47.1,1.4,96.0,1.0,0.0
-97041,Škoda,Fabia,2017.0,Semi-Auto,21419.0,Petrol,145.0,60.1,1.2,46.0,,0.0
+97041,Škoda,Fabia,2017.0,Semi-Auto,21419.0,Petrol,145.0,60.1,1.2,46.0,6.2417786290739095,0.0
 88263,Ford,S-MAX,2018.0,Manual,32077.0,Diesel,145.0,56.5,2.0,74.0,0.0,0.0
 79035,Audi,A6,2016.0,Semi-Auto,36211.0,Diesel,20.0,64.2,2.0,98.0,2.0,0.0
 85171,Ford,Kuga,2019.0,Manual,45.0,Petrol,145.0,35.3,1.5,73.0,2.0,0.0
@@ -11164,7 +11164,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 88324,Ford,Fiesta,2016.0,Manual,47613.0,Petrol,0.0,65.7,1.0,30.0,0.0,0.0
 84260,Ford,Kuga,2017.0,Manual,17689.0,Diesel,145.0,64.2,1.5,82.0,2.0,0.0
 104662,Volkswagen,Golf SV,2019.0,Manual,393.0,Diesel,145.0,55.4,1.6,86.0,0.0,0.0
-80740,BMW,1 Series,2019.0,Manual,7734.0,Petrol,145.0,41.5,,34.0,,0.0
+80740,BMW,1 Series,2019.0,Manual,7734.0,Petrol,145.0,41.5,,34.0,6.230179577896532,0.0
 94973,Mercedes-Benz,C-Class,2016.0,Semi-Auto,45557.0,Diesel,,,2.1,40.0,3.0,0.0
 89099,Ford,Focus,2019.0,Manual,9248.0,Petrol,145.0,34.5,2.3,65.0,4.0,0.0
 89528,Hyundai,Santa Fe,2015.0,Semi-Auto,37854.0,Diesel,265.0,42.2,2.2,36.0,3.0,0.0
@@ -11458,7 +11458,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 76646,Audi,A5,2019.0,Automatic,2650.0,Diesel,150.0,67.3,2.0,88.0,1.0,0.0
 80252,BMW,5 Series,2015.0,Automatic,79563.0,Diesel,125.0,60.1,2.0,34.0,0.0,0.0
 103895,Opel,Zafira,2016.0,Manual,49276.0,Diesel,30.0,62.7,1.6,62.0,2.0,0.0
-92491,Mercedes-Benz,C-Class,2019.0,Semi-Auto,10000.0,Diesel,145.0,60.1,1.6,92.0,,0.0
+92491,Mercedes-Benz,C-Class,2019.0,Semi-Auto,10000.0,Diesel,145.0,60.1,1.6,92.0,6.258370664185211,0.0
 89765,Hyundai,Kona,2019.0,Manual,9000.0,Petrol,145.0,44.1,1.0,61.0,3.0,0.0
 106652,Volkswagen,Golf,2015.0,Semi-Auto,28531.0,Petrol,165.0,44.1,2.0,83.0,4.0,0.0
 88005,Ford,Fiesta,2016.0,Manual,33327.0,Petrol,0.0,65.7,1.0,74.0,1.0,0.0
@@ -11741,7 +11741,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 102975,Opel,Astra,2017.0,Manual,19597.0,Petrol,125.0,51.4,1.4,54.0,1.0,0.0
 77231,Audi,A4,2019.0,Automatic,5000.0,Diesel,145.0,40.9,3.0,63.0,1.0,0.0
 82488,Ford,Fiesta,2014.0,Manual,31359.0,Petrol,0.0,65.7,1.0,78.0,0.0,0.0
-100406,Opel,Mokka X,2019.0,Manual,12604.0,Petrol,145.0,39.2,1.4,41.0,,0.0
+100406,Opel,Mokka X,2019.0,Manual,12604.0,Petrol,145.0,39.2,1.4,41.0,6.233082169469183,0.0
 79606,BMW,X1,2013.0,Manual,47000.0,Diesel,160.0,51.4,2.0,45.0,1.0,0.0
 81036,BMW,X1,2017.0,Manual,30533.0,Diesel,150.0,68.9,2.0,82.0,1.0,0.0
 95806,Mercedes-Benz,E-Class,2019.0,Semi-Auto,11415.0,Diesel,145.0,58.9,2.0,63.0,2.0,0.0
@@ -11937,7 +11937,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 85092,Ford,Focus,2018.0,Manual,6367.0,Petrol,,,1.0,46.0,3.0,0.0
 107615,Volkswagen,Polo,2019.0,Manual,85454.58629151213,Petrol,145.0,52.3,1.0,36.0,3.0,0.0
 83158,Ford,Focus,2018.0,Manual,12250.0,Petrol,,,2.0,97.0,3.0,0.0
-98377,Toyota,Yaris,2018.0,Manual,17196.0,Petrol,145.0,58.9,1.5,94.0,,0.0
+98377,Toyota,Yaris,2018.0,Manual,17196.0,Petrol,145.0,58.9,1.5,94.0,6.2177244345589395,0.0
 101038,Opel,Corsa,2018.0,Manual,10249.0,Petrol,145.0,43.5,1.4,76.0,4.0,0.0
 86398,Ford,Fiesta,2018.0,Manual,18000.0,Petrol,150.0,65.7,1.0,82.0,3.0,0.0
 93257,Mercedes-Benz,C-Class,2017.0,Semi-Auto,27993.0,Diesel,30.0,61.4,2.1,37.0,0.0,0.0
@@ -11970,7 +11970,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 93056,Mercedes-Benz,,2019.0,Semi-Auto,10037.0,Diesel,145.0,64.2,2.1,99.0,0.0,0.0
 78395,Audi,Q3,2017.0,Manual,,Diesel,145.0,54.3,2.0,75.0,0.0,0.0
 89628,Hyundai,i20,2017.0,Manual,19583.0,Petrol,30.0,55.4,1.2,52.0,2.0,0.0
-103060,Opel,Astra,2010.0,Manual,54026.0,,,47.9,1.4,80.0,,0.0
+103060,Opel,Astra,2010.0,Manual,54026.0,,,47.9,1.4,80.0,6.233082169469183,0.0
 76440,Audi,Q2,2017.0,Semi-Auto,28943.0,Diesel,145.0,57.7,2.0,66.0,2.0,0.0
 91172,Mercedes-Benz,B-Class,2019.0,Automatic,226.0,Petrol,145.0,37.7,2.0,34.0,0.0,0.0
 92399,Mercedes-Benz,E-Class,2019.0,Automatic,13089.0,Diesel,145.0,58.9,2.0,84.0,3.0,0.0
@@ -12143,7 +12143,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 85318,Ford,Focus,2019.0,Manual,7294.0,Petrol,,,1.0,96.0,3.0,0.0
 101609,Opel,Mokka X,2019.0,Manual,8194.0,Petrol,145.0,39.2,1.4,88.0,1.0,0.0
 85681,Ford,,2017.0,Manual,18000.0,Petrol,,57.7,1.2,51.0,1.0,0.0
-90628,Hyundai,i10,2013.0,Manual,37489.0,Petrol,20.0,61.4,1.2,37.0,,0.0
+90628,Hyundai,i10,2013.0,Manual,37489.0,Petrol,20.0,61.4,1.2,37.0,6.227897962331817,0.0
 81278,BMW,X1,2013.0,Manual,45750.0,Diesel,160.0,51.4,2.0,38.0,2.0,0.0
 85022,Ford,EcoSport,2017.0,Manual,11599.0,Petrol,145.0,52.3,1.0,75.0,0.0,0.0
 106237,Volkswagen,Golf,2013.0,Semi-Auto,52797.0,Petrol,20.0,60.1,1.4,90.0,1.0,0.0
@@ -13062,7 +13062,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 87643,Ford,Kuga,2017.0,Manual,26134.0,Diesel,145.0,60.1,2.0,56.0,3.0,0.0
 105892,Volkswagen,Polo,2017.0,,3663.0,Petrol,20.0,60.1,1.2,35.0,2.0,0.0
 105711,Volkswagen,Golf,2014.0,Manual,41201.0,Petrol,200.0,39.8,2.0,61.0,2.0,0.0
-95657,Mercedes-Benz,E-Class,2018.0,Automatic,7832.0,Diesel,145.0,58.9,2.0,72.0,,0.0
+95657,Mercedes-Benz,E-Class,2018.0,Automatic,7832.0,Diesel,145.0,58.9,2.0,72.0,6.258370664185211,0.0
 96330,Škoda,Kamiq,2019.0,Manual,2300.0,Petrol,145.0,47.9,1.0,98.0,1.0,0.0
 96906,Škoda,Fabia,2019.0,Manual,5229.0,Petrol,145.0,51.4,1.0,32.0,0.0,0.0
 82247,BMW,1 Series,2018.0,Automatic,23011.0,Petrol,145.0,48.7,2.0,35.0,0.0,0.0
@@ -13186,7 +13186,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 97804,Škoda,Superb,2017.0,Semi-Auto,11648.0,Diesel,145.0,61.4,2.0,44.0,2.0,0.0
 87010,Ford,Kuga,2011.0,Manual,56000.0,Petrol,555.0,28.5,2.5,79.0,0.0,0.0
 86791,Ford,B-MAX,2017.0,Manual,29679.0,Petrol,150.0,55.4,1.0,47.0,0.0,
-97486,Škoda,Fabia,2019.0,Semi-Auto,9095.0,Petrol,145.0,60.1,1.0,94.0,,0.0
+97486,Škoda,Fabia,2019.0,Semi-Auto,9095.0,Petrol,145.0,60.1,1.0,94.0,6.2417786290739095,0.0
 81124,BMW,1 Series,2019.0,Manual,5501.0,Diesel,150.0,70.6,1.5,72.0,2.0,0.0
 105391,Volkswagen,Golf,2019.0,Semi-Auto,6371.0,Petrol,150.0,45.6,1.5,31.0,2.0,0.0
 90275,Hyundai,i30,2016.0,Manual,51344.0,Diesel,20.0,72.4,1.6,,3.0,0.0
@@ -13354,7 +13354,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 89872,Hyundai,i10,2015.0,Manual,27056.0,Petrol,20.0,60.1,1.0,54.0,0.0,0.0
 105616,Volkswagen,Passat,2015.0,Semi-Auto,42161.0,Diesel,30.0,60.1,2.0,1.7694736373257314,0.0,0.0
 84876,Ford,EcoSport,2018.0,Manual,3956.0,Petrol,145.0,53.3,1.0,50.0,0.0,0.0
-105133,Volkswagen,Polo,2017.0,Manual,17736.0,Petrol,150.0,60.1,1.2,48.0,,0.0
+105133,Volkswagen,Polo,2017.0,Manual,17736.0,Petrol,150.0,60.1,1.2,48.0,6.2458349512166365,0.0
 98877,Toyota,CH-R,2018.0,Automatic,12976.0,Hybrid,140.0,74.3,1.8,89.0,3.0,0.0
 98515,Toyota,Corolla,2019.0,Automatic,5000.0,Hybrid,135.0,78.5,1.8,58.0,4.0,0.0
 98327,Toyota,Yaris,2016.0,Automatic,51102.0,Other,0.0,78.0,1.5,65.0,4.0,0.0
@@ -13428,7 +13428,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 78364,Audi,A5,2014.0,Manual,44980.0,Diesel,145.0,55.4,2.0,32.0,2.0,0.0
 86764,Ford,Focus,2018.0,Manual,5889.0,Petrol,145.0,57.7,1.0,79.0,,0.0
 78495,Audi,,2019.0,Automatic,6000.0,Petrol,145.0,43.5,1.5,55.0,1.0,0.0
-94609,Mercedes-Benz,A-Class,2013.0,Semi-Auto,16345.0,Petrol,165.0,44.1,2.0,63.0,,0.0
+94609,Mercedes-Benz,A-Class,2013.0,Semi-Auto,16345.0,Petrol,165.0,44.1,2.0,63.0,6.258370664185211,0.0
 83449,Ford,Fiesta,2018.0,Manual,11462.0,Petrol,145.0,65.7,1.0,53.0,2.0,0.0
 102392,Opel,Adam,2019.0,Manual,291.0,Petrol,145.0,44.8,1.2,69.0,0.0,0.0
 102455,Opel,Grandland X,2018.0,Manual,16403.0,Petrol,145.0,20.745499786795904,1.2,68.0,2.0,0.0
@@ -13560,7 +13560,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 100450,Opel,Insignia,2017.0,Manual,45265.0,Diesel,145.0,53.3,2.0,38.0,3.0,0.0
 95304,Mercedes-Benz,C-Class,2012.0,Automatic,80299.0,Diesel,,,2.1,93.0,1.0,0.0
 76023,Audi,A6,2016.0,Automatic,39314.0,Diesel,30.0,64.2,2.0,70.0,3.0,0.0
-90609,Hyundai,Tucson,2016.0,Manual,21240.0,Diesel,30.0,61.7,1.7,75.0,,0.0
+90609,Hyundai,Tucson,2016.0,Manual,21240.0,Diesel,30.0,61.7,1.7,75.0,6.227897962331817,0.0
 95170,Mercedes-Benz,C-Class,2017.0,Semi-Auto,31822.0,Hybrid,,,2.0,88.0,1.0,0.0
 96870,Škoda,Fabia,2018.0,Manual,10880.0,Petrol,145.0,64.2,1.0,98.0,0.0,0.0
 107247,Volkswagen,Tiguan,2019.0,Automatic,5150.0,Diesel,145.0,40.4,2.0,57.0,2.0,0.0
@@ -13648,7 +13648,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 95289,Mercedes-Benz,GL-Class,2015.0,Automatic,39775.0,Diesel,125.0,55.4,2.1,70.0,3.0,0.0
 77318,Audi,A5,2019.0,Semi-Auto,7200.0,Petrol,145.0,40.4,2.0,68.0,4.0,0.0
 76955,Audi,Q7,2012.0,Automatic,95600.0,Diesel,300.0,38.2,3.0,,3.0,0.0
-80996,BMW,X5,2019.0,Automatic,123.0,Diesel,145.0,36.7,3.0,62.0,,0.0
+80996,BMW,X5,2019.0,Automatic,123.0,Diesel,145.0,36.7,3.0,62.0,6.230179577896532,0.0
 87707,Ford,Grand C-MAX,2012.0,Manual,71848.0,Petrol,200.0,40.9,1.6,60.0,2.0,0.0
 84519,Ford,Focus,2014.0,Manual,78767.0,Petrol,,,1.6,33.0,0.0,0.0
 96833,Škoda,Octavia,2019.0,Manual,2600.0,Diesel,277.3842544832681,54.3,2.0,37.0,0.0,0.0
@@ -13695,7 +13695,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 76022,Audi,,2018.0,Manual,9254.0,Petrol,150.0,55.4,1.4,46.0,2.0,0.0
 95221,Mercedes-Benz,C-Class,2015.0,Manual,42407.0,Diesel,,,2.1,42.0,3.0,0.0
 105051,Volkswagen,Polo,2019.0,Semi-Auto,3500.0,,150.0,39.8,2.0,99.0,1.0,0.0
-99939,Opel,Corsa,2019.0,Manual,8029.0,Petrol,145.0,,1.4,55.0,,0.0
+99939,Opel,Corsa,2019.0,Manual,8029.0,Petrol,145.0,,1.4,55.0,6.233082169469183,0.0
 103202,Opel,Astra,2016.0,Manual,61073.0,Diesel,0.0,,1.6,57.0,2.0,0.0
 104770,Volkswagen,Tiguan,2019.0,Manual,4000.0,Diesel,145.0,42.8,2.0,89.0,2.0,0.0
 88396,Ford,Fiesta,2017.0,Manual,27006.0,Petrol,125.0,54.3,1.2,67.0,2.0,0.0
@@ -13917,7 +13917,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 101629,Opel,Corsa,2019.0,Automatic,5400.0,Petrol,150.0,39.8,1.4,66.0,2.0,0.0
 101460,Opel,Corsa,2014.0,Manual,34823.0,Petrol,125.0,51.4,1.2,59.0,4.0,0.0
 87820,Ford,Focus,2017.0,Manual,29300.0,Diesel,,,1.5,32.0,0.0,0.0
-83140,Ford,Fiesta,2019.0,Manual,8480.0,Petrol,145.0,55.4,1.1,74.0,,0.0
+83140,Ford,Fiesta,2019.0,Manual,8480.0,Petrol,145.0,55.4,1.1,74.0,6.258230522496533,0.0
 89804,Hyundai,Tucson,2016.0,Manual,48868.0,Diesel,30.0,61.7,1.7,88.0,1.0,0.0
 101738,Opel,Mokka X,2019.0,Manual,16188.0,Petrol,145.0,39.2,1.4,68.0,2.0,0.0
 101121,Opel,Corsa,2020.0,Manual,,Petrol,145.0,52.3,1.2,86.0,0.0,0.0
@@ -14163,7 +14163,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 82873,Ford,,2014.0,Manual,26460.0,Petrol,0.0,65.7,1.0,77.0,2.0,0.0
 104116,Volkswagen,Polo,2019.0,Semi-Auto,6000.0,Petrol,145.0,39.8,2.0,41.0,3.0,0.0
 83673,Ford,Kuga,2019.0,Manual,3721.0,Diesel,145.0,47.9,2.0,95.0,0.0,0.0
-77622,Audi,A8,2018.0,Semi-Auto,22688.0,Diesel,145.0,50.4,3.0,95.0,,0.0
+77622,Audi,A8,2018.0,Semi-Auto,22688.0,Diesel,145.0,50.4,3.0,95.0,6.248251195613699,0.0
 94936,Mercedes-Benz,CLA-Class,2017.0,Automatic,31949.0,Diesel,150.0,58.9,2.1,90.0,3.0,0.0
 93795,Mercedes-Benz,C-Class,2016.0,Automatic,28696.0,Hybrid,0.0,,2.0,74.0,0.0,0.0
 96084,Škoda,Fabia,2016.0,Manual,24978.0,Petrol,20.0,58.8,1.0,98.0,0.0,0.0
@@ -14395,7 +14395,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 103518,Opel,Astra,2016.0,Manual,24000.0,Petrol,0.0,65.7,1.0,93.0,4.0,0.0
 89006,Ford,Focus,2019.0,Manual,12125.0,Petrol,,,1.0,66.0,1.0,0.0
 101611,Opel,Antara,2012.0,Manual,67686.0,Diesel,235.0,44.1,2.2,38.0,2.0,0.0
-92226,Mercedes-Benz,SL-Class,2017.0,Semi-Auto,,Petrol,145.0,47.9,2.0,76.0,,0.0
+92226,Mercedes-Benz,SL-Class,2017.0,Semi-Auto,,Petrol,145.0,47.9,2.0,76.0,6.258370664185211,0.0
 84798,Ford,Grand C-MAX,2016.0,Manual,39296.0,Diesel,30.0,64.2,1.5,41.0,0.0,0.0
 92840,Mercedes-Benz,A-Class,2014.0,Manual,53553.0,,0.0,78.5,1.5,69.0,0.0,0.0
 106054,Volkswagen,Golf,2016.0,Automatic,35936.0,Other,30.0,53.3,1.4,67.0,3.0,0.0
@@ -14741,7 +14741,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 95777,Mercedes-Benz,C-Class,2016.0,Manual,28960.0,Diesel,20.0,72.4,1.6,43.0,4.0,0.0
 78794,Audi,Q2,2018.0,Semi-Auto,15300.0,Petrol,145.0,54.3,1.4,30.0,3.0,0.0
 77994,Audi,Q5,2019.0,Semi-Auto,6024.0,Diesel,145.0,38.2,2.0,94.0,4.0,0.0
-90061,Hyundai,i10,2017.0,,21129.0,Petrol,20.0,60.1,,,,0.0
+90061,Hyundai,i10,2017.0,,21129.0,Petrol,20.0,60.1,,,6.227897962331817,0.0
 98353,Toyota,RAV4,2016.0,Manual,38655.0,Diesel,125.0,60.1,2.0,46.0,0.0,0.0
 86777,Ford,Focus,2017.0,Semi-Auto,18396.0,Petrol,125.0,51.4,1.0,60.0,4.0,0.0
 107107,Volkswagen,Polo,2015.0,Semi-Auto,55680.0,Petrol,20.0,60.1,1.2,36.0,4.0,0.0
@@ -14799,7 +14799,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 76650,Audi,A1,2016.0,Manual,42221.0,Petrol,30.0,55.4,1.4,62.0,1.0,0.0
 96428,Škoda,Kodiaq,2019.0,Automatic,4728.0,Diesel,145.0,35.3,2.0,96.0,2.0,0.0
 84958,Ford,Focus,2019.0,,7529.0,Diesel,,,1.5,61.0,3.0,0.0
-81064,BMW,1 Series,2016.0,Manual,21646.0,Petrol,125.0,52.3,1.5,46.0,,0.0
+81064,BMW,1 Series,2016.0,Manual,21646.0,Petrol,125.0,52.3,1.5,46.0,6.230179577896532,0.0
 82469,Ford,Focus,2017.0,Semi-Auto,10106.0,Petrol,,,1.0,83.0,2.0,0.0
 102139,Opel,Crossland X,2019.0,Manual,16250.0,Petrol,145.0,47.1,1.2,93.0,3.0,0.0
 97800,Škoda,Octavia,2017.0,Manual,48067.0,Diesel,0.0,74.3,1.6,70.0,1.0,0.0
@@ -14859,7 +14859,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 88740,Ford,Fiesta,2017.0,Manual,38807.0,Petrol,145.0,65.7,1.0,98.0,3.0,0.0
 90951,Mercedes-Benz,C-Class,2019.0,Semi-Auto,4000.0,Petrol,,,1.5,54.0,0.0,0.0
 103812,Opel,Corsa,2015.0,Manual,64726.0,Petrol,125.0,54.3,1.4,34.0,3.0,0.0
-100056,Opel,Corsa,2017.0,Automatic,9782.0,Petrol,145.0,47.9,1.4,30.0,,0.0
+100056,Opel,Corsa,2017.0,Automatic,9782.0,Petrol,145.0,47.9,1.4,30.0,6.233082169469183,0.0
 100691,Opel,Zafira Tourer,2017.0,Manual,28831.0,Diesel,145.0,54.3,2.0,49.0,1.0,0.0
 88394,Ford,Focus,2019.0,Manual,11085.0,Diesel,145.0,,1.5,,1.0,0.0
 97620,Škoda,Fabia,2016.0,Manual,29200.0,Petrol,20.0,,,56.0,3.0,0.0
@@ -14902,7 +14902,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 108474,Volkswagen,Golf,2020.0,Semi-Auto,2300.0,Hybrid,150.0,44.8,1.5,95.0,0.0,0.0
 76907,Audi,Q2,2019.0,Manual,4878.0,Petrol,145.0,47.1,1.0,66.0,2.0,0.0
 93652,Mercedes-Benz,C-Class,,Automatic,2646.0,Petrol,,,1.5,44.0,3.0,0.0
-100967,Opel,Agila,2012.0,,32028.0,Petrol,145.0,49.6,1.2,67.0,,0.0
+100967,Opel,Agila,2012.0,,32028.0,Petrol,145.0,49.6,1.2,67.0,6.233082169469183,0.0
 94331,Mercedes-Benz,C-Class,2015.0,Automatic,56118.0,Diesel,30.0,61.4,2.1,39.0,1.0,0.0
 106381,Volkswagen,Golf,2013.0,Manual,52099.0,Diesel,20.0,68.9,2.0,88.0,3.0,0.0
 83170,Ford,Focus,2017.0,Manual,23187.0,Petrol,,,1.0,57.0,3.0,0.0
@@ -15035,7 +15035,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 98314,Toyota,Yaris,2017.0,Manual,5196.0,Petrol,150.0,58.9,1.5,61.0,2.0,0.0
 86172,Ford,C-MAX,2016.0,Manual,32232.0,Petrol,160.0,44.1,1.6,91.0,1.0,0.0
 78331,Audi,Q3,2018.0,Semi-Auto,15392.0,Petrol,145.0,,2.0,39.0,2.0,0.0
-81996,BMW,X1,2019.0,Automatic,3980.0,Diesel,145.0,60.1,2.0,78.0,,0.0
+81996,BMW,X1,2019.0,Automatic,3980.0,Diesel,145.0,60.1,2.0,78.0,6.230179577896532,0.0
 83315,Ford,Focus,2009.0,Manual,97498.0,Petrol,,,1.6,36.0,1.0,0.0
 92376,Mercedes-Benz,C-Class,2014.0,Automatic,32000.0,Diesel,,,2.1,77.0,1.0,0.0
 103058,Opel,Astra,2019.0,Manual,9556.0,Petrol,150.0,48.7,1.0,46.0,3.0,0.0
@@ -15131,7 +15131,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 76371,Audi,Q3,2015.0,Automatic,24539.0,Diesel,160.0,51.4,2.0,84.0,2.0,0.0
 100151,Opel,Crossland X,2019.0,Manual,10775.0,Petrol,145.0,44.8,1.2,38.0,1.0,0.0
 92147,Mercedes-Benz,C-Class,2017.0,Automatic,17324.0,Diesel,145.0,58.9,2.1,46.0,2.0,0.0
-103385,Opel,Grandland X,2019.0,Manual,8867.0,Petrol,145.0,,1.2,74.0,,0.0
+103385,Opel,Grandland X,2019.0,Manual,8867.0,Petrol,145.0,,1.2,74.0,6.233082169469183,0.0
 86960,Ford,Focus,2019.0,Manual,5908.0,Diesel,,,1.5,39.0,2.0,0.0
 89563,Hyundai,Tucson,2019.0,Semi-Auto,9854.0,Petrol,145.0,36.2,1.6,53.0,4.0,0.0
 98013,Toyota,Aygo,2016.0,Manual,30465.0,Petrol,0.0,69.0,1.0,84.0,4.0,0.0
@@ -15328,7 +15328,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 100161,Opel,Mokka X,2018.0,Manual,11505.0,Petrol,145.0,39.2,1.4,47.0,3.0,0.0
 84658,Ford,EcoSport,2019.0,Manual,3128.0,Petrol,145.0,51.4,1.0,89.0,3.0,0.0
 105603,Volkswagen,Golf,2017.0,Manual,16946.0,Diesel,20.0,68.9,2.0,57.0,0.0,0.0
-90963,Mercedes-Benz,E-Class,2016.0,Automatic,30168.0,Diesel,20.0,,2.0,53.0,,0.0
+90963,Mercedes-Benz,E-Class,2016.0,Automatic,30168.0,Diesel,20.0,,2.0,53.0,6.258370664185211,0.0
 85012,Ford,EcoSport,2019.0,Manual,554.0,Petrol,145.0,53.3,1.0,75.0,3.0,0.0
 108298,Volkswagen,Golf,2018.0,Manual,19208.0,Petrol,145.0,54.3,1.4,87.0,,0.0
 104080,Volkswagen,Polo,2011.0,Manual,86000.0,Petrol,125.0,51.4,1.2,62.0,1.0,0.0
@@ -15549,7 +15549,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 103075,Opel,Adam,2016.0,Manual,10837.0,Petrol,125.0,53.3,2.0641186347051645,62.0,2.0,0.0
 98639,Toyota,Yaris,2015.0,Manual,29581.0,Petrol,30.0,58.0,1.3,68.0,2.0,0.0
 103368,Opel,Mokka X,,Manual,1534.0,Petrol,145.0,39.2,1.4,35.0,1.0,0.0
-95427,Mercedes-Benz,C-Class,2015.0,Semi-Auto,81816.0,Petrol,,,2.0,98.0,,0.0
+95427,Mercedes-Benz,C-Class,2015.0,Semi-Auto,81816.0,Petrol,,,2.0,98.0,6.258370664185211,0.0
 84503,Ford,Kuga,2009.0,Manual,54094.0,Diesel,235.0,44.1,2.0,86.0,0.0,0.0
 82446,Ford,,2014.0,Manual,36008.0,Diesel,,,1.6,48.0,4.0,0.0
 97175,Škoda,Superb,2015.0,Manual,37555.0,Diesel,,61.4,2.0,65.0,4.0,0.0
@@ -15596,7 +15596,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 102574,Opel,,2016.0,Manual,31692.0,Diesel,20.0,72.4,1.6,45.0,0.0,0.0
 92237,Mercedes-Benz,C-Class,2019.0,Semi-Auto,2874.0,Diesel,145.0,57.7,2.0,55.0,3.0,0.0
 94192,Mercedes-Benz,C-Class,2018.0,Automatic,7297.0,Petrol,,,3.0,58.0,3.0,0.0
-88219,Ford,Fiesta,2016.0,Manual,19706.0,,125.0,54.3,1.2,97.0,,0.0
+88219,Ford,Fiesta,2016.0,Manual,19706.0,,125.0,54.3,1.2,97.0,6.258230522496533,0.0
 88910,Ford,Focus,2018.0,Manual,10662.0,Petrol,150.0,60.1,1.0,87.0,2.0,0.0
 100811,Opel,Mokka X,2019.0,Manual,12643.0,Petrol,145.0,39.2,1.4,34.0,0.0,0.0
 103288,Opel,Astra,2016.0,Manual,48457.0,Diesel,0.0,,1.6,,2.0,0.0
@@ -15652,7 +15652,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 94667,Mercedes-Benz,E-Class,2018.0,Semi-Auto,6108.0,Diesel,145.0,57.7,2.0,96.0,2.0,0.0
 76298,Audi,A4,2016.0,Manual,45478.0,Petrol,125.0,53.3,1.4,48.0,1.0,0.0
 87379,Ford,Edge,2016.0,Manual,48756.0,Diesel,160.0,48.7,2.0,45.0,2.0,0.0
-94212,Mercedes-Benz,A-Class,2016.0,,52443.0,Diesel,30.0,62.8,2.1,57.0,,0.0
+94212,Mercedes-Benz,A-Class,2016.0,,52443.0,Diesel,30.0,62.8,2.1,57.0,6.258370664185211,0.0
 81333,BMW,5 Series,2016.0,Automatic,64231.0,Diesel,145.0,53.3,3.0,77.0,4.0,0.0
 85998,Ford,Fiesta,2019.0,Manual,9985.0,Petrol,145.0,27.70948954406702,1.0,74.0,4.0,0.0
 90198,Hyundai,i10,2016.0,Automatic,2900.0,,,47.9,1.2,90.0,3.0,0.0
@@ -15711,7 +15711,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 101666,Opel,Corsa,2015.0,Automatic,29233.0,Petrol,145.0,47.9,1.4,36.0,4.0,0.0
 100757,Opel,,2016.0,Manual,50625.0,Petrol,125.0,50.4,1.4,51.0,4.0,0.0
 86704,Ford,Focus,2015.0,Manual,47799.0,Diesel,0.0,74.3,1.5,62.0,1.0,0.0
-91205,Mercedes-Benz,C-Class,,Semi-Auto,11457.0,,,,2.0,55.0,,0.0
+91205,Mercedes-Benz,C-Class,,Semi-Auto,11457.0,,,,2.0,55.0,6.258370664185211,0.0
 95762,Mercedes-Benz,A-Class,2015.0,Manual,47290.0,Diesel,20.0,70.6,1.5,87.0,1.0,0.0
 93641,Mercedes-Benz,C-Class,2017.0,Semi-Auto,19953.0,,,,2.1,81.0,3.0,0.0
 87073,Ford,Kuga,2019.0,Manual,6370.0,Diesel,145.0,37.7,2.0,85.0,0.0,0.0
@@ -15831,7 +15831,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 92507,Mercedes-Benz,E-Class,2017.0,Semi-Auto,24195.0,Diesel,,65.7,2.0,37.0,4.0,0.0
 101742,Opel,Corsa,2018.0,Manual,11983.0,Petrol,145.0,55.4,1.4,64.0,1.0,0.0
 106547,Volkswagen,T-Roc,2019.0,Automatic,1000.0,Petrol,145.0,32.5,2.0,67.0,0.0,0.0
-98619,Toyota,Auris,2017.0,Automatic,,Hybrid,0.0,70.6,1.8,77.0,,0.0
+98619,Toyota,Auris,2017.0,Automatic,,Hybrid,0.0,70.6,1.8,77.0,6.2177244345589395,0.0
 83503,Ford,Focus,2017.0,Manual,10276.0,Petrol,145.0,60.1,1.0,49.0,2.0,0.0
 80565,BMW,1 Series,2016.0,Manual,38936.0,Diesel,20.0,72.4,1.5,31.0,0.0,0.0
 83013,Ford,Fiesta,2019.0,Manual,6868.0,Petrol,145.0,58.9,1.0,33.0,1.0,0.0
@@ -15848,7 +15848,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 96564,Škoda,Octavia,2019.0,Manual,13478.0,Petrol,150.0,60.1,1.0,65.0,,0.0
 94669,Mercedes-Benz,C-Class,2019.0,Semi-Auto,9970.0,Diesel,145.0,64.2,2.0,52.0,,0.0
 76655,Audi,A8,2019.0,Automatic,4850.0,Diesel,145.0,40.4,3.0,60.0,1.0,0.0
-76084,Audi,A4,2016.0,Manual,20885.0,Diesel,30.0,64.2,2.0,53.0,,
+76084,Audi,A4,2016.0,Manual,20885.0,Diesel,30.0,64.2,2.0,53.0,6.248251195613699,
 93215,Mercedes-Benz,C-Class,2016.0,,23539.0,Diesel,30.0,64.2,2.1,52.0,3.0,0.0
 105802,Volkswagen,Golf,,Manual,35570.0,Diesel,0.0,68.9,1.6,45.0,0.0,0.0
 89981,Hyundai,i10,2016.0,Manual,,Petrol,20.0,60.1,1.0,92.0,3.0,0.0
@@ -16014,7 +16014,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 91562,Mercedes-Benz,C-Class,2014.0,Automatic,52379.0,Petrol,125.0,52.3,2.0,73.0,1.0,0.0
 87048,Ford,Focus,2019.0,Manual,9968.0,Petrol,,,1.0,79.0,1.0,0.0
 96103,Škoda,Kodiaq,2019.0,Automatic,6695.0,Petrol,145.0,31.7,2.0,54.0,4.0,0.0
-101854,Opel,Astra,2017.0,Manual,12000.0,Petrol,145.0,51.4,1.4,74.0,,0.0
+101854,Opel,Astra,2017.0,Manual,12000.0,Petrol,145.0,51.4,1.4,74.0,6.233082169469183,0.0
 82126,BMW,4 Series,2015.0,Automatic,30401.0,Diesel,145.0,53.3,3.0,46.0,4.0,0.0
 105443,Volkswagen,Golf,2019.0,Automatic,8000.0,Petrol,145.0,36.2,2.0,82.0,2.0,0.0
 77293,Audi,RS5,,Automatic,1000.0,Petrol,145.0,30.4,2.9,99.0,3.0,0.0
@@ -16135,7 +16135,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 99002,Toyota,Yaris,2018.0,Manual,15525.0,Petrol,145.0,47.1,1.5,42.0,0.0,
 90734,Hyundai,Kona,2018.0,Manual,19888.0,Petrol,145.0,52.3,1.0,71.0,3.0,0.0
 91013,Mercedes-Benz,E-Class,2019.0,Automatic,1000.0,Diesel,145.0,48.7,3.0,90.0,3.0,0.0
-102056,Opel,Crossland X,2019.0,Manual,5015.0,Petrol,145.0,47.1,1.2,78.0,,0.0
+102056,Opel,Crossland X,2019.0,Manual,5015.0,Petrol,145.0,47.1,1.2,78.0,6.233082169469183,0.0
 106641,Volkswagen,Tiguan,2016.0,Manual,26685.0,Diesel,165.0,50.4,2.0,87.0,1.0,0.0
 100391,Opel,Meriva,2014.0,Automatic,43792.0,Petrol,235.0,39.8,1.4,3.1726830595677384,1.0,0.0
 77305,Audi,A3,2015.0,Manual,,Petrol,30.0,57.6,1.4,45.0,4.0,0.0
@@ -16213,7 +16213,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 105496,Volkswagen,Golf,2016.0,Manual,27409.0,Petrol,30.0,53.3,1.4,40.0,3.0,0.0
 90019,Hyundai,i20,2016.0,,46164.0,Diesel,20.0,68.9,1.4,62.0,2.0,0.0
 95575,Mercedes-Benz,C-Class,2019.0,Semi-Auto,1.0,Diesel,145.0,54.3,1.6,38.0,4.0,0.0
-98437,Toyota,RAV4,2013.0,Manual,70964.0,Diesel,,49.6,2.2,53.0,,0.0
+98437,Toyota,RAV4,2013.0,Manual,70964.0,Diesel,,49.6,2.2,53.0,6.2177244345589395,0.0
 90907,Mercedes-Benz,C-Class,2016.0,Automatic,59023.0,Diesel,,,1.6,54.0,0.0,0.0
 83289,Ford,Focus,2016.0,Manual,29705.0,Petrol,,,1.0,38.0,1.0,0.0
 77938,Audi,A4,2018.0,Manual,24140.0,Petrol,145.0,52.3,1.4,89.0,3.0,0.0
@@ -16456,7 +16456,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 89394,Ford,Focus,2018.0,Manual,20186.0,Petrol,,,1.0,60.0,3.0,
 91163,Mercedes-Benz,C-Class,2019.0,Automatic,138.0,Petrol,145.0,45.6,1.5,60.0,1.0,0.0
 107771,Volkswagen,Golf,2019.0,Manual,8000.0,Diesel,145.0,57.7,1.6,85.0,0.0,0.0
-99551,Toyota,Aygo,2014.0,Manual,36320.0,Petrol,0.0,69.0,1.0,33.0,,0.0
+99551,Toyota,Aygo,2014.0,Manual,36320.0,Petrol,0.0,69.0,1.0,33.0,6.2177244345589395,0.0
 87537,Ford,Focus,2019.0,Manual,7745.0,Petrol,150.0,60.1,1.0,57.0,4.0,0.0
 76726,Audi,A4,2017.0,Semi-Auto,40786.0,Diesel,20.0,72.4,2.0,30.0,0.0,0.0
 106637,Volkswagen,Caravelle,2019.0,Semi-Auto,3365.0,Diesel,145.0,29.4,,87.0,3.0,0.0
@@ -16862,7 +16862,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 95158,Mercedes-Benz,C-Class,2017.0,Semi-Auto,17800.0,Diesel,,,2.1,91.0,0.0,0.0
 95582,Mercedes-Benz,C-Class,2018.0,Semi-Auto,16052.0,Petrol,,,2.0,70.0,1.0,0.0
 105636,Volkswagen,Touareg,2017.0,Automatic,31832.0,Diesel,235.0,42.8,3.0,55.0,1.0,0.0
-92793,Mercedes-Benz,GLA-Class,2016.0,Semi-Auto,35953.0,Diesel,125.0,56.5,2.1,58.0,,0.0
+92793,Mercedes-Benz,GLA-Class,2016.0,Semi-Auto,35953.0,Diesel,125.0,56.5,2.1,58.0,6.258370664185211,0.0
 80981,BMW,X6,2017.0,Semi-Auto,3550.0,Diesel,150.0,44.8,3.0,54.0,1.0,0.0
 76421,Audi,A3,2016.0,Manual,11318.0,Petrol,30.0,55.4,1.4,96.0,4.0,0.0
 87182,Ford,Fiesta,2016.0,Manual,79125.0,Petrol,145.0,47.9,1.6,71.0,2.0,0.0
@@ -17121,7 +17121,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 89015,Ford,Kuga,2013.0,Automatic,82584.13442011928,Diesel,195.0,45.6,2.0,85.0,1.0,0.0
 93183,Mercedes-Benz,CL-Class,2016.0,Automatic,35446.0,Diesel,20.0,67.3,2.1,96.0,0.0,0.0
 84610,Ford,Focus,2011.0,Manual,82584.13442011928,Diesel,,,1.6,43.0,1.0,0.0
-77055,Audi,A6,2016.0,Automatic,24744.0,Diesel,125.0,56.5,3.0,83.0,,0.0
+77055,Audi,A6,2016.0,Automatic,24744.0,Diesel,125.0,56.5,3.0,83.0,6.248251195613699,0.0
 79194,BMW,5 Series,2016.0,Semi-Auto,40008.0,Diesel,30.0,62.8,2.0,48.0,0.0,0.0
 91155,Mercedes-Benz,C-Class,2019.0,Automatic,3000.0,Petrol,145.0,46.3,1.5,43.0,1.0,0.0
 86569,Ford,Focus,2017.0,Manual,9162.0,Petrol,,,1.5,,3.0,0.0
@@ -17221,7 +17221,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 77632,Audi,Q2,2020.0,Semi-Auto,1934.0,Petrol,145.0,32.5,2.0,32.0,2.0,0.0
 106887,Volkswagen,Polo,2017.0,Manual,17371.0,Petrol,20.0,60.1,1.2,77.0,1.0,0.0
 78950,Audi,Q2,2018.0,Semi-Auto,14569.0,Petrol,145.0,52.3,1.4,68.0,3.0,0.0
-88191,Ford,Fiesta,2018.0,Manual,13148.0,Petrol,150.0,55.4,1.1,55.0,,0.0
+88191,Ford,Fiesta,2018.0,Manual,13148.0,Petrol,150.0,55.4,1.1,55.0,6.258230522496533,0.0
 88247,Ford,Ka+,2018.0,Manual,11990.0,Petrol,150.0,43.5,1.2,82.0,0.0,0.0
 94345,Mercedes-Benz,C-Class,2013.0,Semi-Auto,31706.0,Diesel,,,2.1,94.0,4.0,0.0
 95349,Mercedes-Benz,C-Class,2016.0,Automatic,32720.0,Diesel,,,2.1,49.0,1.0,0.0
@@ -17750,7 +17750,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 96175,Škoda,Karoq,2018.0,Manual,,Petrol,,40.4,1.0,2.72515271650839,3.0,0.0
 103007,Opel,Mokka X,2017.0,Manual,20970.0,Petrol,200.0,42.2,1.6,72.0,0.0,0.0
 83413,Ford,Kuga,2015.0,Manual,45309.0,Diesel,125.0,60.1,2.0,60.0,3.0,0.0
-87204,Ford,Focus,2018.0,Manual,5000.0,Petrol,,,1.0,78.0,,0.0
+87204,Ford,Focus,2018.0,Manual,5000.0,Petrol,,,1.0,78.0,6.258230522496533,0.0
 102288,Opel,Mokka,2014.0,Manual,37809.0,Diesel,125.0,57.6,1.7,37.0,2.0,0.0
 80637,BMW,1 Series,2017.0,Semi-Auto,7409.0,Petrol,145.0,39.8,3.822757846971372,73.0,3.0,0.0
 102156,Opel,Astra,2015.0,Manual,36957.0,Diesel,20.0,72.4,1.6,65.0,2.0,0.0
@@ -17937,7 +17937,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 94096,Mercedes-Benz,GLC-Class,2016.0,Automatic,47358.0,Diesel,125.0,56.5,2.1,43.0,2.0,0.0
 106481,Volkswagen,Polo,2017.0,Manual,47950.0,Petrol,20.0,60.1,1.2,66.0,2.0,0.0
 100694,Opel,Mokka X,2019.0,Manual,3.0,Petrol,,,1.4,65.0,4.0,
-91176,Mercedes-Benz,GLE-Class,2020.0,Semi-Auto,1000.0,Diesel,145.0,32.5,2.9,30.0,,0.0
+91176,Mercedes-Benz,GLE-Class,2020.0,Semi-Auto,1000.0,Diesel,145.0,32.5,2.9,30.0,6.258370664185211,0.0
 106878,Volkswagen,Up,2016.0,Manual,35236.0,Petrol,20.0,61.4,1.0,42.0,4.0,0.0
 99871,Toyota,CH-R,,Manual,,Petrol,145.0,47.9,1.2,38.0,1.0,0.0
 77534,Audi,A4,2016.0,Manual,88151.0,Diesel,20.0,70.6,2.0,90.0,0.0,0.0
@@ -18237,7 +18237,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 80577,BMW,3 Series,2012.0,Manual,55810.0,Petrol,160.0,44.8,2.0,35.0,3.0,0.0
 87561,Ford,Fiesta,2018.0,Manual,16934.0,Petrol,145.0,40.3,1.5,62.0,0.0,0.0
 82120,BMW,3 Series,2016.0,Automatic,,Diesel,125.0,57.6,,79.0,4.0,0.0
-91633,Mercedes-Benz,GLA-Class,2016.0,Semi-Auto,28242.0,Diesel,125.0,56.5,2.1,73.0,,0.0
+91633,Mercedes-Benz,GLA-Class,2016.0,Semi-Auto,28242.0,Diesel,125.0,56.5,2.1,73.0,6.258370664185211,0.0
 96970,Škoda,Fabia,,Manual,16269.0,Petrol,20.0,60.1,1.2,62.0,4.0,0.0
 103356,Opel,Astra,2017.0,Manual,22427.0,Petrol,290.4867850792564,47.1,,64.0,0.0,0.0
 89416,Ford,Kuga,2018.0,Manual,15574.0,Diesel,145.0,64.2,1.5,37.0,1.0,0.0
@@ -18606,7 +18606,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 101489,Opel,Corsa,2016.0,Manual,44000.0,Petrol,30.0,,1.4,78.0,2.0,0.0
 105619,Volkswagen,Passat,2015.0,Manual,90460.0,Diesel,20.0,67.3,2.0,85.0,1.0,0.0
 81460,BMW,3 Series,2020.0,Manual,4.0,Diesel,145.0,54.3,2.0,92.0,1.0,0.0
-79311,BMW,X1,2017.0,Manual,54650.0,Diesel,20.0,68.9,2.0,,,0.0
+79311,BMW,X1,2017.0,Manual,54650.0,Diesel,20.0,68.9,2.0,,6.230179577896532,0.0
 107401,Volkswagen,Passat,2019.0,Semi-Auto,10.0,Diesel,145.0,47.1,,53.0,2.0,0.0
 106068,Volkswagen,Scirocco,2017.0,Manual,14942.0,Diesel,145.0,67.3,2.0,37.0,0.0,0.0
 82033,BMW,3 Series,2019.0,Semi-Auto,16086.0,Petrol,145.0,48.7,2.0,,0.0,0.0
@@ -18737,7 +18737,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 83703,Ford,Focus,2019.0,Manual,3575.0,Petrol,145.0,60.1,1.0,48.0,4.0,0.0
 102514,Opel,Zafira Tourer,2017.0,Manual,18477.0,Petrol,150.0,41.5,1.4,30.0,2.0,0.0
 84274,Ford,Focus,2017.0,Manual,27403.0,Diesel,,,2.0,95.0,2.0,0.0
-80933,BMW,2 Series,2016.0,Manual,16600.0,Diesel,20.0,68.9,2.0,56.0,,0.0
+80933,BMW,2 Series,2016.0,Manual,16600.0,Diesel,20.0,68.9,2.0,56.0,6.230179577896532,0.0
 89802,Hyundai,Kona,2019.0,Manual,,Petrol,145.0,44.1,1.0,66.0,2.0,0.0
 95459,Mercedes-Benz,E-Class,2019.0,Semi-Auto,14648.0,Diesel,145.0,72.4,2.0,54.0,3.0,0.0
 88242,Ford,C-MAX,2017.0,Manual,20013.0,Petrol,30.0,55.4,1.0,70.0,1.0,0.0
@@ -19463,7 +19463,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 101827,Opel,Mokka X,2019.0,,83688.65539191502,Petrol,145.0,39.2,1.4,45.0,1.0,0.0
 101756,Opel,Corsa,2016.0,Manual,16618.0,Petrol,30.0,54.3,1.4,35.0,2.0,0.0
 77041,Audi,A4,2019.0,Automatic,,Diesel,145.0,48.7,2.0,64.0,1.0,0.0
-97753,Škoda,Fabia,2016.0,Manual,15000.0,Petrol,20.0,58.9,1.2,91.0,,0.0
+97753,Škoda,Fabia,2016.0,Manual,15000.0,Petrol,20.0,58.9,1.2,91.0,6.2417786290739095,0.0
 95848,Mercedes-Benz,B-Class,2019.0,Semi-Auto,,Petrol,145.0,45.6,1.3,92.0,1.0,0.0
 94827,Mercedes-Benz,C-Class,2019.0,Semi-Auto,12629.0,Diesel,,,2.1,66.0,0.0,0.0
 78247,Audi,Q5,2019.0,Semi-Auto,8186.0,Petrol,145.0,32.1,2.0,89.0,2.0,0.0
@@ -19573,7 +19573,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 96829,Škoda,Yeti Outdoor,2015.0,Semi-Auto,38152.0,Diesel,200.0,44.8,2.0,47.0,4.0,0.0
 100724,Opel,Astra,2017.0,Semi-Auto,17566.0,Petrol,125.0,50.4,1.4,54.0,2.0,0.0
 98429,Toyota,RAV4,2015.0,Automatic,43830.0,Diesel,260.0,42.2,2.2,31.0,4.0,0.0
-98046,Toyota,Auris,2018.0,Automatic,35916.0,Hybrid,135.0,68.8,1.8,60.0,,0.0
+98046,Toyota,Auris,2018.0,Automatic,35916.0,Hybrid,135.0,68.8,1.8,60.0,6.2177244345589395,0.0
 104025,Volkswagen,Golf,2015.0,Manual,71715.0,Diesel,0.0,74.3,1.6,33.0,0.0,0.0
 104930,Volkswagen,T-Cross,2019.0,Manual,7546.0,Diesel,145.0,52.3,1.2,38.0,4.0,0.0
 97711,Škoda,Fabia,2019.0,Manual,10422.0,Petrol,145.0,50.4,1.0,78.0,0.0,0.0
@@ -19673,7 +19673,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 108065,Volkswagen,Tiguan Allspace,2019.0,Automatic,,Diesel,145.0,39.2,2.0,85.0,4.0,
 90388,Hyundai,i20,2014.0,Manual,63100.0,Petrol,30.0,57.6,1.2,35.0,,0.0
 82017,BMW,2 Series,2019.0,Semi-Auto,3300.0,Diesel,145.0,48.7,2.0,53.0,0.0,0.0
-91025,Mercedes-Benz,C-Class,2019.0,Automatic,8000.0,Petrol,,,1.5,31.0,,
+91025,Mercedes-Benz,C-Class,2019.0,Automatic,8000.0,Petrol,,,1.5,31.0,6.258370664185211,
 96293,Škoda,Octavia,2016.0,Semi-Auto,30738.0,Diesel,125.0,56.5,2.0,96.0,3.0,
 99187,Toyota,Aygo,,Manual,8243.0,Petrol,145.0,68.9,1.0,60.0,3.0,0.0
 98283,Toyota,Aygo,2016.0,Manual,43491.0,Other,0.0,69.0,1.0,88.0,2.0,0.0
@@ -19897,7 +19897,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 88536,Ford,Focus,2019.0,Manual,9172.0,Petrol,,,1.0,80.0,4.0,0.0
 76788,Audi,,2016.0,Semi-Auto,49459.0,Petrol,305.0,34.9,2.5,71.0,0.0,0.0
 96496,Škoda,Fabia,2019.0,Manual,9267.0,Petrol,145.0,61.4,1.0,98.0,0.0,0.0
-83580,Ford,Fiesta,2019.0,Manual,11213.0,Petrol,145.0,58.9,1.0,92.0,,0.0
+83580,Ford,Fiesta,2019.0,Manual,11213.0,Petrol,145.0,58.9,1.0,92.0,6.258230522496533,0.0
 80060,BMW,4 Series,2019.0,Semi-Auto,,Petrol,150.0,44.8,2.0,83.0,,0.0
 99910,Opel,Corsa,2018.0,Manual,5600.0,Petrol,,43.5,1.4,82.0,3.0,0.0
 94254,Mercedes-Benz,E-Class,2019.0,Semi-Auto,11852.0,Diesel,145.0,72.4,2.0,61.0,0.0,0.0
@@ -20191,7 +20191,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 83828,Ford,Focus,2016.0,Manual,41151.0,Diesel,0.0,74.3,1.5,71.0,2.0,0.0
 106142,Volkswagen,,2017.0,Automatic,40050.0,Diesel,150.0,42.8,3.0,98.0,1.0,0.0
 76564,Audi,A4,2020.0,Semi-Auto,1000.0,Diesel,145.0,53.3,2.0,76.0,0.0,0.0
-93718,Mercedes-Benz,C-Class,2014.0,Semi-Auto,31801.0,Diesel,20.0,64.2,2.1,90.0,,0.0
+93718,Mercedes-Benz,C-Class,2014.0,Semi-Auto,31801.0,Diesel,20.0,64.2,2.1,90.0,6.258370664185211,0.0
 81110,BMW,3 Series,2017.0,Automatic,28379.0,Diesel,145.0,62.8,2.0,99.0,4.0,0.0
 90753,Hyundai,Tucson,2016.0,Automatic,20000.0,Diesel,200.0,47.1,2.0,56.0,2.0,0.0
 86557,Ford,Fiesta,2015.0,Manual,31048.0,Diesel,0.0,76.4,1.5,94.0,2.0,0.0
@@ -20574,7 +20574,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 98828,Toyota,RAV4,2017.0,Automatic,19511.0,Hybrid,20.0,55.4,2.5,39.0,0.0,0.0
 96114,Škoda,Citigo,2016.0,Manual,19710.0,Petrol,20.0,62.8,1.0,69.0,,0.0
 79191,BMW,i3,2017.0,Automatic,17338.0,Hybrid,135.0,,,47.0,0.0,0.0
-87297,Ford,Fiesta,2018.0,Manual,14442.0,Petrol,150.0,,1.0,61.0,,0.0
+87297,Ford,Fiesta,2018.0,Manual,14442.0,Petrol,150.0,,1.0,61.0,6.258230522496533,0.0
 95877,Mercedes-Benz,C-Class,2017.0,Manual,59038.0,Diesel,20.0,70.6,2.1,78.0,3.0,0.0
 94139,Mercedes-Benz,GLC-Class,2020.0,Semi-Auto,1000.0,Diesel,145.0,40.9,2.0,69.0,2.0,0.0
 100850,Opel,Mokka,2016.0,Manual,43423.0,Diesel,30.0,65.7,1.6,43.0,2.0,0.0
@@ -20677,7 +20677,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 105697,Volkswagen,Polo,2019.0,Semi-Auto,15131.0,Petrol,145.0,45.6,1.0,91.0,0.0,0.0
 87316,Ford,Fiesta,2017.0,Manual,10709.0,,145.0,64.2,1.1,98.0,3.0,0.0
 98209,Toyota,Yaris,2019.0,Manual,4546.0,Petrol,145.0,47.9,1.5,49.0,4.0,0.0
-96229,Škoda,Superb,2017.0,Semi-Auto,28800.0,Diesel,125.0,60.1,2.0,53.0,,0.0
+96229,Škoda,Superb,2017.0,Semi-Auto,28800.0,Diesel,125.0,60.1,2.0,53.0,6.2417786290739095,0.0
 100262,Opel,Corsa,2014.0,Manual,45802.0,Petrol,125.0,51.4,1.2,77.0,4.0,0.0
 100999,Opel,Insignia,2016.0,Manual,,Diesel,0.0,74.3,1.6,77.0,1.0,0.0
 107614,Volkswagen,Polo,2017.0,Manual,19179.0,Petrol,,58.9,1.0,99.0,1.0,0.0
@@ -20725,7 +20725,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 85813,Ford,Focus,2018.0,Manual,12935.0,Petrol,,,2.0,56.0,0.0,0.0
 90079,Hyundai,Santa Fe,2016.0,Automatic,23656.0,Diesel,235.0,42.8,2.2,55.0,1.0,0.0
 106345,Volkswagen,Up,2019.0,Manual,995.0,Petrol,145.0,54.3,1.0,81.0,2.0,0.0
-93236,Mercedes-Benz,C-Class,2017.0,Semi-Auto,19784.0,Petrol,,,2.0,63.0,,0.0
+93236,Mercedes-Benz,C-Class,2017.0,Semi-Auto,19784.0,Petrol,,,2.0,63.0,6.258370664185211,0.0
 77551,Audi,Q3,2019.0,Semi-Auto,8300.0,Diesel,145.0,48.7,2.0,57.0,4.0,0.0
 98682,Toyota,Aygo,2019.0,Automatic,9248.0,Petrol,145.0,55.4,1.0,61.0,3.0,0.0
 77482,Audi,A8,2017.0,Semi-Auto,,Diesel,200.0,47.1,3.0,89.0,1.0,0.0
@@ -20835,7 +20835,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 99980,Opel,Corsa,2017.0,Manual,27333.0,Petrol,145.0,,1.4,41.0,1.0,0.0
 83405,Ford,Kuga,2017.0,Semi-Auto,,Diesel,145.0,54.3,,81.0,4.0,0.0
 94937,Mercedes-Benz,C-Class,,Manual,52000.0,Diesel,,,2.1,81.0,0.0,0.0
-88990,Ford,Kuga,2016.0,Manual,56888.0,Diesel,125.0,60.1,2.0,44.0,,0.0
+88990,Ford,Kuga,2016.0,Manual,56888.0,Diesel,125.0,60.1,2.0,44.0,6.258230522496533,0.0
 100897,Opel,Zafira,2017.0,Manual,52221.0,Petrol,200.0,41.5,1.4,3.1726830595677384,2.0,0.0
 89852,Hyundai,i10,2014.0,Manual,13281.0,Petrol,20.0,60.1,1.0,36.0,3.0,0.0
 79720,BMW,1 Series,2016.0,,21105.0,Petrol,235.0,37.7,3.0,,0.0,
@@ -21055,7 +21055,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 97583,Škoda,Rapid,2015.0,Automatic,42000.0,Petrol,125.0,52.3,1.4,49.0,1.0,0.0
 90719,Hyundai,Kona,2018.0,Manual,13439.0,Petrol,145.0,52.3,1.0,46.0,0.0,0.0
 83437,Ford,Focus,2018.0,Manual,7356.0,Petrol,145.0,41.5,2.0,94.0,1.0,0.0
-95182,Mercedes-Benz,A-Class,2019.0,Semi-Auto,249.0,Diesel,,56.5,2.0,34.0,,0.0
+95182,Mercedes-Benz,A-Class,2019.0,Semi-Auto,249.0,Diesel,,56.5,2.0,34.0,6.258370664185211,0.0
 85203,Ford,Focus,2018.0,Manual,20300.0,Petrol,150.0,41.5,2.0,89.0,0.0,0.0
 103788,Opel,Zafira,2017.0,Manual,17661.0,Petrol,205.0,41.5,1.4,51.0,4.0,0.0
 82303,BMW,4 Series,,Automatic,39708.0,Diesel,30.0,65.7,2.0,84.0,3.0,0.0
@@ -21226,7 +21226,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 83119,Ford,Fiesta,2015.0,Manual,20430.0,Petrol,20.0,62.8,1.0,48.0,0.0,0.0
 76930,Audi,Q2,2017.0,,46140.0,Diesel,145.0,61.4,1.6,3.11529529741442,4.0,0.0
 78083,Audi,A4,2019.0,Automatic,2000.0,Diesel,145.0,51.4,2.0,35.0,3.0,0.0
-97868,Škoda,Superb,2019.0,Semi-Auto,2852.0,Diesel,145.0,47.1,2.0,46.0,,
+97868,Škoda,Superb,2019.0,Semi-Auto,2852.0,Diesel,145.0,47.1,2.0,46.0,6.2417786290739095,
 81081,BMW,1 Series,2016.0,Manual,94300.0,Diesel,0.0,,1.5,36.0,1.0,0.0
 102325,Opel,Corsa,2017.0,Manual,10144.0,Petrol,145.0,55.4,1.4,,3.0,0.0
 83604,Ford,Focus,2018.0,Manual,11913.0,Petrol,145.0,58.9,1.0,84.0,1.0,0.0
@@ -21442,7 +21442,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 99183,Toyota,iQ,2013.0,Manual,41142.0,Petrol,0.0,64.2,1.0,40.0,4.0,0.0
 81588,BMW,1 Series,2019.0,Semi-Auto,10.0,Diesel,145.0,51.4,2.0,87.0,3.0,0.0
 89819,Hyundai,Tucson,2019.0,Semi-Auto,7596.0,,150.0,36.2,1.6,92.0,1.0,0.0
-86947,Ford,Focus,2018.0,Manual,7788.0,Petrol,145.0,61.4,1.0,34.0,,0.0
+86947,Ford,Focus,2018.0,Manual,7788.0,Petrol,145.0,61.4,1.0,34.0,6.258230522496533,0.0
 107568,Volkswagen,Golf,2020.0,Semi-Auto,20.0,Diesel,150.0,53.3,2.0,31.0,1.0,0.0
 92085,Mercedes-Benz,C-Class,2016.0,Semi-Auto,73582.0,Diesel,30.0,61.4,2.1,84.0,4.0,0.0
 101729,Opel,Mokka X,2017.0,Manual,32603.0,Petrol,145.0,47.1,1.4,32.0,3.0,0.0
@@ -21557,7 +21557,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 92655,Mercedes-Benz,E-Class,2017.0,,35494.0,Diesel,145.0,61.4,2.0,81.0,0.0,0.0
 93230,Mercedes-Benz,C-Class,2018.0,Automatic,14632.0,Diesel,,,1.6,45.0,0.0,0.0
 92502,Mercedes-Benz,C-Class,2018.0,Semi-Auto,6198.0,Diesel,145.0,54.3,2.0,32.0,3.0,0.0
-78020,Audi,A3,2015.0,Manual,39200.0,Diesel,20.0,68.9,2.0,58.0,,0.0
+78020,Audi,A3,2015.0,Manual,39200.0,Diesel,20.0,68.9,2.0,58.0,6.248251195613699,0.0
 76077,Audi,A4,2017.0,Manual,14068.0,Petrol,145.0,51.4,1.4,87.0,2.0,0.0
 107845,Volkswagen,Polo,2014.0,Manual,25446.0,Petrol,125.0,51.4,1.2,42.0,0.0,0.0
 94272,Mercedes-Benz,C-Class,2019.0,Semi-Auto,10.0,Petrol,,,4.0,75.0,3.0,0.0
@@ -21862,7 +21862,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 95227,Mercedes-Benz,C-Class,2019.0,Automatic,1498.0,Petrol,,,1.5,79.0,3.0,0.0
 93234,Mercedes-Benz,C-Class,2016.0,Automatic,72000.0,Diesel,30.0,65.7,1.6,44.0,1.0,0.0
 85937,Ford,Focus,2019.0,Manual,6338.0,Petrol,,,,75.0,1.0,0.0
-101266,Opel,Mokka X,2016.0,Automatic,13500.0,Petrol,160.0,43.5,1.4,70.0,,0.0
+101266,Opel,Mokka X,2016.0,Automatic,13500.0,Petrol,160.0,43.5,1.4,70.0,6.233082169469183,0.0
 99571,Toyota,Yaris,2014.0,Automatic,29847.0,Hybrid,0.0,78.0,1.5,44.0,4.0,0.0
 85700,Ford,Focus,2014.0,Manual,70745.0,Petrol,20.0,60.1,1.0,31.0,3.0,0.0
 107102,Volkswagen,Tiguan,2014.0,Semi-Auto,72765.0,Diesel,200.0,47.7,2.0,31.0,1.0,0.0
@@ -22250,7 +22250,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 90408,Hyundai,Tucson,2019.0,Semi-Auto,9750.0,Hybrid,145.0,50.4,1.6,52.0,4.0,0.0
 83615,Ford,Puma,,Manual,1381.0,Petrol,145.0,50.4,1.0,58.0,3.0,0.0
 82425,Ford,Focus,2019.0,Automatic,5367.0,Petrol,,,1.0,65.0,0.0,0.0
-101993,Opel,Corsa,2019.0,Manual,7040.0,Petrol,150.0,43.5,1.4,30.0,,0.0
+101993,Opel,Corsa,2019.0,Manual,7040.0,Petrol,150.0,43.5,1.4,30.0,6.233082169469183,0.0
 94522,Mercedes-Benz,S-Class,2015.0,Automatic,46757.0,Diesel,205.0,,3.0,87.0,4.0,0.0
 84782,Ford,Focus,2016.0,Manual,,Diesel,0.0,74.3,1.5,,0.0,0.0
 108223,Volkswagen,Polo,2019.0,,14776.0,Petrol,145.0,52.3,1.0,72.0,0.0,0.0
@@ -22518,7 +22518,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 86680,Ford,Fiesta,2017.0,Manual,,Petrol,150.0,65.7,1.0,87.0,1.0,0.0
 95225,Mercedes-Benz,,2016.0,Automatic,57864.0,Diesel,125.0,56.5,2.1,74.0,3.0,0.0
 92224,Mercedes-Benz,C-Class,2019.0,Semi-Auto,6805.0,Petrol,145.0,42.2,2.0,91.0,0.0,0.0
-94791,Mercedes-Benz,GLA-Class,2017.0,Automatic,24314.0,Diesel,145.0,64.2,,93.0,,0.0
+94791,Mercedes-Benz,GLA-Class,2017.0,Automatic,24314.0,Diesel,145.0,64.2,,93.0,6.258370664185211,0.0
 102989,Opel,Astra,2017.0,Manual,20813.0,Petrol,150.0,51.4,1.4,,0.0,0.0
 80765,BMW,4 Series,2017.0,Automatic,37842.0,Diesel,145.0,65.7,2.0,,1.0,0.0
 85393,Ford,Kuga,2019.0,Manual,2514.0,Diesel,145.0,39.2,2.0,51.0,1.0,0.0
@@ -22787,7 +22787,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 78046,Audi,Q5,2015.0,Semi-Auto,53646.0,Diesel,235.0,42.8,3.0,56.0,4.0,0.0
 85703,Ford,Mondeo,2017.0,Manual,19947.0,Diesel,145.0,64.2,2.0,63.0,4.0,0.0
 104265,Volkswagen,Passat,2019.0,Manual,14743.0,Diesel,145.0,54.3,2.0,79.0,1.0,0.0
-107786,Volkswagen,Golf,2019.0,Manual,15997.0,Petrol,145.0,49.6,1.0,94.0,,0.0
+107786,Volkswagen,Golf,2019.0,Manual,15997.0,Petrol,145.0,49.6,1.0,94.0,6.2458349512166365,0.0
 83707,Ford,Focus,2017.0,Manual,22342.0,Petrol,145.0,41.5,2.0,84.0,2.0,0.0
 76858,Audi,A3,2019.0,Semi-Auto,7617.0,Petrol,150.0,42.2,1.5,52.0,0.0,0.0
 94147,Mercedes-Benz,SL-Class,2017.0,Automatic,26560.0,Petrol,145.0,47.9,2.0,64.0,4.0,0.0
@@ -23043,7 +23043,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 102711,Opel,Astra,2018.0,Manual,14594.0,Petrol,145.0,52.3,1.4,91.0,,0.0
 80682,BMW,3 Series,2018.0,Semi-Auto,12849.0,Diesel,145.0,64.2,2.0,96.0,1.0,0.0
 93204,Mercedes-Benz,E-Class,2019.0,Automatic,4025.0,Diesel,145.0,42.8,2.0,84.0,3.0,0.0
-99582,Toyota,Avensis,2018.0,Automatic,20989.0,Petrol,145.0,47.1,1.8,73.0,,0.0
+99582,Toyota,Avensis,2018.0,Automatic,20989.0,Petrol,145.0,47.1,1.8,73.0,6.2177244345589395,0.0
 93195,Mercedes-Benz,GLC-Class,2019.0,Semi-Auto,3320.0,Diesel,150.0,44.8,2.0,,0.0,0.0
 89626,Hyundai,Tucson,2020.0,Semi-Auto,985.0,Petrol,145.0,35.8,1.6,57.0,2.0,0.0
 84713,Ford,Focus,2009.0,Manual,68500.0,Petrol,205.0,42.2,1.6,88.0,0.0,0.0
@@ -23292,7 +23292,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 79530,BMW,X3,2015.0,Semi-Auto,,Diesel,145.0,54.3,2.0,83.0,0.0,0.0
 103272,Opel,Corsa,2016.0,Manual,25286.0,Petrol,30.0,54.3,1.4,44.0,3.0,0.0
 86935,Ford,Focus,2016.0,Automatic,61630.0,Diesel,0.0,67.3,1.5,78.0,2.0,0.0
-88977,Ford,Focus,2018.0,Manual,8213.0,Diesel,,,2.0,58.0,,0.0
+88977,Ford,Focus,2018.0,Manual,8213.0,Diesel,,,2.0,58.0,6.258230522496533,0.0
 92681,Mercedes-Benz,E-Class,2014.0,Semi-Auto,49491.0,,125.0,57.7,2.1,33.0,0.0,0.0
 91978,Mercedes-Benz,A-Class,2016.0,Manual,34458.0,Petrol,145.0,50.4,1.6,77.0,2.0,0.0
 81144,BMW,2 Series,2019.0,Manual,123.0,Diesel,145.0,51.4,2.0,70.0,1.0,0.0
@@ -23311,7 +23311,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 101109,Opel,Mokka X,2018.0,Manual,40629.0,Petrol,150.0,47.1,1.4,79.0,3.0,0.0
 100755,Opel,Corsa,2017.0,Manual,12557.0,Petrol,145.0,55.4,1.4,43.0,1.0,0.0
 99015,Toyota,Prius,2018.0,Automatic,9843.0,Hybrid,135.0,94.1,1.8,71.0,1.0,0.0
-98439,Toyota,Auris,2015.0,Manual,32227.0,Diesel,20.0,65.7,1.6,98.0,,0.0
+98439,Toyota,Auris,2015.0,Manual,32227.0,Diesel,20.0,65.7,1.6,98.0,6.2177244345589395,0.0
 84150,Ford,EcoSport,2017.0,Manual,28157.0,Petrol,145.0,52.3,1.0,32.0,2.0,0.0
 87593,Ford,S-MAX,2016.0,Manual,50364.0,Diesel,125.0,56.5,2.0,54.0,0.0,0.0
 83830,Ford,Fiesta,2017.0,Manual,22732.0,Petrol,125.0,,1.2,57.0,0.0,0.0
@@ -23413,7 +23413,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 101278,Opel,Mokka,2013.0,Manual,18851.0,Diesel,30.0,62.8,1.7,72.0,2.0,0.0
 86112,Ford,EcoSport,2019.0,Manual,4455.0,Diesel,145.0,58.9,1.5,94.0,4.0,0.0
 90579,Hyundai,Tucson,2019.0,Manual,2326.0,Petrol,145.0,34.9,1.6,56.0,4.0,0.0
-102615,Opel,Zafira,2014.0,Manual,43000.0,Diesel,150.0,55.4,,71.0,,0.0
+102615,Opel,Zafira,2014.0,Manual,43000.0,Diesel,150.0,55.4,,71.0,6.233082169469183,0.0
 97093,Škoda,Kodiaq,2019.0,Manual,4802.0,Diesel,145.0,52.3,2.0,56.0,2.0,0.0
 84373,Ford,Focus,2013.0,Manual,49460.0,Diesel,125.0,56.5,2.0,79.0,1.0,0.0
 97755,Škoda,Fabia,2019.0,Manual,5000.0,Petrol,145.0,51.4,1.0,43.0,2.0,0.0
@@ -23976,7 +23976,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 95078,Mercedes-Benz,C-Class,2017.0,Semi-Auto,17442.0,Diesel,,,2.1,90.0,2.0,0.0
 87575,Ford,Mondeo,2017.0,Semi-Auto,30000.0,Diesel,150.0,58.9,2.0,58.0,1.0,0.0
 78804,Audi,,2015.0,Semi-Auto,74644.0,Diesel,20.0,61.4,2.0,64.0,1.0,0.0
-84242,Ford,B-MAX,2016.0,Automatic,2000.0,Petrol,165.0,44.1,1.6,52.0,,0.0
+84242,Ford,B-MAX,2016.0,Automatic,2000.0,Petrol,165.0,44.1,1.6,52.0,6.258230522496533,0.0
 83462,Ford,EcoSport,2017.0,Manual,10545.0,Petrol,150.0,52.3,1.0,71.0,0.0,0.0
 102260,Opel,Astra,2016.0,Semi-Auto,26000.0,Petrol,125.0,51.4,1.4,49.0,0.0,0.0
 102635,Opel,Insignia,2019.0,Manual,77.0,Petrol,145.0,50.4,1.5,43.0,3.0,0.0
@@ -24268,7 +24268,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 104466,Volkswagen,Passat,2016.0,Automatic,46518.0,Diesel,,62.8,2.0,35.0,4.0,0.0
 85061,Ford,Fiesta,2018.0,Automatic,32790.0,Petrol,145.0,54.3,1.0,32.0,1.0,0.0
 92535,Mercedes-Benz,A-Class,2019.0,Semi-Auto,6686.0,Diesel,145.0,67.3,1.5,38.0,3.0,
-82437,Ford,Focus,2018.0,Manual,6324.0,Petrol,,,1.0,75.0,,0.0
+82437,Ford,Focus,2018.0,Manual,6324.0,Petrol,,,1.0,75.0,6.258230522496533,0.0
 104845,Volkswagen,Polo,2016.0,Manual,11628.0,Petrol,0.0,65.7,1.0,55.0,4.0,0.0
 99353,Toyota,Auris,2016.0,Automatic,42415.0,Hybrid,0.0,70.6,1.8,54.0,4.0,0.0
 94273,Mercedes-Benz,E-Class,2019.0,Semi-Auto,5559.0,Petrol,145.0,32.8,3.0,99.0,2.0,0.0
@@ -24295,7 +24295,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 82541,Ford,Kuga,2018.0,Manual,7500.0,Diesel,145.0,54.3,1.5,67.0,1.0,0.0
 94530,Mercedes-Benz,C-Class,2019.0,Semi-Auto,1000.0,Diesel,,,2.0,37.0,3.0,0.0
 107277,Volkswagen,Golf,2019.0,Manual,8906.0,Diesel,145.0,,1.6,73.0,2.0,0.0
-88719,Ford,Focus,2014.0,Semi-Auto,,Petrol,165.0,44.8,1.6,86.0,,0.0
+88719,Ford,Focus,2014.0,Semi-Auto,,Petrol,165.0,44.8,1.6,86.0,6.258230522496533,0.0
 95962,Mercedes-Benz,C-Class,2016.0,Automatic,36815.0,Petrol,260.0,35.8,3.0,79.0,4.0,0.0
 89249,Ford,Focus,2017.0,Manual,26828.0,Petrol,,,1.0,74.0,4.0,0.0
 98786,Toyota,Corolla,2003.0,Manual,89000.0,Petrol,235.0,39.2,1.6,36.0,3.0,0.0
@@ -24831,7 +24831,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 88634,Ford,Fiesta,2017.0,Semi-Auto,3925.0,Petrol,0.0,57.7,1.0,89.0,2.0,0.0
 108094,Volkswagen,Golf,2018.0,Manual,10462.0,Diesel,145.0,61.4,1.6,76.0,3.0,0.0
 82654,Ford,Focus,2018.0,Manual,7687.0,Petrol,,,1.0,,0.0,0.0
-81401,BMW,1 Series,2017.0,Semi-Auto,48972.0,Diesel,150.0,65.7,2.0,70.0,,0.0
+81401,BMW,1 Series,2017.0,Semi-Auto,48972.0,Diesel,150.0,65.7,2.0,70.0,6.230179577896532,0.0
 85163,Ford,Mondeo,2018.0,Semi-Auto,22071.0,Diesel,145.0,58.9,2.0,47.0,3.0,0.0
 97623,Škoda,Fabia,2017.0,Manual,,Petrol,145.0,60.1,1.2,92.0,3.0,0.0
 79759,BMW,2 Series,2019.0,Semi-Auto,8257.0,Petrol,145.0,47.9,2.0,57.0,2.0,0.0
@@ -25113,7 +25113,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 93103,Mercedes-Benz,S-Class,2013.0,Automatic,56061.0,Hybrid,190.0,44.8,3.5,76.0,4.0,0.0
 83680,Ford,Kuga,2018.0,Manual,12947.0,Diesel,145.0,60.1,2.0,67.0,2.0,0.0
 95926,Mercedes-Benz,C-Class,2017.0,Automatic,11136.0,Diesel,145.0,61.4,2.1,91.0,0.0,0.0
-84955,Ford,Fiesta,2017.0,Manual,13808.0,Petrol,0.0,65.7,1.0,88.0,,0.0
+84955,Ford,Fiesta,2017.0,Manual,13808.0,Petrol,0.0,65.7,1.0,88.0,6.258230522496533,0.0
 102279,Opel,Corsa,2019.0,Manual,2756.0,Petrol,145.0,43.5,1.4,73.0,4.0,0.0
 90285,Hyundai,Ioniq,2018.0,Automatic,35876.0,Hybrid,135.0,78.5,1.6,,0.0,0.0
 86735,Ford,Focus,2017.0,Manual,23367.0,Diesel,,,2.0,75.0,4.0,0.0
@@ -25411,7 +25411,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 99211,Toyota,Yaris,2017.0,Manual,32009.0,Petrol,145.0,65.7,1.0,95.0,4.0,0.0
 99118,Toyota,Corolla,2019.0,Automatic,9264.0,Hybrid,135.0,78.5,1.8,37.0,0.0,0.0
 97657,Škoda,Kodiaq,2019.0,Semi-Auto,7096.0,Diesel,145.0,39.2,2.0,36.0,,0.0
-80627,BMW,2 Series,2015.0,Semi-Auto,68787.0,Diesel,125.0,57.6,2.0,46.0,,0.0
+80627,BMW,2 Series,2015.0,Semi-Auto,68787.0,Diesel,125.0,57.6,2.0,46.0,6.230179577896532,0.0
 76293,Audi,Q3,2016.0,Automatic,44900.0,Diesel,160.0,50.4,2.0,68.0,4.0,0.0
 83108,Ford,Fiesta,2015.0,Manual,21309.0,Petrol,125.0,54.3,1.2,74.0,3.0,0.0
 93728,Mercedes-Benz,C-Class,2019.0,Semi-Auto,14006.0,Petrol,145.0,46.3,1.5,92.0,0.0,0.0
@@ -25524,7 +25524,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 101474,Opel,Astra,2017.0,Manual,23546.0,Diesel,20.0,72.4,1.6,46.0,1.0,0.0
 91945,Mercedes-Benz,E-Class,2014.0,Semi-Auto,,Diesel,145.0,54.3,2.1,80.0,4.0,0.0
 78816,Audi,Q3,2020.0,Semi-Auto,4432.0,Petrol,145.0,39.2,1.5,78.0,0.0,0.0
-95208,Mercedes-Benz,A-Class,2013.0,Semi-Auto,49059.0,Diesel,30.0,65.7,,78.0,,0.0
+95208,Mercedes-Benz,A-Class,2013.0,Semi-Auto,49059.0,Diesel,30.0,65.7,,78.0,6.258370664185211,0.0
 80788,BMW,3 Series,2018.0,Semi-Auto,16149.0,Petrol,145.0,51.4,1.5,96.0,4.0,0.0
 92446,Mercedes-Benz,A-Class,2017.0,Manual,37884.0,Diesel,20.0,72.4,1.5,66.0,1.0,0.0
 81929,BMW,1 Series,2020.0,Automatic,,Diesel,145.0,51.4,2.0,93.0,4.0,0.0
@@ -25727,7 +25727,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 106056,Volkswagen,Up,2013.0,Semi-Auto,31075.0,Petrol,20.0,62.8,1.0,35.0,3.0,0.0
 86256,Ford,Fiesta,2019.0,Manual,23309.0,Petrol,145.0,55.4,1.1,67.0,0.0,0.0
 88692,Ford,Galaxy,2013.0,Manual,54922.0,Diesel,260.0,41.5,,63.0,2.0,0.0
-98622,Toyota,Auris,2014.0,Automatic,54106.0,Hybrid,0.0,70.6,1.8,45.0,,0.0
+98622,Toyota,Auris,2014.0,Automatic,54106.0,Hybrid,0.0,70.6,1.8,45.0,6.2177244345589395,0.0
 84068,Ford,Focus,2009.0,Automatic,39911.0,Petrol,265.0,37.7,1.6,55.0,4.0,0.0
 85863,Ford,Mondeo,2015.0,Manual,80000.0,Diesel,20.0,68.9,2.0,95.0,2.0,0.0
 104131,Volkswagen,Golf SV,2014.0,Semi-Auto,30500.0,Petrol,125.0,,1.4,91.0,1.0,0.0
@@ -25967,7 +25967,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 99768,Toyota,Auris,2017.0,Automatic,30916.0,Hybrid,0.0,72.4,1.8,51.0,2.0,0.0
 99895,Toyota,Aygo,2017.0,Manual,28261.0,Petrol,150.0,69.0,1.0,95.0,3.0,0.0
 88553,Ford,Kuga,2017.0,Manual,16284.0,Petrol,160.0,45.6,1.5,,0.0,0.0
-106781,Volkswagen,Golf,2017.0,,28168.0,Petrol,0.0,65.7,1.0,62.0,,0.0
+106781,Volkswagen,Golf,2017.0,,28168.0,Petrol,0.0,65.7,1.0,62.0,6.2458349512166365,0.0
 104339,Volkswagen,Arteon,2019.0,Semi-Auto,6198.0,Petrol,150.0,40.4,1.5,70.0,2.0,0.0
 88198,Ford,Fiesta,2017.0,Manual,26932.0,Petrol,125.0,54.3,1.2,83.0,4.0,0.0
 77024,Audi,TT,2013.0,,37856.0,Petrol,205.0,43.5,1.8,50.0,3.0,0.0
@@ -26173,7 +26173,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 76419,Audi,Q2,2019.0,Semi-Auto,5257.0,Diesel,145.0,46.3,1.6,47.0,0.0,0.0
 106649,Volkswagen,Golf,2017.0,Manual,10841.0,Petrol,145.0,56.5,1.0,34.0,4.0,0.0
 90004,Hyundai,ix35,2014.0,Manual,54304.0,Diesel,145.0,,,70.0,1.0,0.0
-93201,Mercedes-Benz,E-Class,2019.0,Automatic,3725.0,Diesel,145.0,45.6,2.0,61.0,,0.0
+93201,Mercedes-Benz,E-Class,2019.0,Automatic,3725.0,Diesel,145.0,45.6,2.0,61.0,6.258370664185211,0.0
 97558,Škoda,Karoq,2018.0,Manual,18740.0,Diesel,145.0,62.8,1.6,98.0,4.0,0.0
 83097,Ford,Fiesta,2019.0,Manual,4597.0,Petrol,145.0,56.5,1.0,99.0,0.0,0.0
 96492,Škoda,Citigo,2014.0,Manual,28700.0,Petrol,0.0,68.9,1.0,46.0,4.0,0.0
@@ -26192,7 +26192,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 89196,Ford,Focus,2013.0,Manual,40942.0,Petrol,,,1.0,43.0,3.0,0.0
 97424,Škoda,Octavia,2019.0,Semi-Auto,36.0,Diesel,145.0,67.3,2.0,31.0,2.0,0.0
 92886,Mercedes-Benz,E-Class,2017.0,Semi-Auto,26932.0,Diesel,160.0,52.3,3.0,81.0,0.0,0.0
-76660,Audi,A3,2013.0,Semi-Auto,38776.0,Petrol,30.0,56.5,1.4,57.0,,0.0
+76660,Audi,A3,2013.0,Semi-Auto,38776.0,Petrol,30.0,56.5,1.4,57.0,6.248251195613699,0.0
 81181,BMW,1 Series,,Manual,821.0,Diesel,145.0,72.4,1.5,55.0,1.0,0.0
 93133,Mercedes-Benz,E-Class,2014.0,,34500.0,Diesel,125.0,57.7,2.1,33.0,4.0,0.0
 84390,Ford,B-MAX,2014.0,Manual,61000.0,Petrol,30.0,55.4,1.0,41.0,2.0,0.0
@@ -26257,7 +26257,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 100658,Opel,Mokka X,2019.0,Manual,11568.0,Petrol,145.0,39.2,1.4,63.0,1.0,0.0
 98383,Toyota,Land Cruiser,2020.0,Semi-Auto,3390.0,Diesel,145.0,30.1,2.8,36.0,3.0,0.0
 77915,Audi,A5,2019.0,Automatic,5000.0,Petrol,145.0,39.8,2.0,98.0,2.0,0.0
-86268,Ford,Fiesta,2013.0,Manual,70296.0,Diesel,0.0,76.4,1.5,82.0,,0.0
+86268,Ford,Fiesta,2013.0,Manual,70296.0,Diesel,0.0,76.4,1.5,82.0,6.258230522496533,0.0
 80304,BMW,X3,2006.0,Manual,88000.0,Diesel,300.0,39.2,2.0,48.0,3.0,0.0
 106680,Volkswagen,Polo,2019.0,Manual,2716.0,Petrol,145.0,51.4,1.0,83.0,2.0,0.0
 101132,Opel,Astra,2015.0,Manual,56658.0,Diesel,125.0,62.8,2.0,82.0,2.0,0.0
@@ -26281,7 +26281,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 77519,Audi,Q2,2019.0,Manual,9388.0,Diesel,145.0,49.6,1.6,39.0,1.0,0.0
 96946,Škoda,Octavia,2017.0,Manual,29536.0,Petrol,145.0,43.5,2.0,71.0,4.0,0.0
 98391,Toyota,Yaris,2014.0,Manual,45876.0,Diesel,0.0,72.4,1.4,58.0,0.0,0.0
-102809,Opel,Corsa,2016.0,Manual,71999.0,Diesel,0.0,,1.3,68.0,,0.0
+102809,Opel,Corsa,2016.0,Manual,71999.0,Diesel,0.0,,1.3,68.0,6.233082169469183,0.0
 82926,Ford,B-MAX,2017.0,Manual,10300.0,Petrol,150.0,55.4,1.0,50.0,3.0,0.0
 79108,Audi,A1,2020.0,Semi-Auto,3000.0,Petrol,145.0,44.8,1.0,37.0,3.0,0.0
 96213,Škoda,Superb,2019.0,Semi-Auto,6012.0,Petrol,145.0,,1.5,75.0,3.0,0.0
@@ -26446,7 +26446,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 80567,BMW,4 Series,2014.0,Automatic,47348.0,Diesel,125.0,60.1,2.0,56.0,3.0,0.0
 95321,Mercedes-Benz,GLA-Class,2019.0,Semi-Auto,6499.0,Petrol,150.0,44.8,1.6,49.0,2.0,0.0
 86671,Ford,Fiesta,2009.0,Manual,79089.0,Petrol,145.0,49.6,1.2,43.0,4.0,0.0
-89272,Ford,Focus,2017.0,Manual,41600.0,Diesel,,,1.5,59.0,,0.0
+89272,Ford,Focus,2017.0,Manual,41600.0,Diesel,,,1.5,59.0,6.258230522496533,0.0
 78823,Audi,A5,2010.0,Automatic,90000.0,Petrol,235.0,39.8,2.0,92.0,2.0,0.0
 95185,Mercedes-Benz,A-Class,2019.0,Manual,5499.0,Petrol,145.0,47.1,1.3,87.0,3.0,0.0
 98753,Toyota,Aygo,2017.0,Manual,,Petrol,0.0,,1.0,67.0,3.0,0.0
@@ -26533,7 +26533,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 80859,BMW,7 Series,2012.0,Automatic,76000.0,Diesel,260.0,41.5,3.0,77.0,4.0,0.0
 76830,Audi,A7,2018.0,Automatic,17087.0,Diesel,150.0,38.2,3.0,61.0,1.0,0.0
 92727,Mercedes-Benz,C-Class,2012.0,Other,44644.0,Diesel,,,3.0,85.0,2.0,0.0
-82512,Ford,Fiesta,,Manual,26180.0,Petrol,145.0,54.3,1.2,84.0,,0.0
+82512,Ford,Fiesta,,Manual,26180.0,Petrol,145.0,54.3,1.2,84.0,6.258230522496533,0.0
 94918,Mercedes-Benz,C-Class,2019.0,Automatic,2200.0,Diesel,,,2.0,46.0,1.0,0.0
 96158,Škoda,Octavia,2017.0,Manual,35183.0,Petrol,145.0,54.3,1.4,48.0,2.0,0.0
 97812,Škoda,Kodiaq,2019.0,Automatic,3012.0,Diesel,145.0,37.2,2.0,72.0,2.0,0.0
@@ -26692,7 +26692,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 106036,Volkswagen,Tiguan,2016.0,Semi-Auto,20860.0,Diesel,160.0,49.6,2.0,38.0,2.0,0.0
 82287,BMW,2 Series,2017.0,Semi-Auto,38576.0,Diesel,145.0,68.9,1.5,73.0,4.0,0.0
 88789,Ford,,2018.0,Manual,116.0,Petrol,,65.7,1.0,72.0,0.0,0.0
-79618,BMW,2 Series,2019.0,Semi-Auto,5555.0,Petrol,145.0,38.2,3.0,98.0,,0.0
+79618,BMW,2 Series,2019.0,Semi-Auto,5555.0,Petrol,145.0,38.2,3.0,98.0,6.230179577896532,0.0
 94133,Mercedes-Benz,C-Class,2019.0,Semi-Auto,14251.0,Petrol,145.0,46.3,1.5,74.0,3.0,0.0
 76165,Audi,A6,2016.0,Semi-Auto,43099.0,Diesel,145.0,56.5,2.0,79.0,2.0,0.0
 101369,Opel,Corsa,2015.0,Manual,53000.0,Petrol,125.0,51.4,1.4,30.0,1.0,0.0
@@ -26828,7 +26828,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 93159,Mercedes-Benz,C-Class,2019.0,Automatic,883.0,Petrol,,,4.0,76.0,1.0,0.0
 91927,Mercedes-Benz,A-Class,2018.0,Semi-Auto,13842.0,Petrol,145.0,53.3,,90.0,2.0,0.0
 90611,Hyundai,Tucson,2017.0,Manual,32147.0,Diesel,30.0,61.7,1.7,31.0,4.0,0.0
-78641,Audi,Q7,2017.0,Automatic,26522.0,Diesel,145.0,47.9,3.0,62.0,,0.0
+78641,Audi,Q7,2017.0,Automatic,26522.0,Diesel,145.0,47.9,3.0,62.0,6.248251195613699,0.0
 92598,Mercedes-Benz,E-Class,2016.0,Semi-Auto,19176.0,Diesel,30.0,65.7,2.0,62.0,2.0,0.0
 94425,Mercedes-Benz,C-Class,2019.0,Semi-Auto,14333.0,Diesel,,,2.0,57.0,0.0,0.0
 91168,Mercedes-Benz,B-Class,2019.0,Semi-Auto,14022.0,Petrol,145.0,45.6,1.3,61.0,0.0,0.0
@@ -27178,7 +27178,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 76147,Audi,TT,2019.0,Automatic,14311.0,Petrol,145.0,34.0,2.0,67.0,3.0,0.0
 94260,Mercedes-Benz,A-Class,2019.0,Semi-Auto,1718.0,Diesel,145.0,67.3,1.5,81.0,3.0,0.0
 101648,Opel,Mokka X,2018.0,Manual,,Petrol,145.0,47.1,,37.0,4.0,0.0
-84725,Ford,Fiesta,2018.0,Manual,25515.0,Petrol,145.0,62.8,1.0,39.0,,0.0
+84725,Ford,Fiesta,2018.0,Manual,25515.0,Petrol,145.0,62.8,1.0,39.0,6.258230522496533,0.0
 100099,Opel,Zafira,2017.0,Manual,20530.0,Petrol,200.0,41.5,1.4,76.0,2.0,0.0
 79381,BMW,1 Series,2013.0,Manual,60741.0,Diesel,30.0,65.7,2.0,46.0,4.0,0.0
 77511,Audi,A3,2014.0,Manual,49000.0,Diesel,20.0,68.9,2.0,71.0,1.0,0.0
@@ -27269,7 +27269,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 81783,BMW,X3,2019.0,Semi-Auto,5527.0,Diesel,145.0,48.7,3.0,44.0,3.0,0.0
 100932,Opel,Corsa,2015.0,Manual,32632.0,Diesel,,,1.2,88.0,4.0,0.0
 81607,BMW,1 Series,2015.0,Automatic,75124.0,Diesel,20.0,70.6,2.0,77.0,2.0,0.0
-96664,Škoda,Octavia,2017.0,Manual,22127.0,Diesel,145.0,65.7,2.0,87.0,,0.0
+96664,Škoda,Octavia,2017.0,Manual,22127.0,Diesel,145.0,65.7,2.0,87.0,6.2417786290739095,0.0
 87553,Ford,Focus,2018.0,Manual,19382.0,Petrol,,,2.0,59.0,2.0,0.0
 95513,Mercedes-Benz,E-Class,2018.0,Semi-Auto,7081.0,Diesel,145.0,57.7,2.0,31.0,3.0,0.0
 89899,Hyundai,i40,2019.0,Manual,10.0,Diesel,145.0,,1.6,90.0,1.0,0.0
@@ -27540,7 +27540,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 75998,Audi,Q3,2016.0,Manual,46553.0,Diesel,30.0,61.4,2.0,89.0,0.0,0.0
 107603,Volkswagen,Polo,2019.0,Manual,11875.0,Petrol,145.0,52.3,1.0,66.0,0.0,0.0
 86574,Ford,Focus,2015.0,Manual,49605.0,Diesel,,,2.0,80.0,4.0,0.0
-83632,Ford,EcoSport,2018.0,Manual,2135.0,Petrol,145.0,54.3,1.0,39.0,,0.0
+83632,Ford,EcoSport,2018.0,Manual,2135.0,Petrol,145.0,54.3,1.0,39.0,6.258230522496533,0.0
 89374,Ford,Focus,2019.0,Manual,11867.0,Petrol,,,1.0,80.0,0.0,0.0
 81663,BMW,1 Series,2017.0,Semi-Auto,42852.0,Diesel,20.0,72.4,1.5,,4.0,0.0
 85717,Ford,Fiesta,2015.0,Manual,38000.0,Petrol,125.0,54.3,1.2,80.0,3.0,0.0
@@ -28102,7 +28102,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 92319,Mercedes-Benz,C-Class,2014.0,Automatic,20498.0,Diesel,,,2.1,34.0,1.0,0.0
 82564,Ford,Fiesta,2017.0,Manual,20594.0,Petrol,145.0,65.7,1.0,66.0,1.0,0.0
 80431,BMW,4 Series,2019.0,Automatic,5500.0,Petrol,145.0,41.5,3.0,36.0,2.0,0.0
-90298,Hyundai,i20,2018.0,Automatic,31676.0,Petrol,150.0,45.6,1.4,66.0,,0.0
+90298,Hyundai,i20,2018.0,Automatic,31676.0,Petrol,150.0,45.6,1.4,66.0,6.227897962331817,0.0
 83570,Ford,Mondeo,2009.0,,114000.0,Petrol,300.0,35.8,2.0,35.0,2.0,0.0
 85343,Ford,Kuga,2017.0,Manual,21394.0,Diesel,145.0,60.1,2.0,66.0,4.0,0.0
 104567,Volkswagen,Golf,2019.0,Semi-Auto,10.0,Diesel,145.0,54.3,1.6,46.0,2.0,0.0
@@ -28232,7 +28232,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 105202,Volkswagen,Polo,2016.0,Manual,27648.0,Petrol,20.0,60.1,1.0,34.0,4.0,0.0
 79841,BMW,4 Series,2016.0,Automatic,44982.0,Petrol,145.0,48.7,2.0,47.0,3.0,0.0
 81027,BMW,3 Series,2019.0,Semi-Auto,7974.0,Hybrid,135.0,,2.0,75.0,1.0,0.0
-81862,BMW,X1,2019.0,Manual,10879.0,Petrol,145.0,39.8,1.5,60.0,,0.0
+81862,BMW,X1,2019.0,Manual,10879.0,Petrol,145.0,39.8,1.5,60.0,6.230179577896532,0.0
 90349,Hyundai,Tucson,2017.0,Semi-Auto,20529.0,Diesel,145.0,57.6,1.7,43.0,0.0,0.0
 95059,Mercedes-Benz,A-Class,2019.0,Semi-Auto,1000.0,Petrol,145.0,35.8,2.0,31.0,2.0,0.0
 100279,Opel,Mokka,2015.0,Manual,26531.0,Petrol,205.0,42.2,1.4,61.0,3.0,0.0
@@ -28958,7 +28958,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 106499,Volkswagen,Passat,2016.0,Semi-Auto,31037.0,Diesel,145.0,53.3,2.0,30.0,1.0,0.0
 81009,BMW,X5,2019.0,Automatic,8093.0,Diesel,145.0,37.7,3.0,85.0,2.0,0.0
 77053,Audi,A5,2019.0,Automatic,8815.0,Diesel,145.0,51.4,2.0,37.0,3.0,0.0
-104832,Volkswagen,Up,2017.0,Manual,32058.0,Petrol,145.0,64.2,1.0,40.0,,0.0
+104832,Volkswagen,Up,2017.0,Manual,32058.0,Petrol,145.0,64.2,1.0,40.0,6.2458349512166365,0.0
 81864,BMW,5 Series,2015.0,,54386.0,Diesel,30.0,62.8,2.0,91.0,4.0,0.0
 102634,Opel,Astra,2017.0,Manual,50007.0,Diesel,145.0,76.3,1.6,79.0,2.0,0.0
 90510,Hyundai,i10,2017.0,Manual,12351.0,Petrol,145.0,60.1,1.0,92.0,,0.0
@@ -29053,7 +29053,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 102035,Opel,Corsa,2018.0,Manual,15693.0,Petrol,145.0,43.5,1.4,85.0,1.0,0.0
 87843,Ford,Focus,2014.0,Manual,36200.0,Diesel,20.0,67.3,1.6,46.0,1.0,0.0
 107868,Volkswagen,Sharan,2019.0,Manual,10053.0,Diesel,145.0,43.5,2.0,97.0,1.0,0.0
-100831,Opel,Zafira,,Manual,64000.0,Diesel,145.0,55.4,1.7,46.0,,
+100831,Opel,Zafira,,Manual,64000.0,Diesel,145.0,55.4,1.7,46.0,6.233082169469183,
 98936,Toyota,Yaris,2016.0,Automatic,26191.0,Petrol,30.0,58.0,1.3,57.0,3.0,0.0
 96915,Škoda,Superb,2019.0,Automatic,1200.0,Diesel,145.0,47.1,2.0,92.0,1.0,0.0
 88473,Ford,Focus,2017.0,Manual,12675.0,Petrol,,,2.0,70.0,2.0,0.0
@@ -29082,7 +29082,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 105104,Volkswagen,Touran,2013.0,Manual,69000.0,Diesel,140.0,55.4,1.6,59.0,2.0,0.0
 100054,Opel,Astra,2017.0,Manual,7906.0,Diesel,145.0,76.3,1.6,74.0,3.0,0.0
 87155,Ford,Kuga,2017.0,Automatic,16765.0,Diesel,145.0,54.3,2.0,92.0,2.0,0.0
-107600,Volkswagen,Golf,2015.0,Manual,47599.0,Diesel,20.0,68.9,2.0,57.0,,0.0
+107600,Volkswagen,Golf,2015.0,Manual,47599.0,Diesel,20.0,68.9,2.0,57.0,6.2458349512166365,0.0
 80848,BMW,3 Series,2019.0,Manual,612.0,Diesel,145.0,54.3,2.0,65.0,3.0,0.0
 86709,Ford,Focus,2019.0,Manual,12811.0,Petrol,,,,47.0,4.0,0.0
 106214,Volkswagen,Tiguan Allspace,2019.0,Semi-Auto,4814.0,Diesel,150.0,39.2,2.0,57.0,3.0,0.0
@@ -29130,7 +29130,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 81951,BMW,1 Series,2016.0,Manual,37549.0,Diesel,20.0,70.6,1.5,46.0,2.0,0.0
 101200,Opel,Mokka X,2019.0,Manual,17480.0,Petrol,145.0,,1.4,,4.0,0.0
 96104,Škoda,Superb,2019.0,Automatic,3000.0,Petrol,145.0,33.2,2.0,65.0,3.0,0.0
-78169,Audi,Q3,2016.0,Semi-Auto,28994.0,Diesel,160.0,50.4,2.0,45.0,,0.0
+78169,Audi,Q3,2016.0,Semi-Auto,28994.0,Diesel,160.0,50.4,2.0,45.0,6.248251195613699,0.0
 90062,Hyundai,i30,2018.0,Manual,28014.0,Petrol,150.0,52.3,1.4,72.0,3.0,0.0
 100918,Opel,Mokka X,2017.0,Manual,32517.0,Petrol,145.0,42.2,1.6,60.0,4.0,0.0
 108353,Volkswagen,Golf,2016.0,Manual,37915.0,Diesel,0.0,74.3,,56.0,3.0,0.0
@@ -29168,7 +29168,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 103038,Opel,Astra,2020.0,Manual,100.0,Petrol,145.0,54.3,1.2,46.0,2.0,0.0
 104111,Volkswagen,Golf,2019.0,Manual,592.0,Petrol,145.0,47.1,1.5,69.0,1.0,0.0
 101111,Opel,Astra,2019.0,Manual,5697.0,Petrol,145.0,51.4,1.4,54.0,3.0,0.0
-107812,Volkswagen,Golf,2016.0,Manual,37507.0,Diesel,20.0,68.9,2.0,62.0,,0.0
+107812,Volkswagen,Golf,2016.0,Manual,37507.0,Diesel,20.0,68.9,2.0,62.0,6.2458349512166365,0.0
 81483,BMW,X4,2015.0,Manual,53755.0,Diesel,160.0,52.3,2.0,95.0,1.0,0.0
 81303,BMW,3 Series,,Semi-Auto,22594.0,Diesel,30.0,64.2,2.0,76.0,4.0,0.0
 105370,Volkswagen,Passat,2018.0,Manual,34393.0,Diesel,145.0,68.9,2.0,50.0,2.0,0.0
@@ -29201,7 +29201,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 99697,Toyota,Aygo,2018.0,Manual,6292.0,Petrol,145.0,56.5,1.0,59.0,4.0,0.0
 101404,Opel,Corsa,2018.0,Manual,10889.0,Petrol,145.0,55.4,1.4,86.0,1.0,0.0
 96283,Škoda,Fabia,2018.0,Manual,11669.0,Petrol,145.0,64.2,1.0,70.0,4.0,0.0
-83072,Ford,Fiesta,2017.0,Manual,59578.0,Petrol,145.0,62.8,1.0,71.0,,0.0
+83072,Ford,Fiesta,2017.0,Manual,59578.0,Petrol,145.0,62.8,1.0,71.0,6.258230522496533,0.0
 84053,Ford,Focus,2012.0,Manual,48734.0,Diesel,,27.70948954406702,2.0,82.0,1.0,0.0
 92435,Mercedes-Benz,V-Class,2018.0,Manual,38000.0,,145.0,46.3,2.1,53.0,3.0,0.0
 99445,Toyota,Yaris,2016.0,Automatic,18255.0,Hybrid,0.0,86.0,1.5,,2.0,0.0
@@ -29325,7 +29325,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 102679,Opel,Zafira,2016.0,Manual,9065.0,Petrol,200.0,42.2,1.4,94.0,4.0,0.0
 81051,BMW,X2,2020.0,Semi-Auto,1.0,Diesel,145.0,52.3,2.0,66.0,3.0,0.0
 101005,Opel,Combo Life,2019.0,Manual,805.0,Petrol,145.0,42.2,1.2,61.0,4.0,0.0
-97532,Škoda,Fabia,2017.0,Manual,14015.0,Petrol,145.0,58.9,1.2,2.72515271650839,,0.0
+97532,Škoda,Fabia,2017.0,Manual,14015.0,Petrol,145.0,58.9,1.2,2.72515271650839,6.2417786290739095,0.0
 102499,Opel,Insignia,2017.0,Automatic,30000.0,Diesel,145.0,,2.0,92.0,3.0,0.0
 89537,Hyundai,Tucson,2017.0,Manual,28476.0,Diesel,30.0,61.7,1.7,34.0,1.0,0.0
 93046,Mercedes-Benz,C-Class,2016.0,Semi-Auto,34400.0,Diesel,,,2.1,66.0,2.0,0.0
@@ -29453,7 +29453,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 98906,Toyota,Aygo,2017.0,Manual,22452.0,Petrol,0.0,69.0,1.0,31.0,3.0,0.0
 96394,Škoda,Fabia,2019.0,Manual,11425.0,Petrol,150.0,57.7,1.0,95.0,2.0,0.0
 106032,Volkswagen,Golf SV,2018.0,Semi-Auto,18622.0,Petrol,145.0,55.4,1.5,40.0,2.0,0.0
-76121,Audi,Q3,2016.0,Semi-Auto,15274.0,Petrol,150.0,47.9,1.4,78.0,,0.0
+76121,Audi,Q3,2016.0,Semi-Auto,15274.0,Petrol,150.0,47.9,1.4,78.0,6.248251195613699,0.0
 92642,Mercedes-Benz,CL-Class,2016.0,Automatic,11269.0,Petrol,125.0,53.3,1.6,42.0,4.0,0.0
 94725,Mercedes-Benz,GLA-Class,2016.0,Semi-Auto,6662.0,Petrol,145.0,48.7,1.6,84.0,1.0,0.0
 84528,Ford,,2017.0,Manual,36947.0,Diesel,125.0,56.5,2.0,72.0,0.0,0.0
@@ -29494,7 +29494,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 106343,Volkswagen,Tiguan Allspace,2019.0,Semi-Auto,,Diesel,145.0,39.2,2.0,55.0,4.0,0.0
 96568,Škoda,Fabia,2017.0,Manual,13950.0,Petrol,150.0,64.2,1.0,32.0,2.0,0.0
 90082,Hyundai,Santa Fe,2019.0,Semi-Auto,5931.0,Diesel,145.0,39.2,2.2,73.0,4.0,0.0
-85659,Ford,C-MAX,2015.0,Manual,36004.0,Petrol,30.0,55.4,1.0,59.0,,0.0
+85659,Ford,C-MAX,2015.0,Manual,36004.0,Petrol,30.0,55.4,1.0,59.0,6.258230522496533,0.0
 102950,Opel,GTC,2017.0,Manual,19000.0,Petrol,145.0,47.1,1.4,96.0,1.0,0.0
 96231,Škoda,Fabia,2018.0,Manual,13542.0,Petrol,145.0,64.2,1.0,86.0,2.0,0.0
 101781,Opel,Insignia,2019.0,Manual,9704.0,Petrol,145.0,50.4,1.5,60.0,3.0,0.0
@@ -29549,7 +29549,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 87516,Ford,Fiesta,2015.0,Manual,39061.0,Petrol,20.0,62.8,1.0,42.0,4.0,0.0
 98959,Toyota,Aygo,2017.0,Manual,19640.0,Petrol,145.0,69.0,1.0,91.0,1.0,0.0
 104557,Volkswagen,Polo,2016.0,Manual,29656.0,Petrol,20.0,60.1,1.2,84.0,1.0,0.0
-99137,Toyota,Aygo,2015.0,Manual,27300.0,Petrol,0.0,69.0,1.0,36.0,,0.0
+99137,Toyota,Aygo,2015.0,Manual,27300.0,Petrol,0.0,69.0,1.0,36.0,6.2177244345589395,0.0
 102126,Opel,Zafira,2014.0,Manual,49853.0,Petrol,235.0,39.2,1.8,97.0,3.0,0.0
 104455,Volkswagen,Golf,,Manual,20902.0,Petrol,30.0,53.3,1.4,41.0,2.0,0.0
 104278,Volkswagen,Polo,2016.0,Semi-Auto,21377.0,Petrol,20.0,60.1,1.2,51.0,2.0,0.0
@@ -29820,13 +29820,13 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 93248,Mercedes-Benz,C-Class,2016.0,Semi-Auto,24420.0,Petrol,160.0,43.5,2.0,59.0,3.0,0.0
 86958,Ford,Mondeo,2016.0,Automatic,42165.0,Hybrid,0.0,67.3,2.0,56.0,0.0,0.0
 77942,Audi,Q2,2019.0,Semi-Auto,1427.0,Petrol,145.0,40.9,1.5,40.0,4.0,0.0
-88568,Ford,Focus,2019.0,,13789.0,Diesel,,,1.5,55.0,,0.0
+88568,Ford,Focus,2019.0,,13789.0,Diesel,,,1.5,55.0,6.258230522496533,0.0
 81730,BMW,X6,2019.0,Semi-Auto,3455.0,Diesel,150.0,34.9,3.0,78.0,4.0,0.0
 98884,Toyota,Aygo,2018.0,Manual,6275.0,Petrol,145.0,56.5,1.0,91.0,3.0,0.0
 82267,BMW,,2016.0,Manual,34608.0,Petrol,,42.8,2.0,36.0,2.0,0.0
 88088,Ford,Mondeo,2016.0,Manual,40230.0,Diesel,30.0,64.2,2.0,47.0,0.0,0.0
 89578,Hyundai,i800,2019.0,Manual,7691.0,Diesel,150.0,31.7,,38.0,4.0,0.0
-83568,Ford,Focus,2019.0,Manual,,Petrol,,,2.3,64.0,,0.0
+83568,Ford,Focus,2019.0,Manual,,Petrol,,,2.3,64.0,6.258230522496533,0.0
 85083,Ford,Kuga,2013.0,Manual,100000.0,Diesel,200.0,47.9,2.0,91.0,2.0,0.0
 79222,BMW,3 Series,2016.0,Automatic,34623.0,Diesel,125.0,57.6,2.0,84.0,0.0,0.0
 82543,Ford,Fiesta,2018.0,Manual,15650.0,Petrol,145.0,65.7,1.0,56.0,3.0,0.0
@@ -30058,7 +30058,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 108445,Volkswagen,Polo,2016.0,Manual,25748.0,Petrol,20.0,60.1,1.0,54.0,4.0,0.0
 76872,Audi,,2017.0,Semi-Auto,28710.0,Diesel,145.0,56.5,2.0,56.0,0.0,0.0
 76180,Audi,A7,2019.0,Semi-Auto,2055.0,Diesel,150.0,35.8,3.0,63.0,1.0,0.0
-106906,Volkswagen,Polo,2016.0,Manual,23248.0,Petrol,20.0,60.1,1.2,59.0,,0.0
+106906,Volkswagen,Polo,2016.0,Manual,23248.0,Petrol,20.0,60.1,1.2,59.0,6.2458349512166365,0.0
 76431,Audi,Q7,,Semi-Auto,61089.0,Diesel,200.0,47.9,3.0,58.0,0.0,0.0
 102603,Opel,Astra,2017.0,Manual,19428.0,Petrol,145.0,51.4,1.4,83.0,2.0,0.0
 78403,Audi,A4,2016.0,Manual,45100.0,Diesel,30.0,67.3,2.0,51.0,1.0,0.0
@@ -30181,7 +30181,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 104993,Volkswagen,T-Roc,2019.0,Manual,4637.0,Diesel,145.0,50.4,1.6,49.0,1.0,0.0
 82315,BMW,2 Series,2018.0,Semi-Auto,3764.0,Petrol,145.0,53.3,1.5,32.0,4.0,0.0
 95990,Mercedes-Benz,S-Class,2019.0,Semi-Auto,5961.0,Diesel,145.0,52.3,3.0,54.0,0.0,0.0
-89970,Hyundai,ix20,2018.0,Automatic,10166.0,Petrol,145.0,34.5,1.6,40.0,,0.0
+89970,Hyundai,ix20,2018.0,Automatic,10166.0,Petrol,145.0,34.5,1.6,40.0,6.227897962331817,0.0
 93407,Mercedes-Benz,C-Class,2016.0,Semi-Auto,18246.0,Petrol,,,2.0,63.0,4.0,0.0
 84755,Ford,Focus,2018.0,Manual,7255.0,Petrol,,,1.0,79.0,0.0,0.0
 84684,Ford,Focus,2019.0,Manual,7045.0,Petrol,,,1.0,74.0,4.0,0.0
@@ -30634,7 +30634,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 76311,Audi,A1,2016.0,Manual,34980.0,Diesel,0.0,76.3,1.6,69.0,0.0,0.0
 100764,Opel,Astra,2016.0,Manual,42198.0,Diesel,0.0,76.3,1.6,65.0,4.0,0.0
 87828,Ford,Grand Tourneo Connect,2016.0,Automatic,44785.0,Diesel,125.0,,1.5,97.0,3.0,0.0
-77314,Audi,A3,,Manual,19366.0,Petrol,145.0,54.3,1.5,53.0,,0.0
+77314,Audi,A3,,Manual,19366.0,Petrol,145.0,54.3,1.5,53.0,6.248251195613699,0.0
 107860,Volkswagen,Polo,2017.0,Automatic,16861.0,Petrol,20.0,60.1,1.2,89.0,1.0,0.0
 100339,Opel,Corsa,2016.0,Manual,59408.0,Petrol,30.0,55.4,1.4,,1.0,0.0
 106165,Volkswagen,Up,2015.0,Manual,47341.0,Petrol,20.0,61.4,1.0,75.0,0.0,0.0
@@ -30658,7 +30658,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 96560,Škoda,Scala,2019.0,Manual,7000.0,Petrol,145.0,49.6,1.0,48.0,4.0,0.0
 107448,Volkswagen,Golf,2014.0,Manual,58791.0,Petrol,30.0,57.6,1.2,52.0,1.0,0.0
 104118,Volkswagen,,2019.0,Manual,7844.0,Petrol,145.0,,1.5,71.0,4.0,0.0
-88391,Ford,B-MAX,2016.0,Manual,27519.0,Diesel,0.0,74.3,1.5,96.0,,0.0
+88391,Ford,B-MAX,2016.0,Manual,27519.0,Diesel,0.0,74.3,1.5,96.0,6.258230522496533,0.0
 100327,Opel,Mokka X,2019.0,Manual,,Petrol,145.0,39.2,1.4,37.0,,0.0
 89323,Ford,Fiesta,2014.0,Manual,32500.0,Petrol,30.0,54.3,1.2,49.0,2.0,0.0
 106925,Volkswagen,Sharan,2019.0,Semi-Auto,13461.0,Diesel,145.0,,2.0,75.0,4.0,0.0
@@ -30869,7 +30869,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 88573,Ford,Kuga,2017.0,Manual,,Diesel,145.0,64.2,1.5,69.0,3.0,
 93189,Mercedes-Benz,,2013.0,Semi-Auto,41366.0,Diesel,300.0,39.2,3.0,45.0,0.0,0.0
 87244,Ford,C-MAX,2019.0,Manual,23394.0,Petrol,145.0,48.7,1.0,56.0,3.0,0.0
-108207,Volkswagen,Passat,2012.0,Semi-Auto,86250.0,Diesel,150.0,54.3,2.0,88.0,,0.0
+108207,Volkswagen,Passat,2012.0,Semi-Auto,86250.0,Diesel,150.0,54.3,2.0,88.0,6.2458349512166365,0.0
 95819,Mercedes-Benz,V-Class,2019.0,Automatic,3834.0,Diesel,145.0,36.7,2.0,69.0,0.0,0.0
 105846,Volkswagen,Tiguan,2019.0,Semi-Auto,8359.0,Diesel,,39.8,2.0,63.0,2.0,0.0
 102372,Opel,Corsa,2018.0,Manual,28821.0,Petrol,150.0,55.4,1.4,77.0,0.0,0.0
@@ -30939,7 +30939,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 81561,BMW,3 Series,2017.0,Semi-Auto,34700.0,Diesel,150.0,64.2,2.0,98.0,2.0,0.0
 92214,Mercedes-Benz,C-Class,2019.0,Semi-Auto,6073.0,Diesel,,,2.0,84.0,0.0,0.0
 86368,Ford,Focus,2018.0,Manual,11041.0,Petrol,,,1.0,54.0,0.0,0.0
-95070,Mercedes-Benz,A-Class,2019.0,Semi-Auto,12755.0,Diesel,150.0,68.9,1.5,97.0,,0.0
+95070,Mercedes-Benz,A-Class,2019.0,Semi-Auto,12755.0,Diesel,150.0,68.9,1.5,97.0,6.258370664185211,0.0
 80730,BMW,1 Series,,Semi-Auto,26488.0,Diesel,20.0,67.3,2.0,3.140370457788869,4.0,0.0
 105647,Volkswagen,Tiguan,2017.0,Manual,22000.0,Petrol,145.0,48.7,1.4,36.0,2.0,0.0
 104707,Volkswagen,Golf,2019.0,Semi-Auto,4942.0,Petrol,145.0,37.7,2.0,86.0,2.0,0.0
@@ -30982,7 +30982,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 85497,Ford,Fiesta,2015.0,Manual,44882.0,Petrol,125.0,54.3,1.2,71.0,3.0,0.0
 99469,Toyota,RAV4,2017.0,Manual,25447.0,Diesel,125.0,60.1,2.0,99.0,4.0,0.0
 87667,Ford,Fiesta,2016.0,Manual,25465.0,Petrol,125.0,54.3,1.2,50.0,2.0,0.0
-78681,Audi,RS6,2016.0,Automatic,27000.0,Petrol,325.0,29.4,4.0,,,0.0
+78681,Audi,RS6,2016.0,Automatic,27000.0,Petrol,325.0,29.4,4.0,,6.248251195613699,0.0
 106579,Volkswagen,Tiguan,2016.0,Manual,44202.0,Diesel,165.0,50.4,2.0,66.0,3.0,0.0
 97388,Škoda,Yeti Outdoor,2014.0,Manual,27655.0,Petrol,160.0,46.3,1.2,80.0,2.0,0.0
 82487,Ford,Fiesta,2018.0,Manual,12981.0,Petrol,145.0,65.7,1.0,98.0,2.0,0.0
@@ -30998,7 +30998,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 79390,BMW,M4,2018.0,Automatic,9210.0,Petrol,145.0,34.0,3.0,75.0,0.0,0.0
 79449,BMW,4 Series,2016.0,Manual,19684.0,Diesel,145.0,55.4,2.0,93.0,2.0,0.0
 107826,Volkswagen,Touareg,2016.0,Automatic,45408.0,Diesel,240.0,42.8,3.0,48.0,3.0,0.0
-87026,Ford,Focus,2017.0,Semi-Auto,14478.0,Diesel,,,1.5,58.0,,0.0
+87026,Ford,Focus,2017.0,Semi-Auto,14478.0,Diesel,,,1.5,58.0,6.258230522496533,0.0
 77765,Audi,Q2,2017.0,Semi-Auto,25617.0,Petrol,150.0,54.3,1.4,43.0,0.0,0.0
 89691,Hyundai,Kona,2019.0,Manual,8550.0,Petrol,145.0,44.1,1.0,46.0,4.0,0.0
 91087,Mercedes-Benz,C-Class,2015.0,Automatic,40000.0,Diesel,30.0,64.2,2.1,70.0,0.0,0.0
@@ -31382,7 +31382,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 86133,Ford,,2018.0,Semi-Auto,9600.0,Diesel,145.0,47.9,2.0,41.0,3.0,0.0
 94950,Mercedes-Benz,GLE-Class,2019.0,Semi-Auto,3500.0,Diesel,145.0,32.5,3.0,48.0,2.0,0.0
 103666,Opel,Corsa,2017.0,Manual,18195.0,Petrol,145.0,55.4,1.4,61.0,2.0,0.0
-94750,Mercedes-Benz,E-Class,2016.0,Automatic,16137.0,Diesel,30.0,65.7,2.0,70.0,,0.0
+94750,Mercedes-Benz,E-Class,2016.0,Automatic,16137.0,Diesel,30.0,65.7,2.0,70.0,6.258370664185211,0.0
 92880,Mercedes-Benz,E-Class,2019.0,Semi-Auto,11784.0,Diesel,145.0,72.4,2.0,76.0,0.0,0.0
 82349,BMW,X1,2016.0,Automatic,22177.0,Diesel,125.0,60.1,2.0,39.0,4.0,0.0
 107337,Volkswagen,Touran,2016.0,Manual,22595.0,Diesel,30.0,61.4,1.6,79.0,0.0,0.0
@@ -32155,7 +32155,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 90180,Hyundai,i20,2016.0,Automatic,2000.0,Petrol,160.0,44.1,1.4,30.0,2.0,0.0
 78934,Audi,A6,2019.0,Automatic,1000.0,Diesel,145.0,50.4,2.0,86.0,4.0,0.0
 90145,Hyundai,i30,2019.0,Manual,21.0,Petrol,150.0,34.0,2.0,54.0,0.0,0.0
-78173,Audi,Q2,2017.0,Semi-Auto,32677.0,Petrol,145.0,52.3,1.4,46.0,,0.0
+78173,Audi,Q2,2017.0,Semi-Auto,32677.0,Petrol,145.0,52.3,1.4,46.0,6.248251195613699,0.0
 92455,Mercedes-Benz,C-Class,2019.0,Semi-Auto,,Petrol,,,2.0,59.0,2.0,0.0
 81565,BMW,2 Series,2019.0,Semi-Auto,7460.0,Petrol,145.0,47.9,2.0,63.0,3.0,
 78530,Audi,Q3,2019.0,Manual,1500.0,Diesel,145.0,42.8,2.0,69.0,0.0,0.0
@@ -32249,7 +32249,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 83750,Ford,Focus,2019.0,Manual,8800.0,Petrol,150.0,51.4,1.5,76.0,4.0,0.0
 95288,Mercedes-Benz,C-Class,2014.0,Automatic,45000.0,Petrol,,,1.6,84.0,0.0,0.0
 83977,Ford,Focus,2018.0,Manual,12446.0,Petrol,,,2.0,81.0,1.0,0.0
-78300,Audi,Q2,2019.0,Automatic,5999.0,Diesel,145.0,47.9,1.6,39.0,,0.0
+78300,Audi,Q2,2019.0,Automatic,5999.0,Diesel,145.0,47.9,1.6,39.0,6.248251195613699,0.0
 80362,BMW,1 Series,2013.0,Manual,67444.0,Petrol,145.0,50.4,1.6,73.0,2.0,0.0
 101315,Opel,Mokka X,,Semi-Auto,17839.0,Petrol,160.0,43.5,1.4,71.0,0.0,0.0
 88661,Ford,Focus,2012.0,Manual,57000.0,Diesel,20.0,67.3,1.6,74.0,1.0,0.0
@@ -32545,7 +32545,7 @@ carID,Brand,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,paintQua
 102940,Opel,Insignia,2019.0,Manual,10887.0,Petrol,145.0,50.4,1.5,82.0,1.0,0.0
 76742,Audi,A5,2016.0,Automatic,15901.0,Petrol,165.0,45.6,2.0,39.0,0.0,0.0
 108025,Volkswagen,Golf,2017.0,Manual,18000.0,Petrol,30.0,53.3,1.4,52.0,1.0,0.0
-77658,Audi,A6,2016.0,Semi-Auto,25665.0,Diesel,160.0,,3.0,59.0,,0.0
+77658,Audi,A6,2016.0,Semi-Auto,25665.0,Diesel,160.0,,3.0,59.0,6.248251195613699,0.0
 84295,Ford,Grand C-MAX,2017.0,Manual,24088.0,Diesel,145.0,64.2,1.5,47.0,1.0,0.0
 91996,Mercedes-Benz,C-Class,2016.0,Automatic,69505.0,Diesel,125.0,,2.1,87.0,1.0,0.0
 103468,Opel,Mokka X,2017.0,Manual,20648.0,Petrol,145.0,47.1,1.4,91.0,1.0,0.0
