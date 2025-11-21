@@ -1,0 +1,64 @@
+2025-11-17 18:23:19.732738: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-11-17 18:23:19.733466: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-11-17 18:23:19.794728: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-11-17 18:23:55.210223: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-11-17 18:23:55.210341: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-11-17 18:23:55.211109: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+Traceback (most recent call last):
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/NN-Notebooks/main.py", line 288, in <module>
+    run_training(
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/NN-Notebooks/main.py", line 157, in run_training
+    search.fit(X_full, y_full)
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/model_selection/_search.py", line 1051, in fit
+    self._run_search(evaluate_candidates)
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/model_selection/_search.py", line 1605, in _run_search
+    evaluate_candidates(ParameterGrid(self.param_grid))
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/model_selection/_search.py", line 997, in evaluate_candidates
+    out = parallel(
+          ^^^^^^^^^
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/eb/x86_64/software/Python-bundle-PyPI/2023.06-GCCcore-12.3.0/lib/python3.11/site-packages/joblib/parallel.py", line 1085, in __call__
+    if self.dispatch_one_batch(iterator):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/eb/x86_64/software/Python-bundle-PyPI/2023.06-GCCcore-12.3.0/lib/python3.11/site-packages/joblib/parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/eb/x86_64/software/Python-bundle-PyPI/2023.06-GCCcore-12.3.0/lib/python3.11/site-packages/joblib/parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/eb/x86_64/software/Python-bundle-PyPI/2023.06-GCCcore-12.3.0/lib/python3.11/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/eb/x86_64/software/Python-bundle-PyPI/2023.06-GCCcore-12.3.0/lib/python3.11/site-packages/joblib/_parallel_backends.py", line 597, in __init__
+    self.results = batch()
+                   ^^^^^^^
+  File "/eb/x86_64/software/Python-bundle-PyPI/2023.06-GCCcore-12.3.0/lib/python3.11/site-packages/joblib/parallel.py", line 288, in __call__
+    return [func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/eb/x86_64/software/Python-bundle-PyPI/2023.06-GCCcore-12.3.0/lib/python3.11/site-packages/joblib/parallel.py", line 288, in <listcomp>
+    return [func(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/model_selection/_validation.py", line 847, in _fit_and_score
+    estimator = estimator.set_params(**clone(parameters, safe=False))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/base.py", line 357, in set_params
+    valid_params[key].set_params(**sub_params)
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/pipeline.py", line 319, in set_params
+    self._set_params("steps", **kwargs)
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/utils/metaestimators.py", line 69, in _set_params
+    super().set_params(**params)
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/base.py", line 357, in set_params
+    valid_params[key].set_params(**sub_params)
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/scikeras/wrappers.py", line 1175, in set_params
+    raise ValueError(
+ValueError: Invalid parameter learning_rate for estimator KerasRegressor.
+This issue can likely be resolved by setting this parameter in the KerasRegressor constructor:
+`KerasRegressor(learning_rate=0.001)`
+Check the list of available parameters with `estimator.get_params().keys()`

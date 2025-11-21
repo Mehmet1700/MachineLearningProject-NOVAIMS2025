@@ -1,0 +1,4 @@
+Job started on gnx506 at Mon 17 Nov 17:32:30 WET 2025
+Visible GPUs: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Running main.py with Keras + GPU ...
+----------------------------------------------------

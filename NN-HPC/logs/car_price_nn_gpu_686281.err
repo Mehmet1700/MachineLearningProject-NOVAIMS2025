@@ -1,0 +1,53 @@
+2025-11-17 17:53:38.243321: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-11-17 17:53:38.244072: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-11-17 17:53:38.302323: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-11-17 17:54:18.506901: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-11-17 17:54:18.508104: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-11-17 17:54:18.508821: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-11-17 17:54:23.612246: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1929] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 38366 MB memory:  -> device: 0, name: NVIDIA A100-SXM4-40GB, pci bus id: 0000:af:00.0, compute capability: 8.0
+Traceback (most recent call last):
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/NN-Notebooks/main.py", line 290, in <module>
+    run_training(
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/NN-Notebooks/main.py", line 159, in run_training
+    search.fit(X_full, y_full)
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/model_selection/_search.py", line 1051, in fit
+    self._run_search(evaluate_candidates)
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/model_selection/_search.py", line 1605, in _run_search
+    evaluate_candidates(ParameterGrid(self.param_grid))
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/model_selection/_search.py", line 1028, in evaluate_candidates
+    _warn_or_raise_about_fit_failures(out, self.error_score)
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/model_selection/_validation.py", line 505, in _warn_or_raise_about_fit_failures
+    raise ValueError(all_fits_failed_message)
+ValueError: 
+All the 15 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+15 fits failed with the following error:
+Traceback (most recent call last):
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/model_selection/_validation.py", line 859, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/compose/_target.py", line 293, in fit
+    self.regressor_.fit(X, y_trans, **routed_params.regressor.fit)
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/sklearn/pipeline.py", line 663, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/scikeras/wrappers.py", line 770, in fit
+    self._fit(
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/scikeras/wrappers.py", line 928, in _fit
+    self._ensure_compiled_model()
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/.venv/lib/python3.11/site-packages/scikeras/wrappers.py", line 439, in _ensure_compiled_model
+    if not self.model_.compiled:
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Functional' object has no attribute 'compiled'
+
