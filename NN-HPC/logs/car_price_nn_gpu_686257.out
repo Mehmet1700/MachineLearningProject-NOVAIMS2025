@@ -1,0 +1,54 @@
+Job started on gnx506 at Mon 17 Nov 17:39:28 WET 2025
+Visible GPUs: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Running main.py with Keras + GPU ...
+----------------------------------------------------
+====================================================
+STEP 1: Load full train & test (rule-based cleaning only)
+----------------------------------------------------
+[TRAIN] duplicate carID count: 0
+[TEST] duplicate carID count: 0
+  -> X_full shape: (75973, 12)
+  -> y_full shape: (75973,)
+  -> X_test shape: (32567, 12)
+  -> Columns: ['Brand', 'model', 'year', 'transmission', 'mileage', 'fuelType', 'tax', 'mpg', 'engineSize', 'paintQuality%', 'previousOwners', 'hasDamage']
+
+====================================================
+STEP 2: Add (model, engineSize) rarity feature
+----------------------------------------------------
+  -> Added column 'model_engine_freq'.
+  -> Example of new column (first 5 rows):
+0    7.155396
+1    6.834109
+2    4.844187
+3    7.952263
+4    5.855072
+Name: model_engine_freq, dtype: float64
+
+====================================================
+STEP 3: Build base pipeline [preprocess -> feature_sel -> MLP]
+----------------------------------------------------
+  -> Pipeline structure:
+     TransformedTargetRegressor(
+       regressor=Pipeline(steps=[
+           ('preprocess', ColumnTransformer(...)),
+           ('feature_sel', <to be tuned>),
+           ('model', MLPRegressor(...))
+       ]),
+       func=log1p, inverse_func=expm1
+     )
+
+====================================================
+STEP 4: Set up 5-Fold CV + GridSearchCV with feature selection
+----------------------------------------------------
+  -> Feature selection candidates: 3
+  -> Hidden_layer_sizes options:  1
+  -> Learning rates options:      1
+  -> Total hyperparameter configs: 3
+  -> KFold splits:                 5
+  -> Total model fits (approx):    15
+
+====================================================
+STEP 5: Run GridSearchCV (this may take a while)
+----------------------------------------------------
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Job finished at Mon 17 Nov 17:40:03 WET 2025
