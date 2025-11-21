@@ -36,3 +36,17 @@ Purpose: Adapt components to other ecosystems (scikit-learn, CLI, etc.).
 Inspiration from: https://github.com/Python-templates/sklearn-project-template
 
 
+
+
+Commands for running it on the HPC:
+
+
+sbatch   --account=f202500002hpcvlabistulg   --partition=dev-a100-40   --gpus=1   train_nn_gpu.slurm
+
+
+
+tail -f logs/car_price_nn_gpu_686331.out
+
+
+
+squeue -u $USER
