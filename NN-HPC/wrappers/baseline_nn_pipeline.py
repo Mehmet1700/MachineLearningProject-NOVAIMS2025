@@ -1,4 +1,6 @@
 # wrappers/baseline_nn_pipeline.py
+import numpy as np
+import pandas as pd
 from sklearn.pipeline import Pipeline
 from sklearn.neural_network import MLPRegressor
 from sklearn.preprocessing import FunctionTransformer
@@ -8,7 +10,18 @@ from wrappers.keras_nn import keras_nn
 
 def _to_dense(X):
     """Convert sparse matrices to dense arrays for Keras."""
-    return X.toarray() if hasattr(X, "toarray") else X
+    if hasattr(X, "toarray"):
+        X = X.toarray()
+    elif isinstance(X, pd.DataFrame):
+        X = X.to_numpy()
+    elif isinstance(X, pd.Series):
+        X = X.to_frame().to_numpy()
+    else:
+        X = np.asarray(X)
+
+    if X.ndim == 1:
+        X = X.reshape(-1, 1)
+    return X
 
 
 def build_flexible_nn_pipeline(X_train, random_state: int = 42):

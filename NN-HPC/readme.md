@@ -17,9 +17,10 @@ Each SLURM run prints the following numbered stages so you can follow progress i
 - **STEP 1 – Load full train & test**: invokes `load_full_train_and_test`, reports shapes, duplicate counts, and column names.
 - **STEP 2 – Add rarity feature**: `add_model_engine_rarity_cv` augments both train and test with `model_engine_freq`.
 - **STEP 3 – Build base pipeline**: shows the `TransformedTargetRegressor` structure wrapping preprocess → feature selector → Keras model.
-- **STEP 4 – Configure CV & grid**: prints how many feature selectors, hidden-layer configs, dropout/LR choices, and total fits (configs × folds).
+- **STEP 4 – Configure CV & grid**: prints how many feature selectors, hidden-layer configs, dropout/LR choices, and total fits (configs × folds). If you pass `--n-splits 1`, the script automatically switches to a single hold-out split via `ShuffleSplit` (20% validation) so you can do quick sanity checks without full 5-fold CV.
 - **STEP 5 – Run GridSearchCV**: MAE-based KFold fitting with SciKeras callbacks; verbose output lists per-config timing.
 - **STEP 6 – CV results**: displays best hyperparameters, best mean CV MAE, the chosen feature selector, and a summary of the fitted estimator.
+- **Save STEP 6 report**: pass `--save-cv-summary` (or `--cv-summary-path <file>`) to write the same details to `artifacts/cv_reports/` for quick sharing or comparison without scraping the `.out` logs.
 - **STEP 6b – Persist model (optional)**: if `--save-best-model`/`--save-model-path` is set, writes the `.joblib` path under `artifacts/models/`.
 - **STEP 7 – Final fit & submission (optional)**: refits on all data, predicts the Kaggle test set, and stores a timestamped CSV under `artifacts/submissions/` when `--make-submission` is supplied.
 

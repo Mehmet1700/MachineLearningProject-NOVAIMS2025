@@ -14,13 +14,14 @@ import argparse
 import time
 from datetime import datetime
 from pathlib import Path
+from pprint import pformat
 
 import numpy as np
 import pandas as pd
 from joblib import dump, load, parallel_backend
 from sklearn.compose import TransformedTargetRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, make_scorer
-from sklearn.model_selection import GridSearchCV, RandomizedSearchCV, KFold
+from sklearn.model_selection import GridSearchCV, RandomizedSearchCV, KFold, ShuffleSplit
 
 from data_loaders.cars_data import load_full_train_and_test
 from utils.feature_engineering import add_model_engine_rarity_cv
@@ -102,6 +103,35 @@ def write_submission_file(test_ids, predictions, submission_path: str, id_column
     out_path.parent.mkdir(parents=True, exist_ok=True)
     submission.to_csv(out_path, index=False)
     print(f"  -> Saved submission to: {out_path}")
+
+
+def save_cv_summary_report(
+    path: str,
+    best_params: dict,
+    best_mae: float,
+    best_feature_selector,
+    best_estimator,
+):
+    """Persist the key STEP 6 details to a text file for later inspection."""
+    target_path = Path(path)
+    target_path.parent.mkdir(parents=True, exist_ok=True)
+    lines = [
+        "====================================================",
+        "STEP 6: Results of CV (saved report)",
+        "----------------------------------------------------",
+        "Best parameters (including feature selection):",
+        pformat(best_params, width=100),
+        "",
+        f"Best mean CV MAE: {best_mae:.3f}",
+        "",
+        "Chosen feature selection object:",
+        pformat(best_feature_selector, width=100),
+        "",
+        "Best estimator (pipeline + log-transform):",
+        pformat(best_estimator, width=100),
+    ]
+    target_path.write_text("\n".join(lines))
+    print(f"  -> Saved CV summary to: {target_path}")
 
 
 def build_param_grid(random_state: int = 42):
@@ -338,6 +368,8 @@ def run_training(
     phase1_grid_path: str | None = None,
     phase1_grid_out: str | None = None,
     phase1_save_grid: bool = False,
+    cv_summary_path: str | None = None,
+    save_cv_summary: bool = False,
 ):
     t0 = time.time()
     print("====================================================")
@@ -392,11 +424,24 @@ def run_training(
     print(f"STEP 4: Set up {n_splits}-Fold CV + GridSearchCV with feature selection")
     print("----------------------------------------------------")
     mae_scorer = make_scorer(mae_func, greater_is_better=False)
-    kf = KFold(n_splits=n_splits, shuffle=True, random_state=random_state)
+    if n_splits <= 1:
+        cv_strategy = ShuffleSplit(
+            n_splits=1, test_size=0.2, random_state=random_state
+        )
+        cv_label = "ShuffleSplit (1 hold-out, test_size=0.2)"
+        effective_folds = 1
+    else:
+        cv_strategy = KFold(n_splits=n_splits, shuffle=True, random_state=random_state)
+        cv_label = f"KFold (n_splits={n_splits})"
+        effective_folds = n_splits
     phase1_output_path = phase1_grid_out
     if phase1_output_path is None and phase1_save_grid:
         phase1_output_path = str(
             timestamped_path("artifacts/phase1_grids", "phase1_grid", ".joblib")
+        )
+    if cv_summary_path is None and save_cv_summary:
+        cv_summary_path = str(
+            timestamped_path("artifacts/cv_reports", "cv_summary", ".txt")
         )
 
     if two_phase_search:
@@ -434,14 +479,14 @@ def run_training(
 
     print(f"  -> Feature selection candidates: {n_fs}")
     print(f"  -> Total hyperparameter configs: {total_configs}")
-    print(f"  -> KFold splits:                 {n_splits}")
-    print(f"  -> Total model fits (approx):    {total_configs * n_splits}")
+    print(f"  -> CV strategy:                  {cv_label}")
+    print(f"  -> Total model fits (approx):    {total_configs * effective_folds}")
 
     search = GridSearchCV(
         estimator=log_pipe,
         param_grid=param_grid,
         scoring=mae_scorer,
-        cv=kf,
+        cv=cv_strategy,
         n_jobs=n_jobs,
         verbose=2,  # GridSearchCV internal progress
         error_score="raise",
@@ -472,6 +517,15 @@ def run_training(
     best_model = search.best_estimator_
     print("\nBest estimator (pipeline + log-transform):")
     print(best_model)
+
+    if cv_summary_path:
+        save_cv_summary_report(
+            cv_summary_path,
+            best_params=search.best_params_,
+            best_mae=best_mae_cv,
+            best_feature_selector=best_fs,
+            best_estimator=best_model,
+        )
 
     if model_path is not None:
         print("\n====================================================")
@@ -628,6 +682,11 @@ def parse_args():
         help="Persist the best estimator using a timestamped path under artifacts/models (overridden by --save-model-path).",
     )
     parser.add_argument(
+        "--save-cv-summary",
+        action="store_true",
+        help="Persist the STEP 6 CV summary to artifacts/cv_reports with a timestamped filename (overridden by --cv-summary-path).",
+    )
+    parser.add_argument(
         "--load-model-path",
         type=str,
         default=None,
@@ -692,6 +751,12 @@ def parse_args():
         action="store_true",
         help="Save the promoted Phase 2 grid to artifacts/phase1_grids with a timestamped name.",
     )
+    parser.add_argument(
+        "--cv-summary-path",
+        type=str,
+        default=None,
+        help="Optional explicit output path for the saved CV summary text file.",
+    )
     return parser.parse_args()
 
 
@@ -732,4 +797,6 @@ if __name__ == "__main__":
             phase1_grid_path=args.phase1_grid_path,
             phase1_grid_out=args.phase1_grid_out,
             phase1_save_grid=args.phase1_save_grid,
+            cv_summary_path=args.cv_summary_path,
+            save_cv_summary=args.save_cv_summary,
         )

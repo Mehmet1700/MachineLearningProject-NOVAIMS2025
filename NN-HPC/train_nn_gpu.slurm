@@ -61,6 +61,7 @@ python main.py \
   --phase1-grid-path artifacts/phase1_grids/phase1_grid_20251124_112446.joblib \
   --phase2-epochs 120 150 \
   --make-submission \
-  --save-best-model
+  --save-best-model \
+  --save-cv-summary
 
 echo "Job finished at $(date)"
