@@ -20,7 +20,7 @@ module purge
 module load TensorFlow/2.15.1-foss-2023a-CUDA-12.1.1
 
 # 1. Go to YOUR NN-Notebooks folder (correct!)
-cd /projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/NN-Notebooks
+cd /projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/NN-HPC
 
 mkdir -p logs artifacts
 
@@ -36,6 +36,16 @@ EOF
 echo "Running main.py with Keras + GPU ..."
 echo "----------------------------------------------------"
 
+# Stream GPU utilization into the job logs every 5 seconds
+nvidia-smi --query-gpu=timestamp,name,utilization.gpu,memory.used --format=csv --loop=5 &
+GPU_MONITOR_PID=$!
+cleanup() {
+  if ps -p $GPU_MONITOR_PID >/dev/null 2>&1 ; then
+    kill $GPU_MONITOR_PID
+  fi
+}
+trap cleanup EXIT
+
 # 5. IMPORTANT: data/mapping are OUTSIDE NN-Notebooks → use ../data
 python main.py \
   --train-path ../data/train.csv \
@@ -43,7 +53,14 @@ python main.py \
   --mapping-dir ../mapping \
   --n-splits 5 \
   --random-state 42 \
+  --two-phase-search \
+  --phase1-folds 2 \
+  --phase1-iters 12 \
+  --phase1-top-k 3 \
+  --phase1-n-jobs 1 \
+  --phase1-grid-path artifacts/phase1_grids/phase1_grid_20251124_112446.joblib \
+  --phase2-epochs 120 150 \
   --make-submission \
-  --submission-path artifacts/submission_kfold_fs_keras_gpu.csv
+  --save-best-model
 
 echo "Job finished at $(date)"

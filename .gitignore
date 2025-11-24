@@ -5,4 +5,9 @@ submission1_notebooks/.ipynb_checkpoints
 .env
 mapping/ipynb_checkpoints
 submission1_notebooks/images/.ipynb_checkpoints
-NN-notebooks
+NN-HPC/logs/
+NN-HPC/wrappers/__pycache__
+NN-HPC/utils/__pycache__/feature_engineering.cpython-311.pyc
+NN-HPC/utils/__pycache__/feature_selection.cpython-311.pyc
+NN-HPC/utils/__pycache__
+NN-HPC/data_loaders/__pycache__

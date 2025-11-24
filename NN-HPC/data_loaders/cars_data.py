@@ -442,6 +442,7 @@ def load_full_train_and_test(
     train_path: str,
     test_path: str,
     mapping_dir: str | Path = "mapping",
+    return_test_ids: bool = False,
 ):
     """
     Load Kaggle train + test, apply rule-based cleaning (no imputation, no scaling),
@@ -471,11 +472,16 @@ def load_full_train_and_test(
     # drop ID column from features, keep it in test if needed
     if ID_COL in X_full.columns:
         X_full = X_full.drop(columns=[ID_COL])
+
     if ID_COL in test_clean.columns:
+        test_ids = test_clean[ID_COL].copy()
         X_test = test_clean.drop(columns=[ID_COL])
     else:
+        test_ids = pd.Series(np.arange(len(test_clean)), name=ID_COL)
         X_test = test_clean
 
+    if return_test_ids:
+        return X_full, y_full, X_test, test_ids
     return X_full, y_full, X_test
 
 
