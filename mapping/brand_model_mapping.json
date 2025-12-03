@@ -57,17 +57,22 @@
   "E-Class": "Mercedes-Benz",
   "S-Class": "Mercedes-Benz",
   "V-Class": "Mercedes-Benz",
-  "GLA": "Mercedes-Benz",
-  "GLB": "Mercedes-Benz",
-  "GLC": "Mercedes-Benz",
-  "GLE": "Mercedes-Benz",
-  "GLS": "Mercedes-Benz",
+  "GLA-Class": "Mercedes-Benz",
+  "GLB-Class": "Mercedes-Benz",
+  "GLC-Class": "Mercedes-Benz",
+  "GLE-Class": "Mercedes-Benz",
+  "GLS-Class": "Mercedes-Benz",
   "G-Class": "Mercedes-Benz",
-  "CLA": "Mercedes-Benz",
-  "CLS": "Mercedes-Benz",
-  "SL": "Mercedes-Benz",
-  "SLK": "Mercedes-Benz",
+  "CLA-Class": "Mercedes-Benz",
+  "CLS-Class": "Mercedes-Benz",
+  "SL-Class": "Mercedes-Benz",
+  "SLK-Class": "Mercedes-Benz",
   "X-Class": "Mercedes-Benz",
+  "CL-Class": "Mercedes-Benz",
+  "CLC-Class": "Mercedes-Benz",
+  "CLK-Class": "Mercedes-Benz",
+  "GL-Class": "Mercedes-Benz",
+  "M-Class": "Mercedes-Benz",
 
   "Focus": "Ford",
   "Fiesta": "Ford",
@@ -111,7 +116,9 @@
   "Polo": "Volkswagen",
   "Arteon": "Volkswagen",
   "Fox": "Volkswagen",
-
+  "CC": "Volkswagen",
+  "Eos": "Volkswagen",
+  "Touareg": "Volkswagen",
 
   "Corsa": "Opel",
   "Astra": "Opel",
@@ -133,7 +140,7 @@
   "Ampera": "Opel",
   "Vectra": "Opel",
   "Tigra": "Opel",
-
+  "Combo Life": "Opel",
 
   "Fabia": "Škoda",
   "Octavia": "Škoda",
@@ -148,7 +155,6 @@
   "Rapid": "Škoda",
   "Roomster": "Škoda",
 
-
   "Yaris": "Toyota",
   "Aygo": "Toyota",
   "Auris": "Toyota",
@@ -162,11 +168,12 @@
   "Land Cruiser": "Toyota",
   "Hilux": "Toyota",
   "Camry": "Toyota",
+  "CH-R": "Toyota",
   "Proace Verso": "Toyota",
   "Urban Cruiser": "Toyota",
   "iQ": "Toyota",
-
-
+  "Supra": "Toyota",
+  "C-HR": "Toyota",
 
   "i10": "Hyundai",
   "i20": "Hyundai",
@@ -183,6 +190,4 @@
   "Santa Fe": "Hyundai",
   "Accent": "Hyundai",
   "Kadjar": "Renault"
-
-
 }
