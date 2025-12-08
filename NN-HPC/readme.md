@@ -5,7 +5,7 @@ This project trains a neural-network regressor for the Kaggle car-price challeng
 
 ## End-to-End Flow
 1. **Data ingestion (`data_loaders/`)** – `load_full_train_and_test` reads raw Kaggle CSVs, applies rule-based cleaning/mappings, keeps the `carID`, and delivers `X_full`, `y_full`, `X_test`, and the IDs.
-2. **Feature engineering (`utils/feature_engineering.py`)** – `add_model_engine_rarity_cv` computes the `(model, engineSize)` rarity feature on the full training data and mirrors it to the test set.
+2. **Feature engineering (`utils/feature_engineering.py`)** – Helper utilities for optional engineered signals (for example rare model markers) that you can plug into the pipeline as needed.
 3. **Preprocessing pipeline (`wrappers/baseline_nn_pipeline.py`)** – Builds a scikit-learn `Pipeline` with numeric/categorical preprocessing, a placeholder feature-selection step, a sparse-to-dense transformer, and a SciKeras `KerasRegressor`.
 4. **Hyperparameter tuning (`main.py`)** – `run_training` wraps the pipeline in `TransformedTargetRegressor`, runs `GridSearchCV` (KFold=5) or an optional two-phase search (RandomizedSearch warm-up + focused GridSearch) with MAE as the scoring metric, and logs the best configuration.
 5. **Model persistence (`artifacts/models/`)** – Passing `--save-best-model` (or `--save-model-path`) stores the best estimator as a timestamped `.joblib` file for reuse.
@@ -14,15 +14,15 @@ This project trains a neural-network regressor for the Kaggle car-price challeng
 
 ## Logged Training Steps (`main.py`)
 Each SLURM run prints the following numbered stages so you can follow progress in the `.out` log:
-- **STEP 1 – Load full train & test**: invokes `load_full_train_and_test`, reports shapes, duplicate counts, and column names.
-- **STEP 2 – Add rarity feature**: `add_model_engine_rarity_cv` augments both train and test with `model_engine_freq`.
-- **STEP 3 – Build base pipeline**: shows the `TransformedTargetRegressor` structure wrapping preprocess → feature selector → Keras model.
-- **STEP 4 – Configure CV & grid**: prints how many feature selectors, hidden-layer configs, dropout/LR choices, and total fits (configs × folds). If you pass `--n-splits 1`, the script automatically switches to a single hold-out split via `ShuffleSplit` (20% validation) so you can do quick sanity checks without full 5-fold CV.
-- **STEP 5 – Run GridSearchCV**: MAE-based KFold fitting with SciKeras callbacks; verbose output lists per-config timing.
-- **STEP 6 – CV results**: displays best hyperparameters, best mean CV MAE, the chosen feature selector, and a summary of the fitted estimator.
+- **STEP 1 – Load full train & test**: invokes `load_full_train_and_test`, reports shapes, duplicate counts, and column names. Add `--debug-cleaning` to print per-column unique values/missing counts after each mapping so you can inspect how normalization rules affected Brand, model, transmission, etc.
+- **STEP 2 – Build base pipeline**: shows the `TransformedTargetRegressor` structure wrapping preprocess → feature selector → Keras model. Add `--debug-imputation` to print numeric & categorical missing-value counts before the median/most-frequent imputers run so you know which columns drive imputation.
+- **STEP 3 – Configure CV & grid**: prints how many feature selectors, hidden-layer configs, dropout/LR choices, and total fits (configs × folds). If you pass `--n-splits 1`, the script automatically switches to a single hold-out split via `ShuffleSplit` (20% validation) so you can do quick sanity checks without full 5-fold CV.
+- **STEP 4 – Run GridSearchCV**: MAE-based KFold fitting with SciKeras callbacks; verbose output lists per-config timing.
+- **STEP 5 – CV results**: displays best hyperparameters, best mean CV MAE, the chosen feature selector, and a summary of the fitted estimator.
 - **Save STEP 6 report**: pass `--save-cv-summary` (or `--cv-summary-path <file>`) to write the same details to `artifacts/cv_reports/` for quick sharing or comparison without scraping the `.out` logs.
-- **STEP 6b – Persist model (optional)**: if `--save-best-model`/`--save-model-path` is set, writes the `.joblib` path under `artifacts/models/`.
-- **STEP 7 – Final fit & submission (optional)**: refits on all data, predicts the Kaggle test set, and stores a timestamped CSV under `artifacts/submissions/` when `--make-submission` is supplied.
+- **Residual dump (optional)**: add `--save-train-residuals` (or `--train-residuals-path <file>`) to store a CSV under `artifacts/error_analysis/` containing every training row, its prediction, residual, absolute error, and the original features. Sort by `abs_residual` to spot the worst-fit entries and decide whether additional cleaning or feature engineering is needed.
+- **STEP 5b – Persist model (optional)**: if `--save-best-model`/`--save-model-path` is set, writes the `.joblib` path under `artifacts/models/`.
+- **STEP 6 – Final fit & submission (optional)**: refits on all data, predicts the Kaggle test set, and stores a timestamped CSV under `artifacts/submissions/` when `--make-submission` is supplied.
 
 ## Repository Layout Highlights
 - `Base/` – Abstract interfaces/shared logic (for example `base_model.py`, `base_data_loader.py`).

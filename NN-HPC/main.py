@@ -19,12 +19,12 @@ from pprint import pformat
 import numpy as np
 import pandas as pd
 from joblib import dump, load, parallel_backend
+from sklearn.base import clone
 from sklearn.compose import TransformedTargetRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, make_scorer
 from sklearn.model_selection import GridSearchCV, RandomizedSearchCV, KFold, ShuffleSplit
 
 from data_loaders.cars_data import load_full_train_and_test
-from utils.feature_engineering import add_model_engine_rarity_cv
 from wrappers.baseline_nn_pipeline import build_flexible_nn_pipeline
 from wrappers.baseline_nn_pipeline import build_flexible_keras_pipeline
 
@@ -132,6 +132,99 @@ def save_cv_summary_report(
     ]
     target_path.write_text("\n".join(lines))
     print(f"  -> Saved CV summary to: {target_path}")
+
+
+def save_train_residuals_report(
+    path: str,
+    train_ids,
+    features: pd.DataFrame,
+    y_true,
+    y_pred,
+):
+    """Write per-row residuals to CSV for downstream error analysis."""
+    target_path = Path(path)
+    target_path.parent.mkdir(parents=True, exist_ok=True)
+
+    feature_df = features.copy().reset_index(drop=True)
+
+    if train_ids is not None:
+        id_series = pd.Series(train_ids).reset_index(drop=True)
+        id_name = getattr(train_ids, "name", "carID") or "carID"
+        feature_df.insert(0, id_name, id_series)
+    else:
+        feature_df.insert(0, "row_index", np.arange(len(feature_df)))
+
+    y_true_series = pd.Series(y_true).reset_index(drop=True)
+    y_pred_series = pd.Series(y_pred).reset_index(drop=True)
+
+    feature_df["y_true"] = y_true_series
+    feature_df["y_pred"] = y_pred_series
+    feature_df["residual"] = feature_df["y_true"] - feature_df["y_pred"]
+    feature_df["abs_residual"] = feature_df["residual"].abs()
+
+    feature_df = feature_df.sort_values("abs_residual", ascending=False)
+
+    feature_df.to_csv(target_path, index=False)
+    print(f"  -> Saved train residuals to: {target_path}")
+
+
+def preview_feature_selection(
+    X: pd.DataFrame,
+    y: pd.Series,
+    random_state: int,
+    sample_size: int = 5000,
+    max_features: int = 20,
+):
+    """Fit the shared preprocessor + selectors on a sample and log retained features."""
+    from utils.preprocessing import get_feature_types, build_preprocessor
+
+    sample_n = min(sample_size, len(X))
+    X_sample = X.iloc[:sample_n]
+    y_sample = y.iloc[:sample_n]
+
+    numeric_features, categorical_features = get_feature_types(X_sample)
+    preprocessor = build_preprocessor(numeric_features, categorical_features)
+
+    try:
+        X_pre = preprocessor.fit_transform(X_sample)
+        feature_names = preprocessor.get_feature_names_out()
+    except Exception as exc:  # pragma: no cover - informative logging only
+        print(
+            "  -> Skipping feature-selection preview (could not build feature names):",
+            exc,
+        )
+        return
+
+    if hasattr(X_pre, "toarray"):
+        X_pre = X_pre.toarray()
+
+    feature_names = np.array(feature_names)
+    selectors = candidate_selectors(random_state=random_state)
+    print(
+        f"  -> Previewing feature-selection outputs on sample n={sample_n} (max {max_features} names)"
+    )
+    for key, selector in selectors.items():
+        if selector == "passthrough":
+            print(
+                f"     [{key}] passthrough keeps all {len(feature_names)} features (no preview list)."
+            )
+            continue
+        cloned = clone(selector)
+        try:
+            cloned.fit(X_pre, y_sample)
+            if hasattr(cloned, "get_support"):
+                mask = cloned.get_support()
+                selected = feature_names[mask]
+                to_show = selected[:max_features]
+                print(
+                    f"     [{key}] keeps {mask.sum()} features → {', '.join(map(str, to_show))}"
+                )
+            else:
+                print(
+                    f"     [{key}] fit succeeded but no get_support() to list features."
+                )
+        except Exception as exc:  # pragma: no cover - informative logging only
+            print(f"     [{key}] preview failed: {exc}")
 
 
 def build_param_grid(random_state: int = 42):
@@ -370,41 +463,51 @@ def run_training(
     phase1_save_grid: bool = False,
     cv_summary_path: str | None = None,
     save_cv_summary: bool = False,
+    train_residuals_path: str | None = None,
+    save_train_residuals: bool = False,
+    debug_cleaning: bool = False,
+    debug_imputation: bool = False,
+    preview_feature_names: bool = False,
 ):
     t0 = time.time()
     print("====================================================")
     print("STEP 1: Load full train & test (rule-based cleaning only)")
     print("----------------------------------------------------")
-    X_full, y_full, X_test, test_ids = load_full_train_and_test(
+    loader_kwargs = dict(
         train_path=train_path,
         test_path=test_path,
         mapping_dir=mapping_dir,
         return_test_ids=True,
+        return_train_ids=save_train_residuals,
+        debug_cleaning=debug_cleaning,
     )
+    train_ids = None
+    if save_train_residuals:
+        X_full, y_full, X_test, test_ids, train_ids = load_full_train_and_test(
+            **loader_kwargs
+        )
+    else:
+        X_full, y_full, X_test, test_ids = load_full_train_and_test(
+            **loader_kwargs
+        )
     print(f"  -> X_full shape: {X_full.shape}")
     print(f"  -> y_full shape: {y_full.shape}")
     print(f"  -> X_test shape: {X_test.shape}")
     print(f"  -> Columns: {list(X_full.columns)}")
 
-    print("\n====================================================")
-    print("STEP 2: Add (model, engineSize) rarity feature")
-    print("----------------------------------------------------")
-    X_full, X_test = add_model_engine_rarity_cv(
-        X_full,
-        X_test,
-        model_col="model",
-        engine_col="engineSize",
-        new_col="model_engine_freq",
-        log_scale=True,
-    )
-    print("  -> Added column 'model_engine_freq'.")
-    print("  -> Example of new column (first 5 rows):")
-    print(X_full["model_engine_freq"].head())
+    if preview_feature_names:
+        preview_feature_selection(
+            X=X_full,
+            y=y_full,
+            random_state=random_state,
+        )
 
     print("\n====================================================")
-    print("STEP 3: Build base pipeline [preprocess -> feature_sel -> MLP]")
+    print("STEP 2: Build base pipeline [preprocess -> feature_sel -> MLP]")
     print("----------------------------------------------------")
-    base_pipe = build_flexible_keras_pipeline(X_full, random_state=random_state)
+    base_pipe = build_flexible_keras_pipeline(
+        X_full, random_state=random_state, debug_imputation=debug_imputation
+    )
     log_pipe = TransformedTargetRegressor(
         regressor=base_pipe,
         func=np.log1p,
@@ -421,7 +524,7 @@ def run_training(
     print("     )")
 
     print("\n====================================================")
-    print(f"STEP 4: Set up {n_splits}-Fold CV + GridSearchCV with feature selection")
+    print(f"STEP 3: Set up {n_splits}-Fold CV + GridSearchCV with feature selection")
     print("----------------------------------------------------")
     mae_scorer = make_scorer(mae_func, greater_is_better=False)
     if n_splits <= 1:
@@ -442,6 +545,10 @@ def run_training(
     if cv_summary_path is None and save_cv_summary:
         cv_summary_path = str(
             timestamped_path("artifacts/cv_reports", "cv_summary", ".txt")
+        )
+    if train_residuals_path is None and save_train_residuals:
+        train_residuals_path = str(
+            timestamped_path("artifacts/error_analysis", "train_residuals", ".csv")
         )
 
     if two_phase_search:
@@ -493,14 +600,14 @@ def run_training(
     )
 
     print("\n====================================================")
-    print("STEP 5: Run GridSearchCV (this may take a while)")
+    print("STEP 4: Run GridSearchCV (this may take a while)")
     print("----------------------------------------------------")
     t_fit_start = time.time()
     _fit_with_optional_threading(search, X_full, y_full, n_jobs)
     t_fit_end = time.time()
 
     print("\n====================================================")
-    print("STEP 6: Results of CV")
+    print("STEP 5: Results of CV")
     print("----------------------------------------------------")
     print("Best parameters (including feature selection):")
     print(search.best_params_)
@@ -529,7 +636,7 @@ def run_training(
 
     if model_path is not None:
         print("\n====================================================")
-        print("STEP 6b: Persist best estimator")
+        print("STEP 5b: Persist best estimator")
         print("----------------------------------------------------")
         save_best_model(best_model, model_path)
 
@@ -544,12 +651,21 @@ def run_training(
     print(f"  RMSE (full train): {rmse_full:.3f}")
     print(f"  R²   (full train): {r2_full:.3f}")
 
+    if train_residuals_path:
+        save_train_residuals_report(
+            train_residuals_path,
+            train_ids=train_ids,
+            features=X_full,
+            y_true=y_full,
+            y_pred=y_pred_full,
+        )
+
     # ----------------------------------------------------------------
     # Optional: Train final model on all labeled data and predict test
     # ----------------------------------------------------------------
     if make_submission:
         print("\n====================================================")
-        print("STEP 7: Fit best model on ALL training data & predict test")
+        print("STEP 6: Fit best model on ALL training data & predict test")
         print("----------------------------------------------------")
         # It is already fitted on X_full, y_full by GridSearchCV.best_estimator_
         # but we can refit explicitly to be clear:
@@ -578,6 +694,7 @@ def generate_submission_from_saved_model(
     mapping_dir: str,
     submission_path: str | None = None,
     id_column: str | None = None,
+    debug_cleaning: bool = False,
 ):
     """Load a persisted estimator and produce a Kaggle-ready submission."""
     print("====================================================")
@@ -589,16 +706,8 @@ def generate_submission_from_saved_model(
         test_path=test_path,
         mapping_dir=mapping_dir,
         return_test_ids=True,
+        debug_cleaning=debug_cleaning,
     )
-    _, X_test = add_model_engine_rarity_cv(
-        X_full,
-        X_test,
-        model_col="model",
-        engine_col="engineSize",
-        new_col="model_engine_freq",
-        log_scale=True,
-    )
-
     model = load_saved_model(model_path)
 
     print("Predicting on X_test with loaded model ...")
@@ -757,6 +866,32 @@ def parse_args():
         default=None,
         help="Optional explicit output path for the saved CV summary text file.",
     )
+    parser.add_argument(
+        "--save-train-residuals",
+        action="store_true",
+        help="Persist per-row training residuals (actual, prediction, absolute error) to artifacts/error_analysis with a timestamped name (overridden by --train-residuals-path).",
+    )
+    parser.add_argument(
+        "--train-residuals-path",
+        type=str,
+        default=None,
+        help="Optional explicit CSV path for saving training residuals when --save-train-residuals is enabled.",
+    )
+    parser.add_argument(
+        "--debug-cleaning",
+        action="store_true",
+        help="Print detailed stats (unique values, missing counts) after each mapping step during rule-based cleaning.",
+    )
+    parser.add_argument(
+        "--debug-imputation",
+        action="store_true",
+        help="Print per-column missing counts (numeric & categorical) before the preprocessing pipelines apply median/most-frequent imputation.",
+    )
+    parser.add_argument(
+        "--preview-feature-selection",
+        action="store_true",
+        help="Fit the shared preprocessing + selectors on a sample and print which feature names survive each selector before CV runs.",
+    )
     return parser.parse_args()
 
 
@@ -775,6 +910,7 @@ if __name__ == "__main__":
             mapping_dir=args.mapping_dir,
             submission_path=args.submission_path,
             id_column=args.id_column,
+            debug_cleaning=args.debug_cleaning,
         )
     else:
         run_training(
@@ -799,4 +935,9 @@ if __name__ == "__main__":
             phase1_save_grid=args.phase1_save_grid,
             cv_summary_path=args.cv_summary_path,
             save_cv_summary=args.save_cv_summary,
+            train_residuals_path=args.train_residuals_path,
+            save_train_residuals=args.save_train_residuals,
+            debug_cleaning=args.debug_cleaning,
+              debug_imputation=args.debug_imputation,
+              preview_feature_names=args.preview_feature_selection,
         )

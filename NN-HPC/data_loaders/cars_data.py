@@ -19,6 +19,27 @@ RANDOM_STATE = 42
 
 
 
+def _log_unique_values(series: pd.Series, label: str, max_values: int = 40):
+    """Pretty-print basic stats and unique values for debugging."""
+    nunique = series.nunique(dropna=True)
+    na_count = series.isna().sum()
+    print(f"[CLEANING] {label}: unique={nunique}, missing={na_count}")
+    if nunique == 0:
+        return
+    if nunique <= max_values:
+        unique_vals = series.dropna().unique()
+        try:
+            sorted_vals = sorted(unique_vals, key=lambda v: str(v))
+        except Exception:
+            sorted_vals = list(unique_vals)
+        print(f"           values={sorted_vals}")
+    else:
+        sample_vals = series.dropna().unique()[:max_values]
+        print(
+            f"           showing first {max_values} values: {[str(v) for v in sample_vals]}"
+        )
+
+
 
 
 # -------------------------------------------------------------------
@@ -382,6 +403,7 @@ def rule_based_cleaning_for_train_test(
     train: pd.DataFrame,
     test: pd.DataFrame,
     mapping_dir: str | Path = "mapping",
+    debug: bool = False,
 ) -> Tuple[pd.DataFrame, pd.DataFrame]:
     """
     Apply ALL your rule-based cleaning steps from the notebook to train & test.
@@ -413,18 +435,38 @@ def rule_based_cleaning_for_train_test(
         train, mapping_dir / "transmission_mapping.json"
     )
     test = apply_transmission_mapping(test, mapping_dir / "transmission_mapping.json")
+    if debug and "transmission" in train.columns:
+        _log_unique_values(train["transmission"], "TRAIN transmission after mapping")
+    if debug and "transmission" in test.columns:
+        _log_unique_values(test["transmission"], "TEST transmission after mapping")
 
     train = apply_fuel_mapping(train, mapping_dir / "fueltype_mapping.json")
     test = apply_fuel_mapping(test, mapping_dir / "fueltype_mapping.json")
+    if debug and "fuelType" in train.columns:
+        _log_unique_values(train["fuelType"], "TRAIN fuelType after mapping")
+    if debug and "fuelType" in test.columns:
+        _log_unique_values(test["fuelType"], "TEST fuelType after mapping")
 
     train = apply_brand_mapping(train, mapping_dir / "brandname_mapping.json", col="Brand")
     test = apply_brand_mapping(test, mapping_dir / "brandname_mapping.json", col="Brand")
+    if debug and "Brand" in train.columns:
+        _log_unique_values(train["Brand"], "TRAIN Brand after mapping")
+    if debug and "Brand" in test.columns:
+        _log_unique_values(test["Brand"], "TEST Brand after mapping")
 
     train = apply_model_mapping(train, mapping_dir / "modelname_mapping.json", col="model")
     test = apply_model_mapping(test, mapping_dir / "modelname_mapping.json", col="model")
+    if debug and "model" in train.columns:
+        _log_unique_values(train["model"], "TRAIN model after mapping", max_values=20)
+    if debug and "model" in test.columns:
+        _log_unique_values(test["model"], "TEST model after mapping", max_values=20)
 
     train = fill_brand_from_model(train, mapping_dir / "brand_model_mapping.json")
     test = fill_brand_from_model(test, mapping_dir / "brand_model_mapping.json")
+    if debug and "Brand" in train.columns:
+        _log_unique_values(train["Brand"], "TRAIN Brand after fill-brand-from-model")
+    if debug and "Brand" in test.columns:
+        _log_unique_values(test["Brand"], "TEST Brand after fill-brand-from-model")
 
     # outliers / impossible values -> NaN or dropped (same rules as notebook)
     train = apply_outlier_rules(train)
@@ -443,6 +485,8 @@ def load_full_train_and_test(
     test_path: str,
     mapping_dir: str | Path = "mapping",
     return_test_ids: bool = False,
+    return_train_ids: bool = False,
+    debug_cleaning: bool = False,
 ):
     """
     Load Kaggle train + test, apply rule-based cleaning (no imputation, no scaling),
@@ -456,7 +500,10 @@ def load_full_train_and_test(
     test_raw = pd.read_csv(test_path)
 
     train_clean, test_clean = rule_based_cleaning_for_train_test(
-        train_raw, test_raw, mapping_dir=mapping_dir
+        train_raw,
+        test_raw,
+        mapping_dir=mapping_dir,
+        debug=debug_cleaning,
     )
 
     # convert nullable dtypes/pd.NA -> numpy-friendly
@@ -467,11 +514,15 @@ def load_full_train_and_test(
         raise ValueError(f"Target column '{TARGET_COL}' not found in train data.")
 
     y_full = train_clean[TARGET_COL]
-    X_full = train_clean.drop(columns=[TARGET_COL])
 
-    # drop ID column from features, keep it in test if needed
-    if ID_COL in X_full.columns:
-        X_full = X_full.drop(columns=[ID_COL])
+    train_ids = None
+    if ID_COL in train_clean.columns:
+        train_ids = train_clean[ID_COL].copy()
+        X_full = train_clean.drop(columns=[TARGET_COL, ID_COL])
+    else:
+        X_full = train_clean.drop(columns=[TARGET_COL])
+        if return_train_ids:
+            train_ids = pd.Series(np.arange(len(train_clean)), name=ID_COL)
 
     if ID_COL in test_clean.columns:
         test_ids = test_clean[ID_COL].copy()
@@ -480,8 +531,12 @@ def load_full_train_and_test(
         test_ids = pd.Series(np.arange(len(test_clean)), name=ID_COL)
         X_test = test_clean
 
+    if return_test_ids and return_train_ids:
+        return X_full, y_full, X_test, test_ids, train_ids
     if return_test_ids:
         return X_full, y_full, X_test, test_ids
+    if return_train_ids:
+        return X_full, y_full, X_test, train_ids
     return X_full, y_full, X_test
 
 
