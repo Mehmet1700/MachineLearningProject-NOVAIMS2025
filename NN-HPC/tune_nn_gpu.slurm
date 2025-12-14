@@ -11,36 +11,48 @@
 #SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
 
+# ==============================================================================
+# Car Price Prediction - Hyperparameter Tuning Job
+# ==============================================================================
+# This script runs an extensive hyperparameter search.
+# It is configured to run for a longer duration with more iterations.
+#
+# Usage: sbatch tune_nn_gpu.slurm
+# ==============================================================================
+
 set -euo pipefail
 
 echo "Job started on $(hostname) at $(date)"
 export PYTHONUNBUFFERED=1
 
-# Point to the promoted Phase 2 grid produced by a prior warm-up run.
-PHASE1_GRID="artifacts/phase1_grids/phase1_grid_20251124_112446.joblib"
-
-if [[ ! -f "${PHASE1_GRID}" ]]; then
-  echo "Missing Phase 1 grid at ${PHASE1_GRID}. Update the path before submitting." >&2
-  exit 1
-fi
-
-module purge
-module load TensorFlow/2.15.1-foss-2023a-CUDA-12.1.1
-
+# 1. Environment Setup
+# ------------------------------------------------------------------------------
 cd /projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/NN-HPC
 
 mkdir -p logs artifacts
 
 source ../.venv/bin/activate
 
+# 2. GPU Verification
+# ------------------------------------------------------------------------------
 python - << 'EOF'
-import tensorflow as tf
-print("Visible GPUs:", tf.config.list_physical_devices("GPU"))
+import torch
+import sys
+print(f"Python Version: {sys.version}")
+print(f"PyTorch Version: {torch.__version__}")
+print(f"CUDA Available: {torch.cuda.is_available()}")
+if torch.cuda.is_available():
+    print(f"Device Name: {torch.cuda.get_device_name(0)}")
+else:
+    print("WARNING: CUDA not available for PyTorch!")
 EOF
 
-echo "Running main.py (hyperparameter tuning only) ..."
+echo "----------------------------------------------------"
+echo "Starting Hyperparameter Tuning..."
 echo "----------------------------------------------------"
 
+# 3. GPU Monitoring
+# ------------------------------------------------------------------------------
 nvidia-smi --query-gpu=timestamp,name,utilization.gpu,memory.used --format=csv --loop=5 &
 GPU_MONITOR_PID=$!
 cleanup() {
@@ -48,6 +60,26 @@ cleanup() {
     kill $GPU_MONITOR_PID
   fi
 }
+trap cleanup EXIT
+
+# 4. Execution
+# ------------------------------------------------------------------------------
+# We increase --n-iter to explore more hyperparameter combinations.
+# We use --n-splits 3 for a robust Cross-Validation during tuning.
+
+python main.py \
+  --model-type ft_transformer \
+  --train-path ../data/train.csv \
+  --test-path ../data/test.csv \
+  --mapping-dir ../mapping \
+  --n-splits 3 \
+  --random-state 42 \
+  --n-iter 50 \
+  --save-best-model \
+  --save-cv-summary \
+  --remove-outliers
+
+echo "Job finished at $(date)"
 trap cleanup EXIT
 
 python main.py \

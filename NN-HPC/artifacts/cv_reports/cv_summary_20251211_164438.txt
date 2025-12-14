@@ -1,0 +1,35 @@
+====================================================
+STEP 6: Results of CV (saved report)
+----------------------------------------------------
+Best parameters (including feature selection):
+{'regressor__feature_sel': 'passthrough',
+ 'regressor__model__batch_size': 512,
+ 'regressor__model__dropout_rate': 0.0,
+ 'regressor__model__epochs': 120,
+ 'regressor__model__hidden_layer_sizes': (256, 128, 64),
+ 'regressor__model__learning_rate': 0.0005,
+ 'regressor__model__use_batchnorm': True}
+
+Best mean CV MAE: 1528.376
+
+Chosen feature selection object:
+'passthrough'
+
+Best estimator (pipeline + log-transform):
+TransformedTargetRegressor(func=<ufunc 'log1p'>, inverse_func=<ufunc 'expm1'>,
+                           regressor=Pipeline(steps=[('preprocess',
+                                                      ColumnTransformer(transformers=[('num',
+                                                                                       Pipeline(steps=[('imputer',
+                                                                                                        SimpleImputer(strategy='median')),
+                                                                                                       ('scaler',
+                                                                                                        StandardScaler())]),
+                                                                                       ['year',
+                                                                                        'mileage',
+                                                                                        'tax',
+                                                                                        'mpg',
+                                                                                        'engineSize',
+                                                                                        'previousOwners',
+                                                                                        'hasDamage']),
+                                                                                      ('cat',
+                                                                                       Pipeline(steps=[('impute...
+                                                      KerasRegressor(batch_size=512, callbacks=[<keras.src.callbacks.EarlyStopping object at 0x7f390e11ea90>], dropout_rate=0.0, epochs=120, hidden_layer_sizes=(256, 128, 64), learning_rate=0.0005, model=functools.partial(<function _build_dense_model at 0x7f395b3598a0>, hidden_layer_sizes=(128, 64), learning_rate=0.001, dropout_rate=None, use_batchnorm=False), model_save_format='h5', use_batchnorm=True, validation_split=0.1, verbose=0))]))

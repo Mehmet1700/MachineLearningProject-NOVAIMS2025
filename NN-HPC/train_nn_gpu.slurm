@@ -11,34 +11,54 @@
 #SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
 
+# ==============================================================================
+# Car Price Prediction - Training Job
+# ==============================================================================
+# This script submits a job to the HPC cluster to train the car price prediction model.
+# It supports various architectures defined in main.py (FT-Transformer, Keras MLP).
+#
+# Usage: sbatch train_nn_gpu.slurm
+# ==============================================================================
+
 echo "Job started on $(hostname) at $(date)"
 export PYTHONUNBUFFERED=1
 
-
-# Module
-module purge
-module load TensorFlow/2.15.1-foss-2023a-CUDA-12.1.1
-
-# 1. Go to YOUR NN-Notebooks folder (correct!)
+# 1. Environment Setup
+# ------------------------------------------------------------------------------
+# Navigate to the project directory
 cd /projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/NN-HPC
 
+# Create directories for logs and artifacts if they don't exist
 mkdir -p logs artifacts
 
+# Activate the virtual environment
 source ../.venv/bin/activate
 
-
-# 4. Check GPU visibility
+# 2. GPU Verification
+# ------------------------------------------------------------------------------
 python - << 'EOF'
-import tensorflow as tf
-print("Visible GPUs:", tf.config.list_physical_devices("GPU"))
+import torch
+import sys
+print(f"Python Version: {sys.version}")
+print(f"PyTorch Version: {torch.__version__}")
+print(f"CUDA Available: {torch.cuda.is_available()}")
+if torch.cuda.is_available():
+    print(f"Device Name: {torch.cuda.get_device_name(0)}")
+else:
+    print("WARNING: CUDA not available for PyTorch!")
 EOF
 
-echo "Running main.py with Keras + GPU ..."
+echo "----------------------------------------------------"
+echo "Starting Training Pipeline..."
 echo "----------------------------------------------------"
 
-# Stream GPU utilization into the job logs every 5 seconds
+# 3. GPU Monitoring (Background Process)
+# ------------------------------------------------------------------------------
+# Log GPU utilization every 5 seconds
 nvidia-smi --query-gpu=timestamp,name,utilization.gpu,memory.used --format=csv --loop=5 &
 GPU_MONITOR_PID=$!
+
+# Ensure the monitor is killed when the script exits
 cleanup() {
   if ps -p $GPU_MONITOR_PID >/dev/null 2>&1 ; then
     kill $GPU_MONITOR_PID
@@ -46,28 +66,27 @@ cleanup() {
 }
 trap cleanup EXIT
 
-# 5. IMPORTANT: data/mapping are OUTSIDE NN-Notebooks → use ../data
+# 4. Execution
+# ------------------------------------------------------------------------------
+# Available --model-type options:
+#   - ft_transformer (PyTorch FT-Transformer)
+#   - keras          (Keras MLP)
+#
+# Adjust --n-iter for hyperparameter search iterations.
+# Use --make-submission to generate a submission file.
+
 python main.py \
+  --model-type ft_transformer \
   --train-path ../data/train.csv \
   --test-path ../data/test.csv \
   --mapping-dir ../mapping \
-  --n-splits 1 \
-  # if we set n-splits > 1 here, it will do CV training again. otherwise it uses Holdout Method with 80/20 split
+  --n-splits 5 \
   --random-state 42 \
-  --two-phase-search \
-  --phase1-folds 2 \
-  --phase1-iters 12 \
-  --phase1-top-k 3 \
-  --phase1-n-jobs 1 \
-  # If you want to use the existing Phase 1 grid from tuning, uncomment the following line
-  #--phase1-grid-path artifacts/phase1_grids/phase1_grid_20251124_112446.joblib \
-  --phase2-epochs 120 150 \
+  --n-iter 10 \
   --make-submission \
   --save-best-model \
   --save-cv-summary \
   --save-train-residuals \
-  --debug-cleaning \
-  --debug-imputation \
-  --preview-feature-selection
+  --remove-outliers
 
 echo "Job finished at $(date)"

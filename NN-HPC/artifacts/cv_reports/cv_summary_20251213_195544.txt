@@ -1,0 +1,50 @@
+====================================================
+STEP 6: Results of CV (saved report)
+----------------------------------------------------
+Best parameters (including feature selection):
+{'regressor__model__batch_size': 1024,
+ 'regressor__model__d_model': 192,
+ 'regressor__model__dropout': 0.1,
+ 'regressor__model__epochs': 30,
+ 'regressor__model__learning_rate': 0.0005,
+ 'regressor__model__n_heads': 4,
+ 'regressor__model__n_layers': 3,
+ 'regressor__model__weight_decay': 0.0001}
+
+Best mean CV MAE: 2358.666
+
+Chosen feature selection object:
+None
+
+Best estimator (pipeline):
+TransformedTargetRegressor(func=<ufunc 'log1p'>, inverse_func=<ufunc 'expm1'>,
+                           regressor=Pipeline(steps=[('hasDamage_imp',
+                                                      HasDamageImputer()),
+                                                     ('transmission_imp',
+                                                      TransmissionImputer(pipeline_template=Pipeline(steps=[('encoder',
+                                                                                                             ColumnTransformer(remainder='passthrough',
+                                                                                                                               transformers=[('low_card',
+                                                                                                                                              Pipeline(steps=[('onehot',
+                                                                                                                                                               OneHotEncoder(handle_unknown='ign...
+                                                                                       <sklearn.compose._column_transformer.make_column_selector object at 0x7fbdcc2d3990>),
+                                                                                      ('cat',
+                                                                                       OrdinalEncoder(handle_unknown='use_encoded_value',
+                                                                                                      unknown_value=-1),
+                                                                                       ['Brand',
+                                                                                        'model',
+                                                                                        'transmission',
+                                                                                        'fuelType',
+                                                                                        'brand_segment',
+                                                                                        'car_segment'])],
+                                                                        verbose_feature_names_out=False)),
+                                                     ('model',
+                                                      SklearnFTTransformer(batch_size=1024,
+                                                                           cat_indices=[-6,
+                                                                                        -5,
+                                                                                        -4,
+                                                                                        -3,
+                                                                                        -2,
+                                                                                        -1],
+                                                                           epochs=30,
+                                                                           learning_rate=0.0005,
+                                                                           n_heads=4))]))

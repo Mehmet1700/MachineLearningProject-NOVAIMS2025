@@ -1,0 +1,30 @@
+====================================================
+STEP 6: Results of CV (saved report)
+----------------------------------------------------
+Best parameters (including feature selection):
+{'regressor__feature_sel': CorrelationVarianceSelector(),
+ 'regressor__feature_sel__correlation_threshold': 0.8,
+ 'regressor__feature_sel__variance_threshold': 0.1,
+ 'regressor__model__batch_size': 256,
+ 'regressor__model__dropout_rate': 0.3,
+ 'regressor__model__epochs': 150,
+ 'regressor__model__hidden_layer_sizes': (512, 256, 128),
+ 'regressor__model__learning_rate': 0.0005,
+ 'regressor__model__use_batchnorm': True}
+
+Best mean CV MAE: 2064.552
+
+Chosen feature selection object:
+CorrelationVarianceSelector()
+
+Best estimator (pipeline + log-transform):
+TransformedTargetRegressor(func=<ufunc 'log1p'>, inverse_func=<ufunc 'expm1'>,
+                           regressor=Pipeline(steps=[('preprocess',
+                                                      Pipeline(memory='/tmp/tmptoc5vjgo',
+                                                               steps=[('imputation',
+                                                                       Pipeline(steps=[('hasDamage_imp',
+                                                                                        HasDamageImputer()),
+                                                                                       ('transmission_imp',
+                                                                                        TransmissionImputer(pipeline_template=Pipeline(steps=[('encoder',
+                                                                                                                                               ColumnTransformer(remainder='passthrough'...
+                                                      KerasRegressor(batch_size=256, callbacks=[<keras.src.callbacks.EarlyStopping object at 0x7fe189fbdf90>], dropout_rate=0.3, epochs=150, hidden_layer_sizes=(512, 256, 128), learning_rate=0.0005, model=functools.partial(<function _build_dense_model at 0x7fe1d0d5e700>, hidden_layer_sizes=(256, 128, 64), learning_rate=0.001, dropout_rate=0.2, use_batchnorm=True), model_save_format='h5', use_batchnorm=True, validation_split=0.1, verbose=0))]))

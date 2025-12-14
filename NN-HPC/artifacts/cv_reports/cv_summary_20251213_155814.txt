@@ -1,0 +1,31 @@
+====================================================
+STEP 6: Results of CV (saved report)
+----------------------------------------------------
+Best parameters (including feature selection):
+{'feature_sel': 'passthrough',
+ 'model__batch_size': 512,
+ 'model__dropout_rate': 0.1,
+ 'model__epochs': 150,
+ 'model__hidden_layer_sizes': (512, 256, 128, 64),
+ 'model__learning_rate': 0.001,
+ 'model__use_batchnorm': True}
+
+Best mean CV MAE: 1350.299
+
+Chosen feature selection object:
+'passthrough'
+
+Best estimator (pipeline):
+Pipeline(steps=[('hasDamage_imp', HasDamageImputer()),
+                ('transmission_imp',
+                 TransmissionImputer(pipeline_template=Pipeline(steps=[('encoder',
+                                                                        ColumnTransformer(remainder='passthrough',
+                                                                                          transformers=[('low_card',
+                                                                                                         Pipeline(steps=[('onehot',
+                                                                                                                          OneHotEncoder(handle_unknown='ignore',
+                                                                                                                                        sparse_output=False))]),
+                                                                                                         ['Brand',
+                                                                                                          'fuelType']),
+                                                                                                        ('high_card',
+                                                                                                         Pipeline(steps=[('ord...
+                 KerasRegressor(batch_size=512, callbacks=[<keras.src.callbacks.EarlyStopping object at 0x7f9261a94c10>], dropout_rate=0.1, epochs=150, hidden_layer_sizes=(512, 256, 128, 64), learning_rate=0.001, model=functools.partial(<function _build_dense_model at 0x7f92da204400>, hidden_layer_sizes=(128, 64), learning_rate=0.001, dropout_rate=None, use_batchnorm=False), model_save_format='h5', use_batchnorm=True, validation_split=0.1, verbose=0))])

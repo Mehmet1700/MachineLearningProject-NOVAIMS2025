@@ -1,0 +1,28 @@
+====================================================
+STEP 6: Results of CV (saved report)
+----------------------------------------------------
+Best parameters (including feature selection):
+{'regressor__feature_sel': 'passthrough',
+ 'regressor__model__batch_size': 512,
+ 'regressor__model__dropout_rate': 0.1,
+ 'regressor__model__epochs': 150,
+ 'regressor__model__hidden_layer_sizes': (384, 192, 96, 48),
+ 'regressor__model__learning_rate': 0.002,
+ 'regressor__model__use_batchnorm': True}
+
+Best mean CV MAE: 1296.803
+
+Chosen feature selection object:
+None
+
+Best estimator (pipeline):
+TransformedTargetRegressor(func=<ufunc 'log1p'>, inverse_func=<ufunc 'expm1'>,
+                           regressor=Pipeline(steps=[('hasDamage_imp',
+                                                      HasDamageImputer()),
+                                                     ('transmission_imp',
+                                                      TransmissionImputer(pipeline_template=Pipeline(steps=[('encoder',
+                                                                                                             ColumnTransformer(remainder='passthrough',
+                                                                                                                               transformers=[('low_card',
+                                                                                                                                              Pipeline(steps=[('onehot',
+                                                                                                                                                               OneHotEncoder(handle_unknown='ign...
+                                                      KerasRegressor(batch_size=512, callbacks=[<keras.src.callbacks.EarlyStopping object at 0x7f7ecb2cc050>], dropout_rate=0.1, epochs=150, hidden_layer_sizes=(384, 192, 96, 48), learning_rate=0.002, model=functools.partial(<function _build_dense_model at 0x7f7f1a3c4400>, hidden_layer_sizes=(128, 64), learning_rate=0.001, dropout_rate=None, use_batchnorm=False), model_save_format='h5', use_batchnorm=True, validation_split=0.1, verbose=0))]))

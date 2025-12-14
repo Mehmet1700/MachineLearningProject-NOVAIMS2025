@@ -59,13 +59,22 @@ def keras_nn(
     patience: int = 10,
     validation_split: float = 0.1,
 ) -> KerasRegressor:
-    """SciKeras-KerasRegressor, der in eine sklearn-Pipeline passt."""
+    """SciKeras-KerasRegressor that fits into a sklearn pipeline."""
 
     early_stop = keras.callbacks.EarlyStopping(
         monitor="val_loss",
         patience=patience,
         restore_best_weights=True,
         verbose=0,
+    )
+    
+    # Reduce LR on Plateau to help convergence
+    reduce_lr = keras.callbacks.ReduceLROnPlateau(
+        monitor='val_loss', 
+        factor=0.2,
+        patience=5, 
+        min_lr=1e-6,
+        verbose=0
     )
 
     build_model = partial(
@@ -87,7 +96,7 @@ def keras_nn(
         batch_size=batch_size,
         epochs=epochs,
         validation_split=validation_split,
-        callbacks=[early_stop],
+        callbacks=[early_stop, reduce_lr],
         verbose=0,
     )
 
