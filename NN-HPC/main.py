@@ -166,7 +166,9 @@ def run_training(
         param_grid = build_keras_mlp_param_grid(random_state=random_state)
     
     # Wrap in TransformedTargetRegressor for log-target regression
-    # This ensures we train on log(price) but predict price
+    # This ensures we train on log(price) but predict price.
+    # Why? Price distributions are typically right-skewed (long tail of expensive cars).
+    # Log-transforming makes the target more normal (Gaussian), which helps the NN converge faster and better.
     print("  -> Wrapping pipeline in TransformedTargetRegressor (log1p/expm1)...")
     wrapped_pipe = TransformedTargetRegressor(
         regressor=base_pipe,

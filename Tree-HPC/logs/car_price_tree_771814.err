@@ -1,0 +1,3 @@
+/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/Tree-HPC/.venv/lib/python3.11/site-packages/joblib/externals/loky/process_executor.py:782: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+slurmstepd: error: *** JOB 771814 ON gnx504 CANCELLED AT 2025-12-14T22:17:34 DUE TO TIME LIMIT ***

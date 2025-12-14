@@ -7,6 +7,12 @@ from scipy.stats import randint, uniform
 def build_random_forest_param_grid():
     """
     Returns the parameter grid for RandomForestRegressor.
+    
+    Strategy:
+    - n_estimators: Higher is generally better but slower. 100-800 covers the sweet spot.
+    - max_depth: Controls overfitting. None allows full growth, restricted depths regularize.
+    - max_features: 'sqrt' is standard for classification, but for regression with many features,
+      sometimes using all features (None) or log2 works better.
     """
     return {
         "model__regressor__n_estimators": [100, 300, 500, 800],

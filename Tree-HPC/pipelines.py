@@ -19,9 +19,11 @@ def build_tree_pipeline(model_type, preprocessor, random_state=42):
     """
     
     if model_type == 'rf':
-        regressor = RandomForestRegressor(random_state=random_state, n_jobs=-1)
+        # n_jobs=1 to avoid oversubscription during RandomizedSearchCV (which uses n_jobs=32)
+        regressor = RandomForestRegressor(random_state=random_state, n_jobs=1)
     elif model_type == 'et':
-        regressor = ExtraTreesRegressor(random_state=random_state, n_jobs=-1)
+        # n_jobs=1 to avoid oversubscription during RandomizedSearchCV (which uses n_jobs=32)
+        regressor = ExtraTreesRegressor(random_state=random_state, n_jobs=1)
     elif model_type == 'hgb':
         regressor = HistGradientBoostingRegressor(random_state=random_state)
     elif model_type == 'dt':
@@ -32,12 +34,16 @@ def build_tree_pipeline(model_type, preprocessor, random_state=42):
     # Use TransformedTargetRegressor to handle potential target skewness.
     # We apply Log-Transformation (log1p) to the prices, which typically improves
     # performance for regression tasks with skewed target distributions (like prices).
+    # This ensures the model learns to predict log-prices, and predictions are automatically
+    # transformed back to the original scale (expm1).
     model = TransformedTargetRegressor(
         regressor=regressor,
         func=np.log1p,
         inverse_func=np.expm1
     )
     
+    # The pipeline ensures that preprocessing (scaling, encoding) is applied 
+    # correctly within each fold of Cross-Validation to prevent data leakage.
     pipeline = Pipeline(steps=[
         ('preprocessor', preprocessor),
         ('model', model)
