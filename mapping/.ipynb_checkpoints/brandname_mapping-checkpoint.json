@@ -1,0 +1,60 @@
+{
+  "vw": "Volkswagen",
+  "v": "Volkswagen",
+  "w": "Volkswagen",
+  "volkswagen": "Volkswagen",
+
+  "toyota": "Toyota",
+  "toyo": "Toyota",
+  "toyot": "Toyota",
+  "oyota": "Toyota",
+  "oyot": "Toyota",
+
+
+  "audi": "Audi",
+  "aud": "Audi",
+  "udi": "Audi",
+  "ud": "Audi",
+  "audi": "Audi",
+
+  "ford": "Ford",
+  "for": "Ford",
+  "ord": "Ford",
+  "ford": "Ford",
+  "or": "Ford",
+
+  "bmw": "BMW",
+  "mw": "BMW",
+  "bm": "BMW",
+  "bmw": "BMW",
+
+  
+
+  "skoda": "Škoda",
+  "skod": "Škoda",
+  "koda": "Škoda",
+  "kod": "Škoda",
+  "skoda": "Škoda",
+  "škoda": "Škoda",
+
+  "opel": "Opel",
+  "ope": "Opel",
+  "pel": "Opel",
+  "opel": "Opel",
+  "pe": "Opel",
+
+  "m": "Mercedes-Benz",
+  "mercedes": "Mercedes-Benz",
+  "mercede": "Mercedes-Benz",
+  "ercedes": "Mercedes-Benz",
+  "mercedes": "Mercedes-Benz",
+  "ercede"  : "Mercedes-Benz",
+  "mercedes benz ": "Mercedes-Benz",
+  
+
+  "hyundai": "Hyundai",
+  "hyunda": "Hyundai",
+  "yundai": "Hyundai",
+  "yunda": "Hyundai",
+  "hyundai": "Hyundai"
+}

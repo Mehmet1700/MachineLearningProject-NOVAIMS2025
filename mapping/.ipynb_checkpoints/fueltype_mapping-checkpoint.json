@@ -1,0 +1,37 @@
+{
+    "PETROL" : "Petrol",
+    "etrol" :  "Petrol",
+    "Petro" : "Petrol",
+    "petro": "Petrol",
+    "petrol": "Petrol",
+    "etro" : "Petrol",
+    "ETROL" : "Petrol",
+    "PETRO" : "Petrol",
+    "ETRO" : "Petrol",
+
+    "iesel" : "Diesel",
+    "diesel" : "Diesel",
+    "Diese" : "Diesel",
+    "DIESEL" : "Diesel",
+    "IESEL" : "Diesel",
+    "DIESE" : "Diesel",
+    "iese" : "Diesel",
+    "diese" : "Diesel",
+    "IESE" : "Diesel",
+
+    "hybrid" : "Hybrid",
+    "Hybri" : "Hybrid",
+    "ybrid" : "Hybrid",
+    "YBRID" : "Hybrid",
+    "HYBRI" : "Hybrid",
+    "ybri" : "Hybrid",
+
+    "other" : "Other",
+    "Othe" : "Other",
+    "ther" : "Other",
+    "OTHER" : "Other",
+    
+    "Electric" : "Electric",
+    "electric" : "Electric",
+    "ELECTRIC" : "Electric"
+}
