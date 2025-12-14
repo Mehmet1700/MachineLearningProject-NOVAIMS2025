@@ -40,18 +40,32 @@ source .venv/bin/activate
 # 2. Run Training
 # ------------------------------------------------------------------------------
 
-# --- 1. Extra Trees (Refined Search) ---
-echo "Starting Extra Trees Training (Refined)..."
+# --- 1. Random Forest ---
+echo "Starting Random Forest..."
+python main.py \
+    --model-type rf \
+    --n-iter 10 \
+    --n-splits 1 \
+    --n-jobs 16 \
+    --make-submission
+
+# --- 2. Extra Trees ---
+echo "Starting Extra Trees..."
 python main.py \
     --model-type et \
-    --n-iter 50 \
-    --n-splits 5 \
-    --n-jobs 32 \
-    --make-submission \
-    --save-cv-summary \
-    --train-path ../data/train.csv \
-    --test-path ../data/test.csv \
-    --mapping-dir ../mapping
+    --n-iter 10 \
+    --n-splits 1 \
+    --n-jobs 16 \
+    --make-submission
+
+# --- 3. Decision Tree ---
+echo "Starting Decision Tree..."
+python main.py \
+    --model-type dt \
+    --n-iter 10 \
+    --n-splits 1 \
+    --n-jobs 16 \
+    --make-submission
 
 # --- 2. Random Forest (Optional / Baseline) ---
 # echo "Starting Random Forest Training..."

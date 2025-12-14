@@ -197,18 +197,24 @@ def run_training(
         raise ValueError(f"Unknown model type: {model_type}")
 
     # 4. CV Setup
+    # We use MAE (Mean Absolute Error) as the primary metric, consistent with the competition goal.
     mae_scorer = make_scorer(mae_func, greater_is_better=False)
     
     if n_splits <= 1:
+        # Hold-Out Strategy: Faster, good for quick debugging or very large datasets.
         cv_strategy = ShuffleSplit(n_splits=1, test_size=0.2, random_state=random_state)
         print("  -> Strategy: ShuffleSplit (Hold-Out, 20% Test)")
     else:
+        # K-Fold Cross-Validation: More robust, reduces variance in performance estimation.
         cv_strategy = KFold(n_splits=n_splits, shuffle=True, random_state=random_state)
         print(f"  -> Strategy: KFold (k={n_splits})")
 
     print(f"  -> Search Iterations: {n_iter}")
     print(f"  -> Total Fits: {n_iter * n_splits} (n_iter={n_iter} * n_splits={n_splits})")
 
+    # Note on Parallelization:
+    # We set n_jobs here for the SearchCV. The individual models (in pipelines.py) 
+    # should have n_jobs=1 to avoid oversubscription (too many threads fighting for CPU).
     search = RandomizedSearchCV(
         estimator=pipeline,
         param_distributions=param_grid,

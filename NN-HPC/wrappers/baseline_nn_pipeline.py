@@ -69,11 +69,11 @@ def build_flexible_keras_pipeline(
     Constructs a pipeline for the Keras MLP model.
     
     Structure:
-    1. Imputation (Median/Most Frequent)
-    2. Feature Engineering (Ratios, Flags)
-    3. Encoding (OneHot) & Scaling (RobustScaler)
-    4. Feature Selection (Placeholder, tuned later)
-    5. Keras Regressor
+    1. Imputation (Hybrid Strategy: Model-based + Rule-based)
+    2. Feature Engineering (Domain-specific ratios, e.g., mpg/engineSize)
+    3. Encoding (OneHot for MLP) & Scaling (RobustScaler to handle outliers)
+    4. Feature Selection (Optional, tuned via hyperparameters)
+    5. Keras Regressor (MLP with Dropout and L2 Regularization)
     """
     numeric_features, categorical_features = get_feature_types(X_train)
     if debug_imputation:

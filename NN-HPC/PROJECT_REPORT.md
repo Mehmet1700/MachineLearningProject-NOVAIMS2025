@@ -32,7 +32,7 @@ A flexible, fully connected network serving as a strong neural baseline.
 -   **Optimization**: Trained with Adam optimizer and Early Stopping.
 
 #### B. PyTorch FT-Transformer (Feature Tokenizer + Transformer)
-A state-of-the-art architecture adapted from "Revisiting Deep Learning Models for Tabular Data".
+A state-of-the-art architecture adapted from the paper ["Revisiting Deep Learning Models for Tabular Data"](https://arxiv.org/abs/2106.11959) (Gorishniy et al., 2021).
 -   **Feature Tokenizer**: Transforms all features (numerical and categorical) into uniform embeddings.
 -   **Transformer Encoder**: Applies self-attention mechanisms to learn interactions between features, similar to how NLP models process words.
 -   **Advantages**: Better at capturing complex feature interactions than standard MLPs.

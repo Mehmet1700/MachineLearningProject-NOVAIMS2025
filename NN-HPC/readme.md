@@ -21,7 +21,7 @@ The pipeline follows a modular design pattern to ensure reproducibility, scalabi
     *   **Imputation**: Implements a hybrid strategy using rule-based logic (Model Mode) and model-based prediction (Random Forest) for missing values.
     *   **Encoding & Scaling**: Applies One-Hot/Ordinal Encoding and Robust Scaling appropriate for each model type.
     *   **Supported Architectures**:
-        *   **PyTorch FT-Transformer**: A state-of-the-art Transformer model for tabular data.
+        *   **PyTorch FT-Transformer**: A state-of-the-art Transformer model for tabular data, based on the paper ["Revisiting Deep Learning Models for Tabular Data"](https://arxiv.org/abs/2106.11959).
         *   **Keras MLP**: A flexible Multi-Layer Perceptron.
 
 4.  **Hyperparameter Management (`hyperparameters.py`)**:
