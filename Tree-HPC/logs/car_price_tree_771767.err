@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/Tree-HPC/main.py", line 257, in <module>
+    run_training(
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/Tree-HPC/main.py", line 125, in run_training
+    X_full, y_full, X_test, test_ids = load_full_train_and_test(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 4, got 3)

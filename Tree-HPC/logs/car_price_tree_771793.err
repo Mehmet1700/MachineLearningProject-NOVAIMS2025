@@ -1,0 +1,2 @@
+slurmstepd: error: *** JOB 771793 ON gnx504 CANCELLED AT 2025-12-14T17:55:39 ***
+slurmstepd: error: Detected 1 oom_kill event in StepId=771793.batch. Some of the step tasks have been OOM Killed.

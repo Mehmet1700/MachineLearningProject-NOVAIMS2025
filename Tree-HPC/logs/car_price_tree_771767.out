@@ -1,0 +1,8 @@
+Job started on gnx504.deucalion.macc.fccn.pt at Sun 14 Dec 17:13:34 WET 2025
+Starting Random Forest Training...
+====================================================
+STARTING TRAINING PIPELINE (Model: rf)
+====================================================
+  -> Loading data from ../data/train.csv and ../data/test.csv...
+  -> Dropped 2229 rows with year < 2000
+Job finished at Sun 14 Dec 17:13:42 WET 2025

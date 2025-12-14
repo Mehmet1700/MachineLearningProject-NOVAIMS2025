@@ -32,7 +32,8 @@ cd /projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS202
 mkdir -p logs artifacts
 
 # Activate the virtual environment
-source ../.venv/bin/activate
+# Using local .venv for reproducibility
+source .venv/bin/activate
 
 # 2. GPU Verification
 # ------------------------------------------------------------------------------

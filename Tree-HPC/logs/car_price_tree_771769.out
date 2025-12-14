@@ -1,0 +1,31 @@
+Job started on gnx504.deucalion.macc.fccn.pt at Sun 14 Dec 17:15:38 WET 2025
+Starting Random Forest Training...
+====================================================
+STARTING TRAINING PIPELINE (Model: rf)
+====================================================
+  -> Loading data from ../data/train.csv and ../data/test.csv...
+  -> Dropped 2229 rows with year < 2000
+  -> Training Samples: 73744
+  -> Test Samples:     32567
+  -> Strategy: KFold (k=5)
+  -> Search Iterations: 20
+
+====================================================
+STEP 4: Hyperparameter Tuning
+----------------------------------------------------
+Fitting 5 folds for each of 20 candidates, totalling 100 fits
+[CV] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__n_estimators=100; total time=  58.6s
+[CV] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__n_estimators=100; total time=  58.9s
+[CV] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__n_estimators=100; total time=  59.1s
+[CV] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__n_estimators=100; total time= 1.0min
+[CV] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__n_estimators=100; total time= 1.0min
+[CV] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__n_estimators=100; total time= 1.1min
+[CV] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__n_estimators=100; total time= 1.1min
+[CV] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__n_estimators=100; total time= 1.1min
+[CV] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__n_estimators=100; total time= 1.2min
+[CV] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__n_estimators=100; total time= 1.2min
+[CV] END model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__n_estimators=300; total time= 2.3min
+[CV] END model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__n_estimators=300; total time= 2.3min
+[CV] END model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__n_estimators=300; total time= 2.3min
+[CV] END model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__n_estimators=300; total time= 2.4min
+[CV] END model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__n_estimators=300; total time= 2.4min

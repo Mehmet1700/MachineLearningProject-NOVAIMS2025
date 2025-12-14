@@ -1,0 +1,36 @@
+====================================================
+CV RESULTS SUMMARY
+----------------------------------------------------
+Best parameters:
+{'model__regressor__max_depth': None,
+ 'model__regressor__max_features': None,
+ 'model__regressor__min_samples_leaf': 2,
+ 'model__regressor__min_samples_split': 10,
+ 'model__regressor__splitter': 'random'}
+
+Best mean CV MAE: 1530.318
+
+Best estimator (pipeline):
+Pipeline(steps=[('preprocessor',
+                 ColumnTransformer(transformers=[('num',
+                                                  Pipeline(steps=[('imputer',
+                                                                   SimpleImputer(strategy='median')),
+                                                                  ('scaler',
+                                                                   StandardScaler())]),
+                                                  ['year', 'mileage', 'tax',
+                                                   'mpg', 'engineSize',
+                                                   'previousOwners',
+                                                   'hasDamage']),
+                                                 ('cat',
+                                                  Pipeline(steps=[('imputer',
+                                                                   SimpleImputer(strategy='most_frequent')),
+                                                                  ('onehot',
+                                                                   OneHotEncoder(handle_unknown='ignore'))]),
+                                                  ['Brand', 'model',
+                                                   'transmission',
+                                                   'fuelType'])])),
+                ('model',
+                 TransformedTargetRegressor(regressor=DecisionTreeRegressor(min_samples_leaf=2,
+                                                                            min_samples_split=10,
+                                                                            random_state=42,
+                                                                            splitter='random')))])

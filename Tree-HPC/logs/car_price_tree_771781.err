@@ -1,0 +1,63 @@
+Traceback (most recent call last):
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/Tree-HPC/main.py", line 261, in <module>
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/Tree-HPC/main.py", line 243, in parse_args
+    parser.add_argument("--model-type", type=str, default="rf", choices=["rf", "et", "hgb"],
+  File "/eb/x86_64/software/Python/3.11.3-GCCcore-12.3.0/lib/python3.11/argparse.py", line 1468, in add_argument
+    return self._add_action(action)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/eb/x86_64/software/Python/3.11.3-GCCcore-12.3.0/lib/python3.11/argparse.py", line 1850, in _add_action
+    self._optionals._add_action(action)
+  File "/eb/x86_64/software/Python/3.11.3-GCCcore-12.3.0/lib/python3.11/argparse.py", line 1670, in _add_action
+    action = super(_ArgumentGroup, self)._add_action(action)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/eb/x86_64/software/Python/3.11.3-GCCcore-12.3.0/lib/python3.11/argparse.py", line 1482, in _add_action
+    self._check_conflict(action)
+  File "/eb/x86_64/software/Python/3.11.3-GCCcore-12.3.0/lib/python3.11/argparse.py", line 1619, in _check_conflict
+    conflict_handler(action, confl_optionals)
+  File "/eb/x86_64/software/Python/3.11.3-GCCcore-12.3.0/lib/python3.11/argparse.py", line 1628, in _handle_conflict_error
+    raise ArgumentError(action, message % conflict_string)
+argparse.ArgumentError: argument --model-type: conflicting option string: --model-type
+Traceback (most recent call last):
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/Tree-HPC/main.py", line 261, in <module>
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/Tree-HPC/main.py", line 243, in parse_args
+    parser.add_argument("--model-type", type=str, default="rf", choices=["rf", "et", "hgb"],
+  File "/eb/x86_64/software/Python/3.11.3-GCCcore-12.3.0/lib/python3.11/argparse.py", line 1468, in add_argument
+    return self._add_action(action)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/eb/x86_64/software/Python/3.11.3-GCCcore-12.3.0/lib/python3.11/argparse.py", line 1850, in _add_action
+    self._optionals._add_action(action)
+  File "/eb/x86_64/software/Python/3.11.3-GCCcore-12.3.0/lib/python3.11/argparse.py", line 1670, in _add_action
+    action = super(_ArgumentGroup, self)._add_action(action)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/eb/x86_64/software/Python/3.11.3-GCCcore-12.3.0/lib/python3.11/argparse.py", line 1482, in _add_action
+    self._check_conflict(action)
+  File "/eb/x86_64/software/Python/3.11.3-GCCcore-12.3.0/lib/python3.11/argparse.py", line 1619, in _check_conflict
+    conflict_handler(action, confl_optionals)
+  File "/eb/x86_64/software/Python/3.11.3-GCCcore-12.3.0/lib/python3.11/argparse.py", line 1628, in _handle_conflict_error
+    raise ArgumentError(action, message % conflict_string)
+argparse.ArgumentError: argument --model-type: conflicting option string: --model-type
+Traceback (most recent call last):
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/Tree-HPC/main.py", line 261, in <module>
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/projects/F202500002HPCVLABISTUL/Mehmet1700/MachineLearningProject-NOVAIMS2025/Tree-HPC/main.py", line 243, in parse_args
+    parser.add_argument("--model-type", type=str, default="rf", choices=["rf", "et", "hgb"],
+  File "/eb/x86_64/software/Python/3.11.3-GCCcore-12.3.0/lib/python3.11/argparse.py", line 1468, in add_argument
+    return self._add_action(action)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/eb/x86_64/software/Python/3.11.3-GCCcore-12.3.0/lib/python3.11/argparse.py", line 1850, in _add_action
+    self._optionals._add_action(action)
+  File "/eb/x86_64/software/Python/3.11.3-GCCcore-12.3.0/lib/python3.11/argparse.py", line 1670, in _add_action
+    action = super(_ArgumentGroup, self)._add_action(action)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/eb/x86_64/software/Python/3.11.3-GCCcore-12.3.0/lib/python3.11/argparse.py", line 1482, in _add_action
+    self._check_conflict(action)
+  File "/eb/x86_64/software/Python/3.11.3-GCCcore-12.3.0/lib/python3.11/argparse.py", line 1619, in _check_conflict
+    conflict_handler(action, confl_optionals)
+  File "/eb/x86_64/software/Python/3.11.3-GCCcore-12.3.0/lib/python3.11/argparse.py", line 1628, in _handle_conflict_error
+    raise ArgumentError(action, message % conflict_string)
+argparse.ArgumentError: argument --model-type: conflicting option string: --model-type

@@ -1,0 +1,304 @@
+Job started on gnx504.deucalion.macc.fccn.pt at Sun 14 Dec 17:31:47 WET 2025
+Starting Random Forest Training...
+====================================================
+STARTING TRAINING PIPELINE (Model: rf)
+====================================================
+  -> Loading data from ../data/train.csv and ../data/test.csv...
+  -> Dropped 2229 rows with year < 2000
+  -> Training Samples: 73744
+  -> Test Samples:     32567
+  -> Strategy: ShuffleSplit (Hold-Out, 20% Test)
+  -> Search Iterations: 20
+  -> Total Fits: 20 (n_iter=20 * n_splits=1)
+
+====================================================
+STEP 4: Hyperparameter Tuning
+----------------------------------------------------
+Fitting 1 folds for each of 20 candidates, totalling 20 fits
+[CV 1/1; 1/20] START model__regressor__bootstrap=True, model__regressor__max_depth=30, model__regressor__max_features=None, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=2, model__regressor__n_estimators=800
+[CV 1/1; 2/20] START model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__n_estimators=100
+[CV 1/1; 5/20] START model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=800
+[CV 1/1; 3/20] START model__regressor__bootstrap=False, model__regressor__max_depth=10, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__n_estimators=800
+[CV 1/1; 11/20] START model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=100
+[CV 1/1; 7/20] START model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=5, model__regressor__n_estimators=800
+[CV 1/1; 6/20] START model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=100[CV 1/1; 4/20] START model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__n_estimators=100
+
+[CV 1/1; 12/20] START model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=300
+[CV 1/1; 14/20] START model__regressor__bootstrap=True, model__regressor__max_depth=10, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__n_estimators=500
+[CV 1/1; 17/20] START model__regressor__bootstrap=True, model__regressor__max_depth=30, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__n_estimators=300
+[CV 1/1; 16/20] START model__regressor__bootstrap=True, model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=5, model__regressor__n_estimators=100
+[CV 1/1; 19/20] START model__regressor__bootstrap=False, model__regressor__max_depth=30, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__n_estimators=100[CV 1/1; 18/20] START model__regressor__bootstrap=True, model__regressor__max_depth=50, model__regressor__max_features=log2, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=2, model__regressor__n_estimators=800
+
+[CV 1/1; 9/20] START model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=2, model__regressor__n_estimators=800[CV 1/1; 8/20] START model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__n_estimators=300
+
+[CV 1/1; 15/20] START model__regressor__bootstrap=True, model__regressor__max_depth=30, model__regressor__max_features=log2, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=300
+[CV 1/1; 13/20] START model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__n_estimators=500
+[CV 1/1; 20/20] START model__regressor__bootstrap=False, model__regressor__max_depth=30, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=5, model__regressor__n_estimators=300
+[CV 1/1; 10/20] START model__regressor__bootstrap=False, model__regressor__max_depth=30, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__n_estimators=800
+[CV 1/1; 14/20] END model__regressor__bootstrap=True, model__regressor__max_depth=10, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__n_estimators=500;, score=-3829.651 total time=  16.2s
+[CV 1/1; 16/20] END model__regressor__bootstrap=True, model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=5, model__regressor__n_estimators=100;, score=-1635.394 total time=  17.1s
+[CV 1/1; 19/20] END model__regressor__bootstrap=False, model__regressor__max_depth=30, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__n_estimators=100;, score=-2206.702 total time=  18.4s
+[CV 1/1; 4/20] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__n_estimators=100;, score=-2033.803 total time=  20.8s
+[CV 1/1; 2/20] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__n_estimators=100;, score=-1342.363 total time=  26.6s
+[CV 1/1; 20/20] END model__regressor__bootstrap=False, model__regressor__max_depth=30, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=5, model__regressor__n_estimators=300;, score=-1827.684 total time=  38.9s
+[CV 1/1; 17/20] END model__regressor__bootstrap=True, model__regressor__max_depth=30, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__n_estimators=300;, score=-1457.112 total time=  40.0s
+[CV 1/1; 15/20] END model__regressor__bootstrap=True, model__regressor__max_depth=30, model__regressor__max_features=log2, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=300;, score=-1731.014 total time=  43.1s
+[CV 1/1; 8/20] END model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__n_estimators=300;, score=-1578.489 total time=  48.5s
+[CV 1/1; 18/20] END model__regressor__bootstrap=True, model__regressor__max_depth=50, model__regressor__max_features=log2, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=2, model__regressor__n_estimators=800;, score=-2582.246 total time=  52.0s
+[CV 1/1; 10/20] END model__regressor__bootstrap=False, model__regressor__max_depth=30, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__n_estimators=800;, score=-2221.388 total time=  59.7s
+[CV 1/1; 12/20] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=300;, score=-1352.145 total time= 1.1min
+[CV 1/1; 6/20] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=100;, score=-1627.128 total time= 1.2min
+[CV 1/1; 11/20] END model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=100;, score=-1627.833 total time= 1.2min
+[CV 1/1; 3/20] END model__regressor__bootstrap=False, model__regressor__max_depth=10, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__n_estimators=800;, score=-2176.689 total time= 1.3min
+[CV 1/1; 7/20] END model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=5, model__regressor__n_estimators=800;, score=-1562.101 total time= 1.4min
+[CV 1/1; 1/20] END model__regressor__bootstrap=True, model__regressor__max_depth=30, model__regressor__max_features=None, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=2, model__regressor__n_estimators=800;, score=-1406.699 total time= 2.2min
+[CV 1/1; 13/20] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__n_estimators=500;, score=-1592.302 total time= 2.3min
+[CV 1/1; 9/20] END model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=2, model__regressor__n_estimators=800;, score=-1614.768 total time= 2.3min
+[CV 1/1; 5/20] END model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=800;, score=-1627.015 total time= 2.7min
+
+====================================================
+STEP 5: Evaluation Results
+----------------------------------------------------
+Best Parameters:
+{'model__regressor__bootstrap': False,
+ 'model__regressor__max_depth': None,
+ 'model__regressor__max_features': 'sqrt',
+ 'model__regressor__min_samples_leaf': 1,
+ 'model__regressor__min_samples_split': 10,
+ 'model__regressor__n_estimators': 100}
+
+Best Mean CV MAE: 1342.363
+  -> Saved CV summary to: artifacts/cv_reports/cv_summary_20251214_173439.txt
+  -> Saved best model to: artifacts/models/best_model_rf_20251214_173439.joblib
+
+====================================================
+STEP 6: Final Training & Submission
+----------------------------------------------------
+  -> Predicting on Test Set...
+  -> Saved submission to: artifacts/submissions/submission_rf_20251214_173439.csv
+
+====================================================
+DONE. Total Runtime: 166.4s
+====================================================
+Starting Extra Trees Training...
+====================================================
+STARTING TRAINING PIPELINE (Model: et)
+====================================================
+  -> Loading data from ../data/train.csv and ../data/test.csv...
+  -> Dropped 2229 rows with year < 2000
+  -> Training Samples: 73744
+  -> Test Samples:     32567
+  -> Strategy: ShuffleSplit (Hold-Out, 20% Test)
+  -> Search Iterations: 20
+  -> Total Fits: 20 (n_iter=20 * n_splits=1)
+
+====================================================
+STEP 4: Hyperparameter Tuning
+----------------------------------------------------
+Fitting 1 folds for each of 20 candidates, totalling 20 fits
+[CV 1/1; 1/20] START model__regressor__bootstrap=True, model__regressor__max_depth=30, model__regressor__max_features=None, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=2, model__regressor__n_estimators=800
+[CV 1/1; 5/20] START model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=800
+[CV 1/1; 8/20] START model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__n_estimators=300
+[CV 1/1; 7/20] START model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=5, model__regressor__n_estimators=800
+[CV 1/1; 15/20] START model__regressor__bootstrap=True, model__regressor__max_depth=30, model__regressor__max_features=log2, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=300
+[CV 1/1; 2/20] START model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__n_estimators=100
+[CV 1/1; 13/20] START model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__n_estimators=500[CV 1/1; 10/20] START model__regressor__bootstrap=False, model__regressor__max_depth=30, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__n_estimators=800
+
+[CV 1/1; 12/20] START model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=300
+[CV 1/1; 4/20] START model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__n_estimators=100
+[CV 1/1; 18/20] START model__regressor__bootstrap=True, model__regressor__max_depth=50, model__regressor__max_features=log2, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=2, model__regressor__n_estimators=800
+[CV 1/1; 17/20] START model__regressor__bootstrap=True, model__regressor__max_depth=30, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__n_estimators=300
+[CV 1/1; 3/20] START model__regressor__bootstrap=False, model__regressor__max_depth=10, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__n_estimators=800
+[CV 1/1; 14/20] START model__regressor__bootstrap=True, model__regressor__max_depth=10, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__n_estimators=500
+[CV 1/1; 6/20] START model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=100
+[CV 1/1; 19/20] START model__regressor__bootstrap=False, model__regressor__max_depth=30, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__n_estimators=100
+[CV 1/1; 20/20] START model__regressor__bootstrap=False, model__regressor__max_depth=30, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=5, model__regressor__n_estimators=300
+[CV 1/1; 9/20] START model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=2, model__regressor__n_estimators=800
+[CV 1/1; 16/20] START model__regressor__bootstrap=True, model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=5, model__regressor__n_estimators=100
+[CV 1/1; 11/20] START model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=100
+[CV 1/1; 19/20] END model__regressor__bootstrap=False, model__regressor__max_depth=30, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__n_estimators=100;, score=-3136.396 total time=   7.4s
+[CV 1/1; 14/20] END model__regressor__bootstrap=True, model__regressor__max_depth=10, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__n_estimators=500;, score=-4837.689 total time=  10.7s
+[CV 1/1; 4/20] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__n_estimators=100;, score=-2807.068 total time=  11.7s
+[CV 1/1; 16/20] END model__regressor__bootstrap=True, model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=5, model__regressor__n_estimators=100;, score=-2118.772 total time=  14.7s
+[CV 1/1; 20/20] END model__regressor__bootstrap=False, model__regressor__max_depth=30, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=5, model__regressor__n_estimators=300;, score=-2610.205 total time=  14.7s
+[CV 1/1; 2/20] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__n_estimators=100;, score=-1424.030 total time=  17.4s
+[CV 1/1; 8/20] END model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__n_estimators=300;, score=-2050.801 total time=  17.8s
+[CV 1/1; 18/20] END model__regressor__bootstrap=True, model__regressor__max_depth=50, model__regressor__max_features=log2, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=2, model__regressor__n_estimators=800;, score=-3436.745 total time=  22.4s
+[CV 1/1; 17/20] END model__regressor__bootstrap=True, model__regressor__max_depth=30, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__n_estimators=300;, score=-1793.995 total time=  23.2s
+[CV 1/1; 15/20] END model__regressor__bootstrap=True, model__regressor__max_depth=30, model__regressor__max_features=log2, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=300;, score=-2439.707 total time=  28.0s
+[CV 1/1; 10/20] END model__regressor__bootstrap=False, model__regressor__max_depth=30, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__n_estimators=800;, score=-3196.975 total time=  33.6s
+[CV 1/1; 12/20] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=300;, score=-1402.529 total time=  51.3s
+[CV 1/1; 6/20] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=100;, score=-1253.912 total time=  51.8s
+[CV 1/1; 7/20] END model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=5, model__regressor__n_estimators=800;, score=-2042.854 total time=  57.4s
+[CV 1/1; 11/20] END model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=100;, score=-1249.753 total time= 1.1min
+[CV 1/1; 3/20] END model__regressor__bootstrap=False, model__regressor__max_depth=10, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__n_estimators=800;, score=-2045.950 total time= 1.1min
+[CV 1/1; 13/20] END model__regressor__bootstrap=False, model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__n_estimators=500;, score=-1265.012 total time= 1.8min
+[CV 1/1; 1/20] END model__regressor__bootstrap=True, model__regressor__max_depth=30, model__regressor__max_features=None, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=2, model__regressor__n_estimators=800;, score=-1364.493 total time= 1.9min
+[CV 1/1; 9/20] END model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=2, model__regressor__n_estimators=800;, score=-1310.106 total time= 2.1min
+[CV 1/1; 5/20] END model__regressor__bootstrap=False, model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__n_estimators=800;, score=-1248.558 total time= 2.2min
+
+====================================================
+STEP 5: Evaluation Results
+----------------------------------------------------
+Best Parameters:
+{'model__regressor__bootstrap': False,
+ 'model__regressor__max_depth': 50,
+ 'model__regressor__max_features': None,
+ 'model__regressor__min_samples_leaf': 1,
+ 'model__regressor__min_samples_split': 5,
+ 'model__regressor__n_estimators': 800}
+
+Best Mean CV MAE: 1248.558
+  -> Saved CV summary to: artifacts/cv_reports/cv_summary_20251214_173750.txt
+  -> Saved best model to: artifacts/models/best_model_et_20251214_173750.joblib
+
+====================================================
+STEP 6: Final Training & Submission
+----------------------------------------------------
+  -> Predicting on Test Set...
+  -> Saved submission to: artifacts/submissions/submission_et_20251214_173753.csv
+
+====================================================
+DONE. Total Runtime: 192.1s
+====================================================
+Starting Decision Tree Training...
+====================================================
+STARTING TRAINING PIPELINE (Model: dt)
+====================================================
+  -> Loading data from ../data/train.csv and ../data/test.csv...
+  -> Dropped 2229 rows with year < 2000
+  -> Training Samples: 73744
+  -> Test Samples:     32567
+  -> Strategy: ShuffleSplit (Hold-Out, 20% Test)
+  -> Search Iterations: 50
+  -> Total Fits: 50 (n_iter=50 * n_splits=1)
+
+====================================================
+STEP 4: Hyperparameter Tuning
+----------------------------------------------------
+Fitting 1 folds for each of 50 candidates, totalling 50 fits
+[CV 1/1; 2/50] START model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=20, model__regressor__splitter=best
+[CV 1/1; 1/50] START model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__splitter=random
+[CV 1/1; 3/50] START model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=5, model__regressor__splitter=best
+[CV 1/1; 5/50] START model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=20, model__regressor__splitter=random
+[CV 1/1; 11/50] START model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__splitter=random
+[CV 1/1; 7/50] START model__regressor__max_depth=20, model__regressor__max_features=None, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__splitter=best
+[CV 1/1; 6/50] START model__regressor__max_depth=10, model__regressor__max_features=None, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__splitter=best
+[CV 1/1; 10/50] START model__regressor__max_depth=50, model__regressor__max_features=log2, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=5, model__regressor__splitter=best
+[CV 1/1; 9/50] START model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__splitter=random
+[CV 1/1; 4/50] START model__regressor__max_depth=20, model__regressor__max_features=None, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=10, model__regressor__splitter=random
+[CV 1/1; 13/50] START model__regressor__max_depth=50, model__regressor__max_features=log2, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=2, model__regressor__splitter=random
+[CV 1/1; 8/50] START model__regressor__max_depth=30, model__regressor__max_features=None, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=20, model__regressor__splitter=random
+[CV 1/1; 15/50] START model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=20, model__regressor__splitter=best
+[CV 1/1; 18/50] START model__regressor__max_depth=50, model__regressor__max_features=log2, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=20, model__regressor__splitter=random
+[CV 1/1; 17/50] START model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=20, model__regressor__splitter=random
+[CV 1/1; 12/50] START model__regressor__max_depth=20, model__regressor__max_features=None, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=2, model__regressor__splitter=random
+[CV 1/1; 14/50] START model__regressor__max_depth=30, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=5, model__regressor__splitter=best
+[CV 1/1; 21/50] START model__regressor__max_depth=10, model__regressor__max_features=None, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=10, model__regressor__splitter=best
+[CV 1/1; 24/50] START model__regressor__max_depth=20, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__splitter=random
+[CV 1/1; 20/50] START model__regressor__max_depth=20, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=5, model__regressor__splitter=random
+[CV 1/1; 23/50] START model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=20, model__regressor__splitter=best
+[CV 1/1; 22/50] START model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=2, model__regressor__splitter=random
+[CV 1/1; 2/50] END model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=20, model__regressor__splitter=best;, score=-3074.239 total time=   0.3s
+[CV 1/1; 25/50] START model__regressor__max_depth=10, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__splitter=best
+[CV 1/1; 19/50] START model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=2, model__regressor__splitter=random
+[CV 1/1; 16/50] START model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=10, model__regressor__splitter=random
+[CV 1/1; 28/50] START model__regressor__max_depth=30, model__regressor__max_features=log2, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=2, model__regressor__splitter=random
+[CV 1/1; 27/50] START model__regressor__max_depth=30, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=20, model__regressor__splitter=best
+[CV 1/1; 26/50] START model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=5, model__regressor__splitter=best
+[CV 1/1; 31/50] START model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=20, model__regressor__splitter=random
+[CV 1/1; 13/50] END model__regressor__max_depth=50, model__regressor__max_features=log2, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=2, model__regressor__splitter=random;, score=-6172.137 total time=   0.2s
+[CV 1/1; 29/50] START model__regressor__max_depth=30, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__splitter=random
+[CV 1/1; 32/50] START model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=5, model__regressor__splitter=random
+[CV 1/1; 33/50] START model__regressor__max_depth=30, model__regressor__max_features=None, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=10, model__regressor__splitter=best
+[CV 1/1; 30/50] START model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=2, model__regressor__splitter=best
+[CV 1/1; 36/50] START model__regressor__max_depth=10, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=10, model__regressor__splitter=random
+[CV 1/1; 17/50] END model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=20, model__regressor__splitter=random;, score=-6189.749 total time=   0.2s
+[CV 1/1; 37/50] START model__regressor__max_depth=30, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=20, model__regressor__splitter=best
+[CV 1/1; 5/50] END model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=20, model__regressor__splitter=random;, score=-3217.807 total time=   0.4s
+[CV 1/1; 40/50] START model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=5, model__regressor__splitter=best
+[CV 1/1; 34/50] START model__regressor__max_depth=50, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=20, model__regressor__splitter=best
+[CV 1/1; 10/50] END model__regressor__max_depth=50, model__regressor__max_features=log2, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=5, model__regressor__splitter=best;, score=-4133.058 total time=   0.3s
+[CV 1/1; 35/50] START model__regressor__max_depth=30, model__regressor__max_features=None, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=2, model__regressor__splitter=random
+[CV 1/1; 39/50] START model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=20, model__regressor__splitter=random
+[CV 1/1; 42/50] START model__regressor__max_depth=10, model__regressor__max_features=None, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=2, model__regressor__splitter=random
+[CV 1/1; 38/50] START model__regressor__max_depth=10, model__regressor__max_features=None, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__splitter=random
+[CV 1/1; 41/50] START model__regressor__max_depth=30, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__splitter=best
+[CV 1/1; 43/50] START model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=5, model__regressor__splitter=best
+[CV 1/1; 46/50] START model__regressor__max_depth=30, model__regressor__max_features=log2, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__splitter=random
+[CV 1/1; 45/50] START model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=20, model__regressor__splitter=random
+[CV 1/1; 44/50] START model__regressor__max_depth=20, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=10, model__regressor__splitter=best
+[CV 1/1; 48/50] START model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__splitter=best
+[CV 1/1; 47/50] START model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=5, model__regressor__splitter=random
+[CV 1/1; 49/50] START model__regressor__max_depth=10, model__regressor__max_features=log2, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=5, model__regressor__splitter=random
+[CV 1/1; 15/50] END model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=20, model__regressor__splitter=best;, score=-3074.239 total time=   0.3s[CV 1/1; 50/50] START model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=20, model__regressor__splitter=random
+
+[CV 1/1; 25/50] END model__regressor__max_depth=10, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__splitter=best;, score=-3910.455 total time=   0.3s
+[CV 1/1; 20/50] END model__regressor__max_depth=20, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=5, model__regressor__splitter=random;, score=-4081.834 total time=   0.3s
+[CV 1/1; 36/50] END model__regressor__max_depth=10, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=10, model__regressor__splitter=random;, score=-4739.287 total time=   0.2s
+[CV 1/1; 11/50] END model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__splitter=random;, score=-2995.496 total time=   0.5s
+[CV 1/1; 18/50] END model__regressor__max_depth=50, model__regressor__max_features=log2, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=20, model__regressor__splitter=random;, score=-3101.789 total time=   0.4s
+[CV 1/1; 29/50] END model__regressor__max_depth=30, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__splitter=random;, score=-3380.195 total time=   0.3s
+[CV 1/1; 49/50] END model__regressor__max_depth=10, model__regressor__max_features=log2, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=5, model__regressor__splitter=random;, score=-5887.292 total time=   0.2s
+[CV 1/1; 3/50] END model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=5, model__regressor__splitter=best;, score=-2307.113 total time=   0.7s
+[CV 1/1; 34/50] END model__regressor__max_depth=50, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=20, model__regressor__splitter=best;, score=-3122.995 total time=   0.3s
+[CV 1/1; 50/50] END model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=20, model__regressor__splitter=random;, score=-4184.253 total time=   0.2s
+[CV 1/1; 41/50] END model__regressor__max_depth=30, model__regressor__max_features=log2, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__splitter=best;, score=-3399.461 total time=   0.3s
+[CV 1/1; 32/50] END model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=5, model__regressor__splitter=random;, score=-3205.489 total time=   0.4s
+[CV 1/1; 44/50] END model__regressor__max_depth=20, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=10, model__regressor__splitter=best;, score=-3177.262 total time=   0.3s
+[CV 1/1; 14/50] END model__regressor__max_depth=30, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=5, model__regressor__splitter=best;, score=-2620.176 total time=   0.6s
+[CV 1/1; 37/50] END model__regressor__max_depth=30, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=20, model__regressor__splitter=best;, score=-2401.336 total time=   0.5s
+[CV 1/1; 40/50] END model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=5, model__regressor__splitter=best;, score=-2706.102 total time=   0.5s
+[CV 1/1; 31/50] END model__regressor__max_depth=50, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=20, model__regressor__splitter=random;, score=-2108.529 total time=   0.5s
+[CV 1/1; 6/50] END model__regressor__max_depth=10, model__regressor__max_features=None, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__splitter=best;, score=-2185.758 total time=   0.8s
+[CV 1/1; 46/50] END model__regressor__max_depth=30, model__regressor__max_features=log2, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=5, model__regressor__splitter=random;, score=-3050.862 total time=   0.5s
+[CV 1/1; 45/50] END model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=20, model__regressor__splitter=random;, score=-2249.375 total time=   0.5s
+[CV 1/1; 21/50] END model__regressor__max_depth=10, model__regressor__max_features=None, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=10, model__regressor__splitter=best;, score=-2189.596 total time=   0.8s
+[CV 1/1; 38/50] END model__regressor__max_depth=10, model__regressor__max_features=None, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__splitter=random;, score=-2529.992 total time=   0.6s
+[CV 1/1; 42/50] END model__regressor__max_depth=10, model__regressor__max_features=None, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=2, model__regressor__splitter=random;, score=-2432.937 total time=   0.7s
+[CV 1/1; 28/50] END model__regressor__max_depth=30, model__regressor__max_features=log2, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=2, model__regressor__splitter=random;, score=-3115.942 total time=   1.1s
+[CV 1/1; 4/50] END model__regressor__max_depth=20, model__regressor__max_features=None, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=10, model__regressor__splitter=random;, score=-1666.788 total time=   1.5s
+[CV 1/1; 12/50] END model__regressor__max_depth=20, model__regressor__max_features=None, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=2, model__regressor__splitter=random;, score=-1777.125 total time=   1.5s
+[CV 1/1; 24/50] END model__regressor__max_depth=20, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=10, model__regressor__splitter=random;, score=-1701.721 total time=   1.6s
+[CV 1/1; 8/50] END model__regressor__max_depth=30, model__regressor__max_features=None, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=20, model__regressor__splitter=random;, score=-1615.519 total time=   1.8s
+[CV 1/1; 16/50] END model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=10, model__regressor__splitter=random;, score=-1674.501 total time=   1.7s
+[CV 1/1; 7/50] END model__regressor__max_depth=20, model__regressor__max_features=None, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__splitter=best;, score=-1598.369 total time=   2.0s
+[CV 1/1; 39/50] END model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=20, model__regressor__splitter=random;, score=-1566.851 total time=   1.7s
+[CV 1/1; 35/50] END model__regressor__max_depth=30, model__regressor__max_features=None, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=2, model__regressor__splitter=random;, score=-1676.703 total time=   1.7s
+[CV 1/1; 33/50] END model__regressor__max_depth=30, model__regressor__max_features=None, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=10, model__regressor__splitter=best;, score=-1659.213 total time=   1.9s
+[CV 1/1; 26/50] END model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=5, model__regressor__splitter=best;, score=-1657.692 total time=   1.9s
+[CV 1/1; 9/50] END model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__splitter=random;, score=-1530.318 total time=   2.1s
+[CV 1/1; 22/50] END model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=4, model__regressor__min_samples_split=2, model__regressor__splitter=random;, score=-1575.908 total time=   2.1s
+[CV 1/1; 43/50] END model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=8, model__regressor__min_samples_split=5, model__regressor__splitter=best;, score=-1657.692 total time=   1.9s
+[CV 1/1; 27/50] END model__regressor__max_depth=30, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=20, model__regressor__splitter=best;, score=-1539.869 total time=   2.2s
+[CV 1/1; 23/50] END model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=20, model__regressor__splitter=best;, score=-1536.641 total time=   2.2s
+[CV 1/1; 19/50] END model__regressor__max_depth=None, model__regressor__max_features=log2, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=2, model__regressor__splitter=random;, score=-2064.743 total time=   2.3s
+[CV 1/1; 1/50] END model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=2, model__regressor__splitter=random;, score=-1610.894 total time=   2.9s
+[CV 1/1; 48/50] END model__regressor__max_depth=None, model__regressor__max_features=None, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=10, model__regressor__splitter=best;, score=-1591.869 total time=   2.4s
+[CV 1/1; 47/50] END model__regressor__max_depth=50, model__regressor__max_features=None, model__regressor__min_samples_leaf=2, model__regressor__min_samples_split=5, model__regressor__splitter=random;, score=-1546.164 total time=   2.4s
+[CV 1/1; 30/50] END model__regressor__max_depth=None, model__regressor__max_features=sqrt, model__regressor__min_samples_leaf=1, model__regressor__min_samples_split=2, model__regressor__splitter=best;, score=-1965.107 total time=   3.3s
+
+====================================================
+STEP 5: Evaluation Results
+----------------------------------------------------
+Best Parameters:
+{'model__regressor__max_depth': None,
+ 'model__regressor__max_features': None,
+ 'model__regressor__min_samples_leaf': 2,
+ 'model__regressor__min_samples_split': 10,
+ 'model__regressor__splitter': 'random'}
+
+Best Mean CV MAE: 1530.318
+  -> Saved CV summary to: artifacts/cv_reports/cv_summary_20251214_173807.txt
+  -> Saved best model to: artifacts/models/best_model_dt_20251214_173807.joblib
+
+====================================================
+STEP 6: Final Training & Submission
+----------------------------------------------------
+  -> Predicting on Test Set...
+  -> Saved submission to: artifacts/submissions/submission_dt_20251214_173807.csv
+
+====================================================
+DONE. Total Runtime: 11.5s
+====================================================
+Job finished at Sun 14 Dec 17:38:08 WET 2025

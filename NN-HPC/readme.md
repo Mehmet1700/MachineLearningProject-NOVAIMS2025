@@ -1,7 +1,6 @@
-````markdown
 # Neural Network & Machine Learning HPC Pipeline
 
-This repository contains a professional-grade High-Performance Computing (HPC) pipeline designed to train, tune, and evaluate various regression models for car price prediction. The pipeline is optimized for execution on SLURM-managed clusters (e.g., with NVIDIA A100 GPUs) and implements a robust workflow including data ingestion, advanced preprocessing, feature engineering, hyperparameter optimization, and model persistence.
+This repository contains a professional-grade High-Performance Computing (HPC) pipeline designed to train, tune, and evaluate various regression models for car price prediction. The pipeline is optimized for execution on SLURM-managed clusters and implements a robust workflow including data ingestion, advanced preprocessing, feature engineering, hyperparameter optimization, and model persistence.
 
 ## Architecture Overview
 
@@ -13,13 +12,13 @@ The pipeline follows a modular design pattern to ensure reproducibility, scalabi
     *   Ensures data integrity by preserving unique identifiers (`carID`).
 
 2.  **Feature Engineering (`utils/feature_engineering.py`)**:
-    *   Implements domain-specific feature extraction.
-    *   Calculates statistical aggregates (e.g., median price per model) to enrich the dataset.
+    *   Implements domain-specific feature extraction (e.g., `efficiency_ratio`, `mileage_per_year`).
+    *   Calculates statistical aggregates (e.g., median MPG per transmission) to enrich the dataset.
     *   Designed as a plug-and-play transformer for scikit-learn pipelines.
 
 3.  **Preprocessing & Pipelines (`wrappers/baseline_nn_pipeline.py`)**:
     *   Constructs comprehensive `scikit-learn` Pipelines for different model architectures.
-    *   **Imputation**: Handles missing values using a combination of rule-based logic and iterative imputation.
+    *   **Imputation**: Implements a hybrid strategy using rule-based logic (Model Mode) and model-based prediction (Random Forest) for missing values.
     *   **Encoding & Scaling**: Applies One-Hot/Ordinal Encoding and Robust Scaling appropriate for each model type.
     *   **Supported Architectures**:
         *   **PyTorch FT-Transformer**: A state-of-the-art Transformer model for tabular data.
@@ -48,6 +47,11 @@ Ensure the required modules and virtual environment are active. The provided SLU
 
 ### 2. Job Submission
 To launch a training job on the HPC cluster, use the `sbatch` command.
+
+```bash
+sbatch train_nn_gpu.slurm
+```
+
 
 **Training (Single Run / Small Grid):**
 ```bash
