@@ -1,4 +1,6 @@
+appnope==0.1.4
 asttokens==3.0.0
+attrs==25.4.0
 bleach==6.3.0
 category_encoders==2.8.1
 certifi==2025.10.5
@@ -10,19 +12,25 @@ debugpy==1.8.17
 decorator==5.2.1
 dotenv==0.9.9
 executing==2.2.1
+fastjsonschema==2.21.2
 fonttools==4.60.1
 idna==3.11
 ipykernel==6.30.1
 ipython==9.6.0
+ipython-genutils==0.2.0
 ipython_pygments_lexers==1.1.1
 jedi==0.19.2
 joblib==1.5.2
+jsonschema==4.25.1
+jsonschema-specifications==2025.9.1
 jupyter_client==8.6.3
 jupyter_core==5.8.1
 kaggle==1.7.4.5
 kiwisolver==1.4.9
 matplotlib==3.10.7
 matplotlib-inline==0.1.7
+narwhals==2.13.0
+nbformat==5.10.4
 nest-asyncio==1.6.0
 numpy==2.3.3
 packaging==25.0
@@ -32,6 +40,7 @@ patsy==1.0.2
 pexpect==4.9.0
 pillow==11.3.0
 platformdirs==4.4.0
+plotly==6.5.0
 prompt_toolkit==3.0.52
 protobuf==6.33.0
 psutil==7.1.0
@@ -44,7 +53,9 @@ python-dotenv==1.2.1
 python-slugify==8.0.4
 pytz==2025.2
 pyzmq==27.1.0
+referencing==0.37.0
 requests==2.32.5
+rpds-py==0.30.0
 scikit-learn==1.7.2
 scipy==1.16.2
 seaborn==0.13.2
@@ -60,4 +71,4 @@ typing_extensions==4.15.0
 tzdata==2025.2
 urllib3==2.5.0
 wcwidth==0.2.14
-webencodings==0.5.1imbalanced-learn
+webencodings==0.5.1
