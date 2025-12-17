@@ -11,6 +11,7 @@ NN-HPC/utils/__pycache__/feature_engineering.cpython-311.pyc
 NN-HPC/utils/__pycache__/feature_selection.cpython-311.pyc
 NN-HPC/utils/__pycache__
 NN-HPC/data_loaders/__pycache__
-data/
+data/encoded_data
+data/feature_selection
 
 *.joblib
